@@ -17,6 +17,7 @@
     "nuxt": "^3.8.0",
     "sass": "^1.69.4",
     "vue": "^3.3.6",
+    "vue-animate-height": "^1.1.2",
     "vue-router": "^4.2.5"
   }
 }

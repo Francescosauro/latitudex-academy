@@ -1,8 +1,9 @@
 <template>
-  <nuxt-img
+  <NuxtImg
     :src="getSrc"
     :alt="alt"
     loading="lazy"
+    placeholder
   />
 </template>
 

@@ -13,7 +13,7 @@
       </div>
 
       <div class="md:w-1/2">
-        <img src="hero.png" alt="" class="mb-0" />
+        <BaseImage src="hero.png" alt="" class="mb-0" :format="'webp'" />
         <p class="text-center text-lg -mt-5">
           <strong>In uscita a gennaio 2024</strong>
         </p>

@@ -112,10 +112,12 @@
     @apply text-base sm:text-lg md:text-xl leading-normal;
   }
   .is-link {
-    @apply text-primary hover:text-primary-dark underline underline-offset-2
+    @apply text-primary hover:text-primary-dark no-underline text-sm;
+    display: inline-flex;
+    align-items: center;
   }
-  .is-link-shadow {
-    @apply drop-shadow-text hover:underline underline-offset-2
+  .leading-xs {
+    line-height: 120%;
   }
   .img-spacer {
     display: block;

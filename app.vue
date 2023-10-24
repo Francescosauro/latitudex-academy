@@ -3,5 +3,7 @@
   <main>
     <AppHero></AppHero>
     <AppSectionWhy></AppSectionWhy>
+    <AppSectionVideo></AppSectionVideo>
   </main>
+  <AppFooter></AppFooter>
 </template>
