@@ -2,10 +2,24 @@
   <section class="py-10">
     <div class="wrapper">
       <div class="md:flex md:space-x-4">
-        <div class="md:w-2/3 mb-5">
-        <!-- TODO: implementare aria attr. + gestire stop video -->
-          <button v-if="isPaused" @click="play()" type="button" aria-controls="video-player">{{isPaused}} play</button>
-          <video aria-controls="video-player" ref="videoPlayer" width="1280" height="720" controls>
+        <div class="md:w-2/3 mb-5 relative">
+          <button
+            v-if="isPaused"
+            @click="play()"
+            type="button"
+            aria-controls="video-player"
+            aria-label="Play"
+            class="absolute right-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-full h-full"
+          >
+            <BaseImage src="play-btn.svg" alt="Play" class="m-auto w-40" />
+          </button>
+          <video
+            aria-controls="video-player"
+            ref="videoPlayer"
+            width="1280"
+            height="720"
+            controls
+          >
             <source src="/primo-soccorso-spot.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -35,6 +49,5 @@ let isPaused = ref(true);
 const play = () => {
   isPaused.value = false;
   videoPlayer.value.play();
-  console.log(isPaused, videoPlayer);
 };
 </script>

@@ -4,6 +4,7 @@
     <AppHero></AppHero>
     <AppSectionWhy></AppSectionWhy>
     <AppSectionVideo></AppSectionVideo>
+    <AppSectionTeachers></AppSectionTeachers>
   </main>
   <AppFooter></AppFooter>
 </template>

@@ -90,7 +90,7 @@
           <div :class="{ 'shadow-wrapper': isClose }">
             <div class="text-center pt-3">
               <button
-                class="is-link"
+                class="is-link text-black"
                 type="button"
                 @click="toggle()"
                 aria-controls="perche"
