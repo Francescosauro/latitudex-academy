@@ -5,6 +5,7 @@
     <AppSectionWhy></AppSectionWhy>
     <AppSectionVideo></AppSectionVideo>
     <AppSectionTeachers></AppSectionTeachers>
+    <AppSectionWhat></AppSectionWhat>
   </main>
   <AppFooter></AppFooter>
 </template>

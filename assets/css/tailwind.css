@@ -60,6 +60,9 @@
     /* @apply bg-false-white; */
     background-color: #FAFAFA;
   }
+  button, input[type="submit"] {
+    cursor: pointer;
+  }
   .wrapper {
     width: 100%;
     max-width: 1280px;
@@ -88,13 +91,19 @@
     @apply grid grid-cols-1 sm:grid-cols-2 gap-4;
   }
   .card {
+    transition: all 0.5s ease;
     @apply bg-false-white shadow hover:shadow-lg;
   }
   .card-border {
     @apply border border-grey-lighter p-1
   }
   .btn {
+    transition: all 0.5s ease;
     @apply inline-block py-2 px-4 text-primary border border-primary text-sm rounded hover:bg-primary hover:text-false-white;
+  }
+  .btn-primary {
+    transition: all 0.5s ease;
+    @apply inline-block py-2 px-4 text-white bg-primary text-sm hover:bg-primary-dark hover:text-false-white;
   }
   .btn-sm {
     @apply py-1 px-2 text-sm;

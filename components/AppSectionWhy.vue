@@ -131,7 +131,7 @@ ul {
     small {
       display: inline-block;
       line-height: 130%;
-      font-size: 12px;
+      font-size: .75rem;
     }
   }
 }
