@@ -11,7 +11,7 @@
         novalidate=""
       >
         <div id="mc_embed_signup_scroll">
-          <h3>Prenota ora e ottieni il 10% di sconto</h3>
+          <h3 class="!text-lg !sm:text-3xl">Prenota ora e ottieni il 10% di sconto</h3>
           <!-- <div class="indicates-required">
               <span class="asterisk">*</span> indicates required
             </div> -->
@@ -19,14 +19,14 @@
             <div class="flex-1">
               <div class="mc-field-group">
                 <label for="mce-EMAIL" class="sr-only">
-                  Indirizzo email <span class="asterisk">*</span>
+                  Inserisci il tuo indirizzo email <span class="asterisk">*</span>
                 </label>
                 <input
                   type="email"
                   name="EMAIL"
                   class="required email w-full p-2 border border-grey-light"
                   id="mce-EMAIL"
-                  required=""
+                  required="true"
                   value=""
                 /><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
               </div>
@@ -62,7 +62,7 @@
     </div>
   </div>
 
-  <small class="leading-6">
+  <small class="leading-normal mt-2 inline-block">
     Ti invieremo un coupon per email, quando il corso sarà disponibile. 
     <em>No SPAM! Promesso</em>
     ;)

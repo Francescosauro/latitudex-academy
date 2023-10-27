@@ -1,18 +1,30 @@
 <template>
   <section class="wrapper md:flex md:space-x-4 items-center">
     <div class="prose md:w-1/2">
+      <BaseImage
+        src="hero.png"
+        alt=""
+        class="mb-0 mt-2 block md:hidden"
+        aria-hidden="true"
+        :format="'webp'"
+      />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3">
         Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie
         all’unico <span class="text-primary">video corso online</span> di Primo Soccorso.
       </h2>
-
       <BaseCta />
     </div>
 
     <div class="md:w-1/2">
-      <BaseImage src="hero.png" alt="" class="mb-0" :format="'webp'" />
-      <p class="text-center text-lg -mt-5">
+      <BaseImage
+        src="hero.png"
+        alt=""
+        class="mb-0 hidden md:block"
+        aria-hidden="true"
+        :format="'webp'"
+      />
+      <p class="text-center text-lg md:-mt-5 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
       </p>
       <ul class="list-none m-auto max-w-lg mt-3">
@@ -50,12 +62,12 @@
         <p class="text-sm">
           Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
           certificato.
-          <small
-            ><em>
+          <small>
+            <em>
               Certificato rilasciato da un Centro di Formazione accreditato al 118
               regionale
-            </em></small
-          >
+            </em>
+          </small>
         </p>
       </div>
     </div>
