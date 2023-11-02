@@ -103,7 +103,8 @@
   }
   .btn-primary {
     transition: all 0.5s ease;
-    @apply inline-block py-2 px-4 text-white bg-primary text-sm hover:bg-primary-dark hover:text-false-white;
+    font-weight: 700;
+    @apply inline-block py-2 px-4 text-white bg-primary-dark text-sm hover:bg-primary-darker hover:text-false-white;
   }
   .btn-sm {
     @apply py-1 px-2 text-sm;

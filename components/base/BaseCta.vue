@@ -4,7 +4,7 @@
       <form
         action="https://gmail.us21.list-manage.com/subscribe/post?u=2c76cc3f788699f6693d76087&amp;id=30be581cfd&amp;f_id=004ce8e6f0"
         method="post"
-        id="mc-embedded-subscribe-form"
+        :id="'mc-embedded-subscribe-form-' + inputIdNumber "
         name="mc-embedded-subscribe-form"
         class="validate"
         target="_self"
@@ -18,14 +18,14 @@
           <div class="flex">
             <div class="flex-1">
               <div class="mc-field-group">
-                <label for="mce-EMAIL" class="sr-only">
+                <label :for="'mce-EMAIL-' + inputIdNumber" class="sr-only">
                   Inserisci il tuo indirizzo email <span class="asterisk">*</span>
                 </label>
                 <input
                   type="email"
                   name="EMAIL"
                   class="required email w-full p-2 border border-grey-light"
-                  id="mce-EMAIL"
+                  :id="'mce-EMAIL-' + inputIdNumber"
                   required="true"
                   value=""
                 /><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
@@ -52,7 +52,7 @@
             <input
               type="submit"
               name="subscribe"
-              id="mc-embedded-subscribe"
+              :id="'mc-embedded-subscribe-' + inputIdNumber"
               class="btn-primary"
               value="Prenota"
             />
@@ -68,3 +68,14 @@
     ;)
   </small>
 </template>
+
+
+
+<script setup lang="ts">
+const props = defineProps({
+  inputIdNumber: {
+    type: Number,
+    default: 1,
+  }
+})
+</script>

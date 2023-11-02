@@ -14,7 +14,7 @@
             <BaseImage src="play-btn.svg" alt="Play" class="m-auto w-40" />
           </button>
           <video
-            aria-controls="video-player"
+            id="video-player"
             ref="videoPlayer"
             width="1280"
             height="720"

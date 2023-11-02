@@ -7,6 +7,7 @@
         class="mb-0 mt-2 block md:hidden"
         aria-hidden="true"
         :format="'webp'"
+        width="571"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3">
@@ -23,6 +24,7 @@
         class="mb-0 hidden md:block"
         aria-hidden="true"
         :format="'webp'"
+        width="571"
       />
       <p class="text-center text-lg md:-mt-5 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
@@ -34,7 +36,7 @@
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'video'" class="text-secondary mr-1" />
-          <small>+X ore di video on-demand</small>
+          <small>+150 ore di video on-demand</small>
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />

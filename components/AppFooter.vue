@@ -4,7 +4,7 @@
       Per salvare la vita a chi vuoi bene. Imparare a farlo è alla portata di tutti
     </h2>
     <div class="prose text-left max-w-xl m-auto">
-      <BaseCta />
+      <BaseCta :inputIdNumber="2" />
     </div>
   </div>
   <footer
