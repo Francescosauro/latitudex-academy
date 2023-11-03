@@ -14,6 +14,17 @@ useHead({
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "format-detection", content: "telephone=no" },
+    {
+      name: "description",
+      content:
+        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
+    },
+    { name: "og:title", content: "Corso di Primo Soccorso" },
+    {
+      name: "og:description",
+      content:
+        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
+    },
   ],
   link: [
     {
@@ -40,18 +51,5 @@ useHead({
     },
   ],
   title: "Corso di Primo Soccorso | Latitude X Academy",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
-    },
-    { name: "og:title", content: "Corso di Primo Soccorso" },
-    {
-      name: "og:description",
-      content:
-        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
-    },
-  ],
 });
 </script>
