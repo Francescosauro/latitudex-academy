@@ -70,5 +70,11 @@
       <path vector-effect="non-scaling-stroke" d="M4 12.88C4 11.4655 4.5619 10.1089 5.5621 9.10873C6.56229 8.10853 7.91885 7.54663 9.33333 7.54663H22.6667C24.0812 7.54663 25.4377 8.10853 26.4379 9.10873C27.4381 10.1089 28 11.4655 28 12.88V20.88C28 22.2945 27.4381 23.651 26.4379 24.6512C25.4377 25.6514 24.0812 26.2133 22.6667 26.2133H9.33333C7.91885 26.2133 6.56229 25.6514 5.5621 24.6512C4.5619 23.651 4 22.2945 4 20.88V12.88Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
       <path vector-effect="non-scaling-stroke" d="M13.3333 12.88L20 16.88L13.3333 20.88V12.88Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
+    <symbol id="arrow-next" viewBox="0 0 24 11" fill="none">
+      <path vector-effect="non-scaling-stroke" d="M23 5.5L7 5.5L5.3662e-08 5.5M23 5.5L18 10M23 5.5L18 1" stroke="currentColor" />
+    </symbol>
+    <symbol id="arrow-prev" viewBox="0 0 24 11" fill="none">
+      <path vector-effect="non-scaling-stroke" d="M1 5.5L17 5.5L24 5.5M1 5.5L6 1M1 5.5L6 10" stroke="currentColor"/>
+    </symbol>
   </defs>
 </svg>

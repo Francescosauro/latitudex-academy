@@ -40,7 +40,7 @@
         </li>
       </ul>
       <p class="text-center sm:text-left">
-        <a href="#" target="_blank">
+        <a href="/privacy" target="_blank">
           <small>Informativa privacy e Cookie</small>
         </a>
         <br />

@@ -1,11 +1,7 @@
 <template>
   <AppHeader></AppHeader>
   <main>
-    <AppHero></AppHero>
-    <AppSectionWhy></AppSectionWhy>
-    <AppSectionVideo></AppSectionVideo>
-    <AppSectionTeachers></AppSectionTeachers>
-    <AppSectionWhat></AppSectionWhat>
+    <NuxtPage />
   </main>
   <AppFooter></AppFooter>
 </template>
@@ -19,28 +15,28 @@ useHead({
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "format-detection", content: "telephone=no" },
   ],
-   link: [
+  link: [
     {
-      rel: 'apple-touch-icon',
-      sizes: '180x180',
-      href: '/apple-touch-icon.png',
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/apple-touch-icon.png",
     },
     {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      href: '/favicon-32x32.png',
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      href: "/favicon-32x32.png",
     },
     {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      href: '/favicon-16x16.png',
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      href: "/favicon-16x16.png",
     },
     {
-      rel: 'manifest',
-      crossorigin: 'use-credentials',
-      href: '/site.webmanifest',
+      rel: "manifest",
+      crossorigin: "use-credentials",
+      href: "/site.webmanifest",
     },
   ],
   title: "Corso di Primo Soccorso | Latitude X Academy",
