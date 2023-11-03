@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', "@nuxt/image", '@nuxtjs/robots'],
-  app: {
-    baseURL: '/latitudex-academy'
-  }
+  // app: {
+  //   baseURL: '/latitudex-academy'
+  // }
 })
