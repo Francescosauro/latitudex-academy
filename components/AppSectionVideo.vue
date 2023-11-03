@@ -11,15 +11,16 @@
             aria-label="Play"
             class="absolute right-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 w-full h-full"
           >
-            <BaseImage src="play-btn.svg" alt="Play" class="m-auto w-40" />
+            <BaseImage
+              src="play-btn.jpg"
+              alt="Play"
+              class="m-auto"
+              width="1318"
+              height="748"
+              sizes="100vw sm:50vw md:1318"
+            />
           </button>
-          <video
-            id="video-player"
-            ref="videoPlayer"
-            width="1280"
-            height="720"
-            controls
-          >
+          <video id="video-player" ref="videoPlayer" width="1280" height="720" controls>
             <source src="/primo-soccorso-spot.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

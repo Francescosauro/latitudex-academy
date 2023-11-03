@@ -9,6 +9,7 @@
         width="624"
         height="382"
         :lazy="false"
+        sizes="100vw sm:50vw md:382"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3">
@@ -27,6 +28,7 @@
         width="624"
         height="382"
         :lazy="false"
+        sizes="100vw sm:50vw md:382"
       />
       <p class="text-center text-lg md:-mt-5 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>

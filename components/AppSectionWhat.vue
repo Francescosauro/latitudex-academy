@@ -3,7 +3,14 @@
     <div class="wrapper">
       <div class="md:flex md:space-x-4">
         <div class="md:w-1/2">
-          <BaseImage :src="'mockup-video.png'" alt="" class="mb-0" width="571" height="401" />
+          <BaseImage
+            :src="'mockup-video.png'"
+            alt=""
+            class="mb-0"
+            width="571"
+            height="401"
+            sizes="100vw sm:50vw md:571"
+          />
           <ul class="list-none mt-3">
             <li class="inline-block p-1">
               <BaseIcon :icon="'reload'" class="text-secondary mr-1" />
@@ -49,7 +56,9 @@
             <li>Utilizzare il DAE (Defibrillatore Automatico Esterno)</li>
             <li>Eseguire il massaggio cardiaco nel bambino o nell’adulto</li>
             <li>Eseguire la manovra di disostruzione nel bambino o nell’adulto</li>
-            <li>Mettere in sicurezza la famiglia con il kit di primo soccorso domestico</li>
+            <li>
+              Mettere in sicurezza la famiglia con il kit di primo soccorso domestico
+            </li>
           </ul>
         </div>
       </div>
@@ -60,9 +69,8 @@
 <style lang="scss" scoped>
 ul {
   li {
-      line-height: 140%;
-      font-size: .875rem;
-  
+    line-height: 140%;
+    font-size: 0.875rem;
   }
 }
 </style>

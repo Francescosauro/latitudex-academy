@@ -7,7 +7,13 @@
       class="img-spacer"
       :class="{ 'ratio-1x1 h-full': horizontal, 'ratio-3x2': !horizontal }"
     >
-      <BaseImage :width="420" :src="image" :format="'webp'" />
+      <BaseImage
+        :width="width"
+        :height="height"
+        :sizes="sizes"
+        :src="image"
+        :format="'webp'"
+      />
     </span>
 
     <div class="p-2">
@@ -37,6 +43,18 @@ const props = defineProps({
   border: {
     type: Boolean,
     default: false,
+  },
+  width: {
+    type: String,
+    default: "",
+  },
+  height: {
+    type: String,
+    default: "",
+  },
+  sizes: {
+    type: String,
+    default: "",
   },
 });
 </script>
