@@ -2,7 +2,7 @@
   <NuxtImg
     :src="getSrc"
     :alt="alt"
-    loading="lazy"
+    :loading="lazy ? 'lazy' : null"
     placeholder
   />
 </template>
@@ -16,6 +16,10 @@ const props = defineProps({
   alt: {
     type: String,
     default: "",
+  },
+  lazy: {
+    type: Boolean,
+    default: true
   }
 });
 const getSrc = computed(()=>{

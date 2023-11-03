@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="md:flex md:space-x-4">
         <div class="md:w-1/2">
-          <BaseImage :src="'mockup-video.png'" alt="" class="mb-0" :format="'webp'" width="571" />
+          <BaseImage :src="'mockup-video.png'" alt="" class="mb-0" width="571" height="401" />
           <ul class="list-none mt-3">
             <li class="inline-block p-1">
               <BaseIcon :icon="'reload'" class="text-secondary mr-1" />

@@ -13,7 +13,7 @@
           <AnimateHeight id="perche" :duration="300" :height="height">
             <ul class="grid grid-3">
               <li>
-                <BaseCard :image="'why-A-ambulanza.jpg'">
+                <BaseCard :image="'why-A-ambulanza.jpg'" width="420" height="236">
                   <small>
                     Per chi vuole saper riconoscere, senza dubbi, i segni e i sintomi di
                     un’emergenza e allertare correttamente il 112/118
@@ -21,7 +21,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-B-defibrillatore.jpg'">
+                <BaseCard :image="'why-B-defibrillatore.jpg'" width="420" height="236">
                   <small>
                     Per imparare a fare il massaggio cardiaco e utilizzare il
                     Defibrillatore Automatico Esterno
@@ -29,7 +29,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-C-heimlich.jpg'">
+                <BaseCard :image="'why-C-heimlich.jpg'" width="420" height="236">
                   <small>
                     Per chi vuole poter aiutare tempestivamente una persona che sta
                     soffocando eseguendo la manovra di Heimlich
@@ -37,7 +37,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-D-infarto.jpg'">
+                <BaseCard :image="'why-D-infarto.jpg'" width="420" height="236">
                   <small>
                     Per chi ha un familiare a rischio infarto o che soffre di patologie
                     cardiovascolari
@@ -45,7 +45,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-E-medicazione.jpg'">
+                <BaseCard :image="'why-E-medicazione.jpg'" width="420" height="236">
                   <small>
                     Per chi vuol sapere il corretto procedimento per medicare ferite e
                     ustioni ed evitare infezioni gravi
@@ -53,7 +53,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-F-ictus.jpg'">
+                <BaseCard :image="'why-F-ictus.jpg'" width="420" height="236">
                   <small>
                     Per chi vuole riconoscere in tempo un’ischemia cerebrale (ICTUS/TIA) e
                     prevenire il danno permanente
@@ -61,7 +61,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-G-anziani.jpg'">
+                <BaseCard :image="'why-G-anziani.jpg'" width="420" height="236">
                   <small>
                     Per chi assiste genitori anziani con patologie croniche e vuole
                     riconoscere i sintomi di allarme anche quando la persona non è
@@ -70,7 +70,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-H-incoscienza.jpg'">
+                <BaseCard :image="'why-H-incoscienza.jpg'" width="420" height="236">
                   <small>
                     Per impare a gestire lo stato di incoscienza con la posizione laterale
                     di sicurezza
@@ -78,7 +78,7 @@
                 </BaseCard>
               </li>
               <li>
-                <BaseCard :image="'why-I-kit-soccorso.jpg'">
+                <BaseCard :image="'why-I-kit-soccorso.jpg'" width="420" height="236">
                   <small>
                     Per chi vuole mettere in sicurezza la propria casa creando un kit
                     completo di primo soccorso

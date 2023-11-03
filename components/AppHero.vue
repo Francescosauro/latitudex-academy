@@ -6,8 +6,9 @@
         alt=""
         class="mb-0 mt-2 block md:hidden"
         aria-hidden="true"
-        :format="'webp'"
-        width="571"
+        width="624"
+        height="382"
+        :lazy="false"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3">
@@ -23,8 +24,9 @@
         alt=""
         class="mb-0 hidden md:block"
         aria-hidden="true"
-        :format="'webp'"
-        width="571"
+        width="624"
+        height="382"
+        :lazy="false"
       />
       <p class="text-center text-lg md:-mt-5 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
