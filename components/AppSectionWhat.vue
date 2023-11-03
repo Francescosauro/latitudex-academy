@@ -34,7 +34,7 @@
             </li>
           </ul>
         </div>
-        <div class="md:w-1/2 prose mt-8 m:mt-0">
+        <div class="md:w-1/2 prose mt-8 md:mt-0">
           <p class="!mb-2 uppercase">Cosa imparerai</p>
           <h2 class="mt-0">
             Acquista il video corso per imparare a soccorrere in qualunque situazione
