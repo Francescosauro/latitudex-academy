@@ -2,21 +2,21 @@
   <section class="wrapper md:flex md:space-x-4 items-center">
     <div class="prose md:w-1/2">
       <BaseImage
-        src="hero.png"
+        src="hero-b.png"
         alt=""
-        class="mb-0 mt-2 block md:hidden"
+        class="mb-0 hidden md:block"
         aria-hidden="true"
-        width="624"
-        height="382"
+        width="580"
+        height="580"
         :lazy="false"
-        sizes="100vw sm:50vw md:382"
+        sizes="100vw sm:50vw md:580"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3 mb-0">
         Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie
         all’unico <span class="text-primary">video corso online</span> di Primo Soccorso.
       </h2>
-       <div class="flex items-center m-auto max-w-lg">
+      <div class="flex items-center m-auto max-w-lg">
         <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
         <p class="text-sm">
           Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
@@ -76,7 +76,6 @@
           <small>Bonus: crea il tuo kit di primo soccorso</small>
         </li>
       </ul>
-     
     </div>
   </section>
 </template>
