@@ -25,6 +25,7 @@ useHead({
       content:
         "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
     },
+    { name: "og:image", content: "https://latitudex.academy/_ipx/s_764x468/hero-b.png" },
   ],
   link: [
     {

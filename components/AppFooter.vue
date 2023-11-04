@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper text-center max-w-4xl m-auto py-10">
-    <h2 class="text-2xl sm:text-5xl leading-relaxed inline-block">
-      Per salvare la vita a chi vuoi bene. Imparare a farlo è alla portata di tutti
+    <h2 class="text-2xl sm:text-5xl leading-normal inline-block">
+      Per <b>salvare</b> la vita a chi vuoi bene. Imparare a farlo è alla portata di <b>tutti</b>
     </h2>
     <div class="prose text-left max-w-xl m-auto">
       <BaseCta :inputIdNumber="2" />
@@ -33,11 +33,11 @@
             <BaseIcon :icon="'facebook'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#" target="_blank" title="Vai alla pagina di Youtube">
             <BaseIcon :icon="'youtube'" :size="'lg'" class="text-primary mr-1" />
           </a>
-        </li>
+        </li> -->
       </ul>
       <p class="text-center sm:text-left">
         <a href="/privacy" target="_blank">

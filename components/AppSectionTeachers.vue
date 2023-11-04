@@ -7,13 +7,13 @@
         </h2>
       </div>
       <div class="flex justify-center mt-8">
-        <ul class="md:flex md:space-x-20">
+        <ul class="md:flex md:space-x-20 justify-center">
           <li class="prose w-64 flex flex-col items-center mb-8">
             <figure class="img-spacer ratio-1x1 rounded-full w-64">
               <BaseImage :width="420" :src="''" :format="'webp'" />
             </figure>
             <h3 class="!mt-0">Giulia Gabani</h3>
-            <ul class="text-sm">
+            <ul class="text-sm pl-0">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
@@ -24,8 +24,8 @@
              <figure class="img-spacer ratio-1x1 rounded-full w-64">
               <BaseImage :width="420" :src="''" :format="'webp'" />
             </figure>
-            <h3 class="!mt-0">Francesco Sauro</h3>
-            <ul class="text-sm">
+            <h3 class="!mt-0">Francesco Maria Sauro</h3>
+            <ul class="text-sm pl-0">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
@@ -37,7 +37,7 @@
               <BaseImage :width="420" :src="''" :format="'webp'" />
             </figure>
             <h3 class="!mt-0">Luca Carenzo</h3>
-            <ul class="text-sm">
+            <ul class="text-sm pl-0">
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>
               <li>lorem ipsum</li>

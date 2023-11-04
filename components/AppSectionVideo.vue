@@ -18,6 +18,7 @@
               width="1318"
               height="748"
               sizes="100vw sm:50vw md:1318"
+              :lazy="false"
             />
           </button>
           <video id="video-player" ref="videoPlayer" width="1280" height="720" controls>

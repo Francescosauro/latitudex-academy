@@ -40,9 +40,9 @@
             Acquista il video corso per imparare a soccorrere in qualunque situazione
           </h2>
           <p>
-            Seguirai un percorso completo che ti insegnerà da zero tutte le manovre
+            Seguirai un <b>percorso completo</b> che ti insegnerà da zero <b>tutte le manovre</b>
             essenziali per prestare un efficace primo soccorso. Lezioni interattive e
-            ricche di esempi pratici ti aspettano. Pronto a diventare un soccorritore?
+            ricche di <b>esempi pratici</b> ti aspettano. <strong>Pronto a diventare un soccorritore?</strong> 
           </p>
           <h3>Imparerai a:</h3>
           <ul>

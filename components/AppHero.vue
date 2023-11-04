@@ -12,25 +12,38 @@
         sizes="100vw sm:50vw md:382"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
-      <h2 class="font-normal mt-3">
+      <h2 class="font-normal mt-3 mb-0">
         Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie
         all’unico <span class="text-primary">video corso online</span> di Primo Soccorso.
       </h2>
+       <div class="flex items-center m-auto max-w-lg">
+        <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
+        <p class="text-sm">
+          Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
+          certificato.
+          <small>
+            <em>
+              Certificato rilasciato da un Centro di Formazione accreditato al 118
+              regionale
+            </em>
+          </small>
+        </p>
+      </div>
       <BaseCta />
     </div>
 
     <div class="md:w-1/2">
       <BaseImage
-        src="hero.png"
+        src="hero-b.png"
         alt=""
         class="mb-0 hidden md:block"
         aria-hidden="true"
-        width="624"
-        height="382"
+        width="580"
+        height="580"
         :lazy="false"
-        sizes="100vw sm:50vw md:382"
+        sizes="100vw sm:50vw md:580"
       />
-      <p class="text-center text-lg md:-mt-5 md:mt-0 mt-4">
+      <p class="text-center text-lg md:-mt-16 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
       </p>
       <ul class="list-none m-auto max-w-lg mt-3">
@@ -40,7 +53,7 @@
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'video'" class="text-secondary mr-1" />
-          <small>+150 ore di video on-demand</small>
+          <small>+150 minuti di video on-demand</small>
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />
@@ -63,19 +76,7 @@
           <small>Bonus: crea il tuo kit di primo soccorso</small>
         </li>
       </ul>
-      <div class="flex items-center m-auto max-w-lg mt-3">
-        <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
-        <p class="text-sm">
-          Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
-          certificato.
-          <small>
-            <em>
-              Certificato rilasciato da un Centro di Formazione accreditato al 118
-              regionale
-            </em>
-          </small>
-        </p>
-      </div>
+     
     </div>
   </section>
 </template>

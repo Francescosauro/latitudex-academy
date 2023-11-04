@@ -4,7 +4,7 @@
       <form
         action="https://gmail.us21.list-manage.com/subscribe/post?u=2c76cc3f788699f6693d76087&amp;id=30be581cfd&amp;f_id=004ce8e6f0"
         method="post"
-        :id="'mc-embedded-subscribe-form-' + inputIdNumber "
+        :id="'mc-embedded-subscribe-form-' + inputIdNumber"
         name="mc-embedded-subscribe-form"
         class="validate"
         target="_self"
@@ -12,9 +12,6 @@
       >
         <div id="mc_embed_signup_scroll">
           <h3 class="!text-lg !sm:text-3xl">Prenota ora e ottieni il 10% di sconto</h3>
-          <!-- <div class="indicates-required">
-              <span class="asterisk">*</span> indicates required
-            </div> -->
           <div class="flex">
             <div class="flex-1">
               <div class="mc-field-group">
@@ -63,19 +60,16 @@
   </div>
 
   <small class="leading-normal mt-2 inline-block">
-    Ti invieremo un coupon per email, quando il corso sarà disponibile. 
-    <em>No SPAM! Promesso</em>
-    ;)
+    Ti invieremo un coupon per email, quando il corso sarà disponibile.<br>
+    <em>Senza alcun impegno e no SPAM! Promesso</em> &#128540
   </small>
 </template>
-
-
 
 <script setup lang="ts">
 const props = defineProps({
   inputIdNumber: {
     type: Number,
     default: 1,
-  }
-})
+  },
+});
 </script>
