@@ -6,29 +6,16 @@
         alt=""
         class="mb-0 mt-2 block md:hidden m-auto"
         aria-hidden="true"
-        width="448"
-        height="448"
+        width="533"
+        height="363"
         :lazy="false"
-        sizes="100vw sm:50vw md:448"
+        sizes="100vw sm:50vw md:533"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3 mb-0">
         Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie
         all’unico <span class="text-primary">video corso online</span> di Primo Soccorso.
       </h2>
-       <div class="flex items-center .m-auto .max-w-lg">
-        <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
-        <p class="text-sm">
-          Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
-          certificato.
-          <small>
-            <em>
-              Certificato rilasciato da un Centro di Formazione accreditato al 118
-              regionale
-            </em>
-          </small>
-        </p>
-      </div>
       <BaseCta />
     </div>
 
@@ -38,10 +25,10 @@
         alt=""
         class="mb-0 hidden md:block"
         aria-hidden="true"
-        width="580"
-        height="580"
+        width="1182"
+        height="806"
         :lazy="false"
-        sizes="100vw sm:50vw md:580"
+        sizes="100vw sm:50vw md:1182"
       />
       <p class="text-center text-lg md:-mt-20 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
@@ -76,7 +63,19 @@
           <small>Bonus: crea il tuo kit di primo soccorso</small>
         </li>
       </ul>
-     
+      <div class="flex items-center m-auto max-w-lg mt-6">
+        <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
+        <p class="text-sm">
+          Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
+          certificato.
+          <small>
+            <em>
+              Certificato rilasciato da un Centro di Formazione accreditato al 118
+              regionale
+            </em>
+          </small>
+        </p>
+      </div>
     </div>
   </section>
 </template>
