@@ -6,10 +6,10 @@
         alt=""
         class="mb-0 mt-2 block md:hidden m-auto"
         aria-hidden="true"
-        width="533"
-        height="363"
+        width="591"
+        height="520"
         :lazy="false"
-        sizes="100vw sm:50vw md:533"
+        sizes="100vw sm:50vw md:591"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
       <h2 class="font-normal mt-3 mb-0">
@@ -25,10 +25,10 @@
         alt=""
         class="mb-0 hidden md:block"
         aria-hidden="true"
-        width="1182"
-        height="806"
+        width="591"
+        height="520"
         :lazy="false"
-        sizes="100vw sm:50vw md:1182"
+        sizes="100vw sm:50vw md:591"
       />
       <p class="text-center text-lg md:-mt-20 md:mt-0 mt-4">
         <strong>In uscita a gennaio 2024</strong>
