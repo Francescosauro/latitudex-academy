@@ -50,7 +50,7 @@
               type="submit"
               name="subscribe"
               :id="'mc-embedded-subscribe-' + inputIdNumber"
-              class="btn-primary"
+              class="btn"
               value="Prenota"
             />
           </div>

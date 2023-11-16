@@ -14,6 +14,7 @@ export default {
       'primary-darker': '#294C4B',
       'secondary': '#F3954A',
       'accent': '#3DEBEA',
+      'accent-dark': '#3dd9d9',
       'grey': '#7d7d7d',
       'grey-light': '#D6D6D6',
       'grey-lighter': '#F0F0F0',

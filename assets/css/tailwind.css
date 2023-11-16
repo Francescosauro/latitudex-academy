@@ -99,12 +99,8 @@
   }
   .btn {
     transition: all 0.5s ease;
-    @apply inline-block py-2 px-4 text-primary border border-primary text-sm rounded hover:bg-primary hover:text-false-white;
-  }
-  .btn-primary {
-    transition: all 0.5s ease;
     font-weight: 700;
-    @apply inline-block py-2 px-4 text-white bg-primary-dark text-sm hover:bg-primary-darker hover:text-false-white;
+    @apply inline-flex justify-center items-center py-2 px-4 text-black bg-accent text-sm hover:bg-accent-dark;
   }
   .btn-sm {
     @apply py-1 px-2 text-sm;
