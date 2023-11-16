@@ -20,6 +20,7 @@
   <header
     class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-10"
     :class="{ 'is-open': isOpen }"
+    @keydown.esc="isOpen = false"
   >
     <div class="wrapper flex py-2 justify-between items-center">
       <BaseLink to="/" title="Torna alla homepage">
@@ -60,16 +61,24 @@
       <nav class="hidden md:block" id="main-menu">
         <ul class="inline-flex space-x-6">
           <li>
-            <BaseButton @click="isOpen = false" to="#">Corsi</BaseButton>
+            <BaseButton @click="isOpen = false" to="#">
+              <strong>Corsi</strong>
+            </BaseButton>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">Chi siamo</BaseButton>
+            <BaseButton @click="isOpen = false" to="#">
+              <strong>Chi siamo</strong>
+            </BaseButton>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">FAQ</BaseButton>
+            <BaseButton @click="isOpen = false" to="#">
+              <strong>FAQ</strong>
+            </BaseButton>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">Contatti</BaseButton>
+            <BaseButton @click="isOpen = false" to="#">
+              <strong>Contatti</strong>
+            </BaseButton>
           </li>
         </ul>
       </nav>
@@ -107,7 +116,8 @@ const menuToggle = () => {
       margin-bottom: 24px;
       margin-left: 0 !important;
 
-      a, button {
+      a,
+      button {
         padding: 1rem 0;
         width: 100%;
         display: inline-block;

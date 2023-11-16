@@ -1,8 +1,8 @@
 <template>
   <section class="wrapper mb-10 relative">
-    <header class="max-w-2xl prose m-auto py-16 text-center">
-      <h1 class="mb-5 text-gradient">La scuola di primo soccorso</h1>
-      <h2 class="mt-0 font-normal">
+    <header class="max-w-[40rem] prose m-auto py-16 text-center">
+      <h1 class="mb-3 text-gradient">La scuola di primo soccorso</h1>
+      <h2 class="mt-0 font-normal text-gradient">
         Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in
         presenza.
       </h2>
@@ -10,7 +10,7 @@
     </header>
     <div class="md:flex flex-row-reverse">
       <div class="md:w-1/2 ml-0 mb-5 md:mb-0 md:ml-4">
-        <span class="img-spacer ratio-4x3">
+        <span class="img-wrapper">
           <BaseImage
             :src="'/home-hero.jpg'"
             aria-hidden="true"
@@ -55,3 +55,35 @@
     </div>
   </section>
 </template>
+
+<style lang="scss">
+.img-wrapper {
+  display: block;
+  z-index: 1;
+  position: relative;
+  padding-top: 66.66%;
+  overflow: hidden;
+  border-radius: 0;
+  background-color: transparent;
+  padding-top: 56.25%;
+
+  @media (min-width: 768px) {
+    padding-top: 100%;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 75%;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 1);
+    margin: 0 !important;
+  }
+}
+</style>
