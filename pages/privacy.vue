@@ -1,8 +1,8 @@
 <template>
-  <section class="wrapper prose-sm mt-8 w-full md:w-2/3 m-auto">
+  <section class="wrapper prose-sm my-8 w-full md:w-2/3 m-auto">
     <h1>Informativa sulla Privacy e Cookie</h1>
     <BaseLink :to="'/'" class="!text-primar no-underline mb-2 inline-block">
-      <BaseIcon :icon="'arrow-prev'" class="mr-2" />
+      <BaseIcn :icon="'arrow-prev'" class="mr-2" />
       Torna indietro
     </BaseLink>
     <div class="bg-white p-4 rounded border border-grey-lighter">
@@ -267,5 +267,7 @@
         </table>
       </div>
     </div>
+    <small class="block text-right mt-2"><em>Ultimo aggiornamento: <b>16 nov 2023</b></em></small>
   </section>
+
 </template>

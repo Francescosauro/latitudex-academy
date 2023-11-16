@@ -1,10 +1,9 @@
 <template>
-  <AppHeader></AppHeader>
-  <main>
+  <NuxtLayout>
     <NuxtPage />
-  </main>
-  <AppFooter></AppFooter>
+  </NuxtLayout>
 </template>
+
 <script setup lang="ts">
 useHead({
   htmlAttrs: {
@@ -17,13 +16,13 @@ useHead({
     {
       name: "description",
       content:
-        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
+        "Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in presenza.",
     },
-    { name: "og:title", content: "Corso di Primo Soccorso" },
+    { name: "og:title", content: "La scuola di Primo Soccorso | Latitude X Academy" },
     {
       name: "og:description",
       content:
-        "Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie all’unico video corso online di Primo Soccorso.",
+        "Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in presenza.",
     },
     { name: "og:image", content: "https://latitudex.academy/_ipx/s_764x468/hero-b.png" },
   ],
@@ -51,6 +50,6 @@ useHead({
       href: "/site.webmanifest",
     },
   ],
-  title: "Corso di Primo Soccorso | Latitude X Academy",
+  title: "La scuola di Primo Soccorso | Latitude X Academy",
 });
 </script>

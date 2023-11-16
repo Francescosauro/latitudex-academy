@@ -1,7 +1,3 @@
 <template>
-  <AppHero></AppHero>
-  <AppSectionWhy></AppSectionWhy>
-  <AppSectionVideo></AppSectionVideo>
-  <AppSectionTeachers></AppSectionTeachers>
-  <AppSectionWhat></AppSectionWhat>
+  <h1>home</h1>
 </template>

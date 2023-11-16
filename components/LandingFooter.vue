@@ -1,4 +1,13 @@
 <template>
+  <div class="wrapper text-center max-w-4xl m-auto py-10">
+    <h2 class="text-2xl sm:text-5xl leading-normal inline-block">
+      Per <b>salvare</b> la vita a chi vuoi bene. Imparare a farlo è alla portata di
+      <b>tutti</b>
+    </h2>
+    <div class="prose text-left max-w-xl m-auto">
+      <BaseCta :inputIdNumber="2" />
+    </div>
+  </div>
   <footer
     class="wrapper flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0 py-8 sm:justify-between"
   >

@@ -1,5 +1,5 @@
 <template>
-  <header class="wrapper flex py-2 justify-between">
+  <header class="wrapper flex py-2 justify-center">
     <BaseLink to="/">
       <BaseImage
         src="/latitude-x-logo.svg"
