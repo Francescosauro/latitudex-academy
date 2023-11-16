@@ -13,7 +13,7 @@
   >
     <figure>
       <BaseImage
-        src="/latitude-x-logo-footer.svg"
+        src="/latitude-x-logo-block.svg"
         width="155"
         height="112"
         alt="Latitud X Academy logo"
