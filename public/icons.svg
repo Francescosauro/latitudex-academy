@@ -76,5 +76,8 @@
     <symbol id="arrow-prev" viewBox="0 0 24 11" fill="none">
       <path vector-effect="non-scaling-stroke" d="M1 5.5L17 5.5L24 5.5M1 5.5L6 1M1 5.5L6 10" stroke="currentColor"/>
     </symbol>
+    <symbol id="school" viewBox="0 0 24 25" fill="none">
+      <path vector-effect="non-scaling-stroke" d="M22 9.15552L12 5.15552L2 9.15552L12 13.1555L22 9.15552ZM22 9.15552V15.1555M6 10.7555V16.1555C6 16.9512 6.63214 17.7142 7.75736 18.2768C8.88258 18.8394 10.4087 19.1555 12 19.1555C13.5913 19.1555 15.1174 18.8394 16.2426 18.2768C17.3679 17.7142 18 16.9512 18 16.1555V10.7555" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </defs>
 </svg>

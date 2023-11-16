@@ -1,80 +1,46 @@
 <template>
-  <section class="wrapper md:flex md:space-x-4 items-center">
-    <div class="prose md:w-1/2">
-      <BaseImage
-        src="hero-b.png"
-        alt=""
-        class="mb-0 mt-2 block md:hidden m-auto"
-        aria-hidden="true"
-        width="591"
-        height="520"
-        :lazy="false"
-        sizes="100vw sm:50vw md:591"
-      />
-      <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
-      <h2 class="font-normal mt-3 mb-0">
-        Impara le manovre salva vita e metti in sicurezza la tua famiglia, grazie
-        all’unico <span class="text-primary">video corso online</span> di Primo Soccorso.
+  <section class="wrapper mb-10">
+    <div class="max-w-2xl prose m-auto py-16 text-center">
+      <h1 class="mb-5">La scuola di primo soccorso</h1>
+      <h2 class="mt-0 font-normal">
+        Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in
+        presenza.
       </h2>
-      <BaseCta />
+      <BaseButton class="btn btn-lg">Vedi tutti i corsi</BaseButton>
     </div>
-
-    <div class="md:w-1/2">
-      <BaseImage
-        src="hero-b.png"
-        alt=""
-        class="mb-0 hidden md:block"
-        aria-hidden="true"
-        width="591"
-        height="520"
-        :lazy="false"
-        sizes="100vw sm:50vw md:591"
-      />
-      <p class="text-center text-lg md:-mt-20 md:mt-0 mt-4">
-        <strong>In uscita a gennaio 2024</strong>
-      </p>
-      <ul class="list-none m-auto max-w-lg mt-3">
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'run'" class="text-secondary mr-1" />
-          <small>Lezioni teoriche e pratiche</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'video'" class="text-secondary mr-1" />
-          <small>+150 minuti di video on-demand</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />
-          <small>Accesso da qualunque dispositivo</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'boy'" class="text-secondary mr-1" />
-          <small>Nessuna esperienza richiesta</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'infinite'" class="text-secondary mr-1" />
-          <small>Accesso illimitato al corso</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'award'" class="text-secondary mr-1" />
-          <small>Attestato di completamento</small>
-        </li>
-        <li class="inline-block p-1">
-          <BaseIcon :icon="'aid-kit'" class="text-secondary mr-1" />
-          <small>Bonus: crea il tuo kit di primo soccorso</small>
-        </li>
-      </ul>
-      <div class="flex items-center m-auto max-w-lg mt-6">
-        <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
-        <p class="text-sm">
-          Con il corso di BLS-D puoi accedere all’incontro per il rilascio del
-          certificato.
-          <small>
-            <em>
-              Certificato rilasciato da un Centro di Formazione accreditato al 118
-              regionale
-            </em>
-          </small>
-        </p>
+    <div class="flex space-x-4">
+      <div class="w-1/2">
+        <div class="bg-white rounded-xl p-3 mb-4">
+          <p class="text-2xl mb-3">
+            Condividiamo la nostra esperienza nell’emergenza sanitaria
+            <strong>con percorsi formativi accessibili a tutti</strong>.
+          </p>
+          <BaseButton class="is-link">
+            <BaseIcon :icon="'video'" class="text-primary mr-2"></BaseIcon>
+            <strong>Vedi tutti i corsi online</strong>
+          </BaseButton>
+        </div>
+        <div class="bg-white rounded-xl p-3">
+          <p class="text-2xl mb-3">
+            Aiutiamo le aziende ad adempiere agli obblighi di legge in materia sanitaria,
+            <strong>organizzando corsi in presenza presso la vostra azienda</strong>.
+          </p>
+          <BaseButton class="is-link">
+            <BaseIcon :icon="'school'" class="text-primary mr-2"></BaseIcon>
+            <strong>Vedi tutti i corsi in presenza</strong>
+          </BaseButton>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <BaseImage
+          :src="'/home-hero.jpg'"
+          aria-hidden="true"
+          class="rounded-xl"
+          width="628"
+          height="438"
+          :lazy="false"
+          sizes="100vw sm:50vw md:628"
+        />
       </div>
     </div>
   </section>

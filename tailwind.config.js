@@ -20,6 +20,7 @@ export default {
       'grey-lighter': '#F0F0F0',
       'grey-dark': '#474747',
       'false-white': '#FAFAFA',
+      'false-white-opacity': 'rgba(250, 250, 250, 0.8)',
       'black': '#0B0B0B',
       'white': '#FFF',
     },

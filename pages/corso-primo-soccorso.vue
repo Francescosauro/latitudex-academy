@@ -1,15 +1,19 @@
 <template>
-  <AppHero></AppHero>
-  <AppSectionWhy></AppSectionWhy>
-  <AppSectionVideo></AppSectionVideo>
-  <AppSectionTeachers></AppSectionTeachers>
-  <AppSectionWhat></AppSectionWhat>
+  <LandingHeader></LandingHeader>
+  <main>
+    <LandingHero></LandingHero>
+    <AppSectionWhy></AppSectionWhy>
+    <AppSectionVideo></AppSectionVideo>
+    <AppSectionTeachers></AppSectionTeachers>
+    <AppSectionWhat></AppSectionWhat>
+  </main>
+  <LandingFooter></LandingFooter>
 </template>
 
 <script setup lang="ts">
 definePageMeta({
-  layout: 'landing'
-})
+  layout: "landing",
+});
 useHead({
   htmlAttrs: {
     lang: "it",
