@@ -43,5 +43,9 @@ const getSize = computed(() => {
     width: 4rem;
     height: 4rem;
   }
+  &-2xl {
+    width: 6rem;
+    height: 6rem;
+  }
 }
 </style>

@@ -13,6 +13,7 @@ export default {
       'primary-dark': '#386B6B',
       'primary-darker': '#294C4B',
       'secondary': '#F3954A',
+      'secondary-dark': '#D27830',
       'accent': '#3DEBEA',
       'accent-dark': '#3dd9d9',
       'grey': '#7d7d7d',

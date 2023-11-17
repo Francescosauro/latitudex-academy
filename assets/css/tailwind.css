@@ -213,9 +213,13 @@
     }
   }
 
-  .text-gradient {
-    /* background: linear-gradient(to right bottom, #f3954a, #38a0a0); */
+  .text-gradient-primary {
     background: linear-gradient(to right bottom, #294C4B, #38a0a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-secondary {
+    background: linear-gradient(to right bottom, #f3954a, #38a0a0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
