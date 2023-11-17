@@ -4,7 +4,7 @@
     <SectionLandingHero></SectionLandingHero>
     <SectionLandingWhy></SectionLandingWhy>
     <SectionLandingVideo></SectionLandingVideo>
-    <SectionLandingTeachers></SectionLandingTeachers>
+    <SectionAppTeachers></SectionAppTeachers>
     <SectionLandingWhat></SectionLandingWhat>
   </main>
   <LandingFooter></LandingFooter>

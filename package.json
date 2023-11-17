@@ -21,5 +21,8 @@
     "vue": "^3.3.6",
     "vue-animate-height": "^1.1.2",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "vue3-carousel-nuxt": "^1.1.0"
   }
 }

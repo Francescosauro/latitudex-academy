@@ -154,6 +154,11 @@
     line-height: 120%;
   }
 
+  .eyebrown {
+    display: block;
+    text-transform: uppercase;
+    @apply text-sm;
+  }
   .img-spacer {
     display: block;
     z-index: 1;
