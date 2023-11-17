@@ -1,6 +1,6 @@
 <template>
   <section class="wrapper mb-10 relative">
-    <AppHero></AppHero>
-    <AppBentoGrid></AppBentoGrid>
+    <SectionAppHero></SectionAppHero>
+    <SectionAppBentoGrid></SectionAppBentoGrid>
   </section>
 </template>
