@@ -1,5 +1,6 @@
 <template>
   <Carousel v-bind="settings" :breakpoints="breakpoints" class="items-start">
+    <!-- CORSI ON LINE -->
     <Slide v-if="type === 'online'" v-for="(element, index) in elements" :key="index">
       <div class="align-center flex-col mr-6 max-w-xs">
         <BaseLink v-if="element.isActive" :to="element.link">
@@ -32,10 +33,9 @@
         </BaseLink>
       </div>
     </Slide>
+    <!-- CORSI IN PRESENZA -->
     <Slide v-if="type === 'presenza'" v-for="(element, index) in elements" :key="index">
-      <div
-        class="text-left flex-col bg-false-white border border-grey-lighter p-3 mr-4 max-w-xs"
-      >
+      <div class="text-left bg-false-white border border-grey-lighter p-3 mr-4 max-w-xs">
         <h4 class="text-base md:text-xl my-2">
           {{ element.title }}
         </h4>
@@ -44,25 +44,52 @@
         </p>
         <footer class="text-center">
           <ul class="w-full mt-4 text-sm space-y-3">
-          <li class="flex justify-between">
-            <span>Durata</span>
-            <b>{{ element.data.durata }}</b>
-          </li>
-          <li class="flex justify-between">
-            <span>Data</span>
-            <b>{{ element.data.data }}</b>
-          </li>
-          <li class="flex justify-between">
-            <span>Destinatari</span>
-            <b>{{ element.data.destinatari }}</b>
-          </li>
-        </ul>
-        <BaseButton class="btn mt-4" @click="console.log('TODO: modale')">
-          Chiedi info
-        </BaseButton>
+            <li class="flex justify-between">
+              <span>Durata</span>
+              <b>{{ element.data.durata }}</b>
+            </li>
+            <li class="flex justify-between">
+              <span>Data</span>
+              <b>{{ element.data.data }}</b>
+            </li>
+            <li class="flex justify-between">
+              <span>Destinatari</span>
+              <b>{{ element.data.destinatari }}</b>
+            </li>
+          </ul>
+          <BaseButton class="btn mt-4" @click="console.log('TODO: modale')">
+            Chiedi info
+          </BaseButton>
         </footer>
-        
       </div>
+    </Slide>
+    <!-- RECENSIONI -->
+    <Slide v-if="type === 'recensioni'" v-for="(element, index) in elements" :key="index">
+      <article class="max-w-sm mr-4 pb-4 px-4 pt-36 relative .w-60">
+        <span class="absolute top-0 left-0 h-full w-full">
+          <BaseImage
+            aria-hidden="true"
+            sizes="100vw sm:50vw md:320"
+            class="object-cover h-full w-full"
+            :src="element.cover"
+          />
+        </span>
+        <div class="text-left bg-false-white border border-grey-lighter p-3 relative">
+          <h3 class="text-base md:text-xl">
+            <span class="text-xs">
+              Recesione da: <strong>{{ element.from }}</strong>
+            </span>
+            <br />
+            {{ element.title }}
+          </h3>
+          <p class="text-xs py-2 leading-normal">
+            <em> {{ element.description }}</em>
+          </p>
+          <div class="text-xs text-right">
+            <strong>{{ element.by }}</strong>
+          </div>
+        </div>
+      </article>
     </Slide>
     <template #addons>
       <div class="flex justify-center mt-5 text-primary">
@@ -85,7 +112,7 @@ const props = defineProps({
   },
 });
 const settings = reactive({
-  itemsToShow: 1.5,
+  itemsToShow: 1.2,
   snapAlign: "center",
   i18n: {
     ariaNextSlide: "Vai al corso successivo",
@@ -99,18 +126,19 @@ const settings = reactive({
 });
 const breakpoints = reactive({
   640: {
-    itemsToShow: 2.5,
-    // snapAlign: "start",
+    itemsToShow: 2.2,
   },
   1024: {
-    itemsToShow: 3.5,
-    snapAlign: "start",
+    itemsToShow: 3.2,
   },
 });
 </script>
 
 <style lang="scss">
 .carousel__ {
+  &slide {
+    cursor: grab;
+  }
   &track {
     align-items: start;
   }

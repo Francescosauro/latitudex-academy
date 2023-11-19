@@ -25,15 +25,17 @@
     <div class="wrapper flex py-2 justify-between items-center">
       <BaseLink to="/" title="Torna alla homepage">
         <BaseImage
+          v-if="!isOpen"
           src="/latitude-x-logo.svg"
           alt="Latitude X Academy logo"
           width="252"
           height="60"
-          class="hidden sm:block"
+          class=""
           sizes="100vw sm:50vw md:252"
           :lazy="false"
         />
         <BaseImage
+          v-else
           src="/latitude-x-logo-block.svg"
           width="84"
           height="60"
@@ -47,6 +49,7 @@
         class="block md:hidden"
         aria-controls="main-menu"
         :aria-expanded="isOpen"
+        aria-haspopup="true"
         @click="menuToggle"
         :title="isOpen ? 'Chiudi il menu principale' : 'Apri il menu principale'"
         :aria-label="isOpen ? 'Chiudi il menu principale' : 'Apri il menu principale'"

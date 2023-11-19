@@ -75,5 +75,116 @@ export default defineAppConfig({
         destinatari: 'Gruppo B e C'
       }
     },
-  ]
+  ],
+  recensioni: [
+    {
+      cover: '/recensione-1.jpg',
+      title: '«Grazie al corso, non ho più paura!»',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      from: 'Instagran',
+      by: 'Nome Cognome'
+    },
+    {
+      cover: '/recensione-1.jpg',
+      title: '«Grazie al corso, non ho più paura!»',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      from: 'Instagran',
+      by: 'Nome Cognome'
+    },
+    {
+      cover: '/recensione-1.jpg',
+      title: '«Grazie al corso, non ho più paura!»',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      from: 'Instagran',
+      by: 'Nome Cognome'
+    },
+    {
+      cover: '/recensione-1.jpg',
+      title: '«Grazie al corso, non ho più paura!»',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      from: 'Instagran',
+      by: 'Nome Cognome'
+    },
+    {
+      cover: '/recensione-1.jpg',
+      title: '«Grazie al corso, non ho più paura!»',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      from: 'Instagran',
+      by: 'Nome Cognome'
+    },
+  ],
+  sponsor: [
+    {
+      name: "Alpamayo",
+      src: "logo-grupo-alpamayo-tours.jpg"
+    },
+    {
+      name: "Assoguide",
+      src: "assoguidelogo.jpg"
+    },
+    {
+      name: "Unipd",
+      src: "unipd.png"
+    },
+    {
+      name: "Right Driving",
+      src: "right-driving.jpg"
+    },
+    {
+      name: "EAT Freedom",
+      src: "EAT.png"
+    },
+    {
+      name: "Tortugavan",
+      src: "tortugavan.png"
+    },
+    {
+      name: "Staff P&P",
+      src: "staffpep.jpg"
+    },
+    {
+      name: "Alpamayo",
+      src: "alpamayo.png"
+    },
+
+    {
+      name: "Atena",
+      src: "atena.jpeg"
+    },
+    {
+      name: "Consilia",
+      src: "consilia.png"
+    },
+    {
+      name: "DNA Formazione",
+      src: "dna-formazione.png"
+    },
+
+    {
+      name: "Forema",
+      src: "forema.png"
+    },
+    {
+      name: "Gomi",
+      src: "gomi.jpeg"
+    },
+    {
+      name: "HeS",
+      src: "HeS.png"
+    },
+    {
+      name: "Igeam",
+      src: "Igeam-logo-audiosafety.png"
+    },
+    {
+      name: "Omnia",
+      src: "omnia.jpeg"
+    },
+
+    {
+      name: "Sinergika",
+      src: "sinergika.png"
+    },
+
+  ],
 })
