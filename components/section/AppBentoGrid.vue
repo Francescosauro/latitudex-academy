@@ -55,7 +55,7 @@
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'aid-kit'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
-      <strong class="text-gradient-secondary text-lg self-end">
+      <strong class="text-gradient-secondary text-lg md:text-xl self-end">
         Medici e formatori per vocazione
       </strong>
     </li>
@@ -71,7 +71,7 @@
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'award'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
-      <strong class="text-gradient-secondary text-lg self-end">
+      <strong class="text-gradient-secondary text-lg md:text-xl self-end">
         Veterani del primo soccorso
       </strong>
     </li>
@@ -87,7 +87,7 @@
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'run'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
-      <strong class="text-gradient-secondary text-lg self-end">
+      <strong class="text-gradient-secondary text-lg md:text-xl self-end">
         Esperti in ambiente outdoor
       </strong>
     </li>
@@ -103,7 +103,7 @@
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'certificate'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
-      <strong class="text-gradient-secondary text-lg self-end">
+      <strong class="text-gradient-secondary text-lg md:text-xl self-end">
         Esperti in sicurezza aziendale
       </strong>
     </li>
