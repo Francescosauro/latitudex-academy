@@ -5,6 +5,7 @@ export default defineAppConfig({
     mail: "info.latitudex@gmail.com",
     address: "via dell’industria 23/A. 35129, Padova",
     iva: '05555820280',
+    calendly: '#',
     facebook: "https://www.facebook.com/latitudex/",
     tiktok: "https://www.tiktok.com/@latitudex__academy",
     instagram: "#"

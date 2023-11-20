@@ -22,6 +22,8 @@
       <BaseCarousel
         :elements="appConfig.corsiInPresenza"
         :type="'presenza'"
+        :is-modal-opened="isModalOpened"
+        @modal-call="openModal()"
       ></BaseCarousel>
     </div>
   </section>
@@ -49,11 +51,10 @@
       <div class="md:flex md:space-x-8 w-full mt-16">
         <div class="md:w-1/2">
           <h3 class="text-xl md:text-3xl mb-8">
-           <strong>FAQ</strong> <br />
+            <strong>FAQ</strong> <br />
             <small class="text-sm">Le domande che ci fate più spesso</small>
           </h3>
           <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
-
         </div>
         <div class="md:w-1/2">
           <h3 class="text-xl md:text-3xl mb-8">
@@ -70,7 +71,7 @@
                   target="_blank"
                   class="text-primary underline underline-offset-2 mt-2 inline-block"
                 >
-                  {{appConfig.info.mail}}
+                  {{ appConfig.info.mail }}
                 </a>
               </p>
             </li>
@@ -93,7 +94,7 @@
               <br />
               <div class="mt-2 inline-block">
                 Sede legale:
-                <address class="inline">{{appConfig.info.address}}</address>
+                <address class="inline">{{ appConfig.info.address }}</address>
               </div>
             </li>
           </ul>
@@ -101,8 +102,111 @@
       </div>
     </div>
   </section>
+
+  <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false">
+    <header class="mb-4">
+      <h4 class="text-lg md:text-xl">
+        <strong>Chiedi informazioni sui corsi aziendali</strong>
+      </h4>
+      <p class="txt-sm">
+        Vuoi sapere quando e dove è possibile organizzare un corso di formazione?
+      </p>
+    </header>
+    <div class="mb-4">
+      <h5 class="text-base md:text-lg">
+        <strong>Prenota un call</strong>
+      </h5>
+      <p>
+        Possiamo ascoltarti in video conferenza, per capire di cosa hai bisogno,
+        <a :href="appConfig.info.calendly" class="text-primary underline">prenota una call</a>.
+      </p>
+    </div>
+    <form @submit.prevent="submitForm">
+      <h5 class="text-base md:text-lg mb-2">
+        <strong>Manda un messaggio</strong>
+      </h5>
+      <label for="email-field"> E-mail <sup class="text-secondary">*</sup> </label>
+      <input
+        type="email"
+        id="email-field"
+        v-model="emailField"
+        placeholder="Email"
+        class="required email w-full p-2 border border-grey-light mb-4"
+        :class="{ 'border-secondary': formFeedback === 'invalid' }"
+      />
+      <label for="message-field"> Messaggio </label>
+      <textarea
+        rows="6"
+        cols="12"
+        id="message-field"
+        v-model="messageField"
+        placeholder="Scrivi un messaggio"
+        class="w-full p-2 border border-grey-light"
+      ></textarea>
+      <label class="flex items-center mb-4 mt-1" for="consent-field">
+        <input
+          type="checkbox"
+          v-model="consentField"
+          class="mr-3"
+          id="consent-field"
+        />
+        <span class="text-xs" :class="{ 'font-bold': formFeedback === 'consent' }">
+          Selezionando questa casella, confermi di aver letto e accettato la nostra
+          <a href="/privacy" target="_blank" class="text-primary underline">
+            Informativa sulla privacy 
+          </a>
+        </span>
+      </label>
+
+      <div v-if="formFeedback" class="p-3 bg-secondary-dark text-white rounded w-full">
+        <span v-if="formFeedback === 'consent'">
+          &Egrave; necessario confermare di aver letto e accettato la nostra privacy
+        </span>
+        <span v-if="formFeedback === 'invalid'">
+          &Egrave; necessario inserire una e-mail valida
+        </span>
+      </div>
+      <footer class="flex justify-end mt-4">
+        <BaseButton type="submit" @click.prevent="submitForm()" class="btn btn-lg">
+          Invia il messaggio
+        </BaseButton>
+      </footer>
+    </form>
+  </BaseModal>
 </template>
 
 <script setup lang="ts">
+type FormFeedbackType = "consent" | "invalid" | null;
+
 const appConfig = useAppConfig();
+const isModalOpened = ref(false);
+const isLoading = ref(false);
+const emailField = ref("");
+const messageField = ref("");
+const consentField = ref(false);
+const success = ref(true);
+const formFeedback: Ref<FormFeedbackType> = ref(null);
+
+const openModal = () => {
+  isModalOpened.value = !isModalOpened.value;
+};
+const submitForm = async () => {
+  isLoading.value = true;
+  const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+  if (!emailField.value || (emailField.value && !regex.test(emailField.value))) {
+    formFeedback.value = "invalid";
+    success.value = false;
+    isLoading.value = false;
+    return;
+  }
+  if (!consentField.value) {
+    formFeedback.value = "consent";
+    success.value = false;
+    isLoading.value = false;
+    return;
+  }
+
+  formFeedback.value = null;
+  isLoading.value = false;
+};
 </script>

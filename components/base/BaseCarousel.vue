@@ -57,7 +57,13 @@
               <b>{{ element.data.destinatari }}</b>
             </li>
           </ul>
-          <BaseButton class="btn mt-4" @click="console.log('TODO: modale')">
+          <BaseButton 
+            class="btn mt-4"
+            @click="$emit('modalCall')"
+            aria-haspopup="true"
+            aria-controls="base-modal"
+            :aria-expanded="isModalOpened"
+          >
             Chiedi info
           </BaseButton>
         </footer>
@@ -109,6 +115,10 @@ const props = defineProps({
     type: String,
     default: "online",
   },
+  isModalOpened: {
+    type: Boolean,
+    default: false
+  }
 });
 const settings = reactive({
   itemsToShow: 1.2,
