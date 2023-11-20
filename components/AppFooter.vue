@@ -3,13 +3,15 @@
     class="wrapper flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0 py-8 sm:justify-between"
   >
     <figure>
-      <BaseImage
-        src="/latitude-x-logo-block.svg"
-        width="155"
-        height="112"
-        alt="Latitud X Academy logo"
-        :lazy="false"
-      />
+      <BaseLink to="/" title="Torna alla homepage">
+        <BaseImage
+          src="/latitude-x-logo-block.svg"
+          width="155"
+          height="112"
+          alt="Latitud X Academy logo"
+          :lazy="false"
+        />
+      </BaseLink>
       <figcaption class="mt-1">
         <small>Proteggi, agisci, soccorri</small>
       </figcaption>
