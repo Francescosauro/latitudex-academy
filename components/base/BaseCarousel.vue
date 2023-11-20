@@ -100,7 +100,6 @@
 </template>
 
 <script setup lang="ts">
-const appConfig = useAppConfig();
 const props = defineProps({
   elements: {
     type: Array,

@@ -51,11 +51,15 @@
           <small>Informativa privacy e Cookie</small>
         </a>
         <br />
-        <small>P.IVA 00000000000</small>
+        <small>P.IVA {{ appConfig.info.iva }}</small>
       </p>
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+const appConfig = useAppConfig();
+</script>
 
 <style lang="scss" scoped>
 footer {
