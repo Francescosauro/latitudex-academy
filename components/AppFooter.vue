@@ -18,7 +18,7 @@
       <ul class="list-none flex space-x-4 mb-2">
         <li>
           <a
-            href="https://www.tiktok.com/@latitudex__academy"
+            :href="appConfig.info.tiktok"
             target="_blank"
             title="Vai alla pagina di Tiktok"
           >
@@ -26,25 +26,23 @@
           </a>
         </li>
         <li>
-          <!-- TODO: instagram link  -->
-          <a href="#" target="_blank" title="Vai alla pagina di Instagram">
+          <a
+            :href="appConfig.info.instagram"
+            target="_blank"
+            title="Vai alla pagina di Instagram"
+          >
             <BaseIcon :icon="'instagram'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com/latitudex/"
+            :href="appConfig.info.facebook"
             target="_blank"
             title="Vai alla pagina di Facebook"
           >
             <BaseIcon :icon="'facebook'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
-        <!-- <li>
-          <a href="#" target="_blank" title="Vai alla pagina di Youtube">
-            <BaseIcon :icon="'youtube'" :size="'lg'" class="text-primary mr-1" />
-          </a>
-        </li> -->
       </ul>
       <p class="text-center sm:text-left">
         <a href="/privacy" target="_blank">
