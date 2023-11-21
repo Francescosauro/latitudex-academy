@@ -5,6 +5,8 @@
       Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in
       presenza.
     </h2>
-    <BaseButton class="btn btn-lg">Vedi tutti i corsi</BaseButton>
+    <BaseLink :to="{ path: '/', hash: '#corsi-online' }" class="btn btn-lg !no-underline">
+      Vedi tutti i corsi
+    </BaseLink>
   </header>
 </template>

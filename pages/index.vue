@@ -4,7 +4,7 @@
     <SectionAppBentoGrid></SectionAppBentoGrid>
   </section>
 
-  <section class="py-8 bg-false-white">
+  <section id="corsi-online" class="py-8 bg-false-white">
     <div class="wrapper">
       <h3 class="text-2xl mb-4">
         <span class="eyebrown">Formazione</span>
@@ -49,14 +49,14 @@
       <SectionAppSponsor></SectionAppSponsor>
 
       <div class="md:flex md:space-x-8 w-full mt-16">
-        <div class="md:w-1/2 mb-6">
+        <div class="md:w-1/2 mb-6" id="faq">
           <h3 class="text-xl md:text-3xl mb-8">
             <strong>FAQ</strong> <br />
             <small class="text-sm">Le domande che ci fate più spesso</small>
           </h3>
           <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
         </div>
-        <div class="md:w-1/2 mb-6">
+        <div class="md:w-1/2 mb-6" id="contatti">
           <h3 class="text-xl md:text-3xl mb-8">
             <strong>Contatti</strong>
           </h3>
@@ -118,9 +118,10 @@
       </h5>
       <p>
         Possiamo ascoltarti in video conferenza, per capire di cosa hai bisogno,
-        <a :href="appConfig.info.calendly" class="text-primary underline">
-          prenota una call </a
-        >.
+        <a :href="appConfig.info.calendly" target="_blank" class="text-primary underline">
+          prenota una call 
+        </a>
+        .
       </p>
     </div>
     <div v-if="success" class="p-3 bg-primary-dark text-white rounded w-full prose">
@@ -195,7 +196,7 @@
 useHead({
   script: [{ src: "/smtp/smtp.js" }],
 });
-
+useRoute()
 type FormFeedbackType = "consent" | "invalid" | "error" | null;
 
 const appConfig = useAppConfig();

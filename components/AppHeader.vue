@@ -18,30 +18,18 @@
     class="absolute top-0 right-0 z-0 hidden md:block"
   />
   <header
-    class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-10"
+    class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-10 shadow"
     :class="{ 'is-open': isOpen }"
     @keydown.esc="isOpen = false"
   >
     <div class="wrapper flex py-2 justify-between items-center">
       <BaseLink to="/" title="Torna alla homepage">
         <BaseImage
-          v-if="!isOpen"
           src="/latitude-x-logo.svg"
           alt="Latitude X Academy logo"
           width="252"
           height="60"
-          class=""
           sizes="100vw sm:50vw md:252"
-          :lazy="false"
-        />
-        <BaseImage
-          v-else
-          src="/latitude-x-logo-block.svg"
-          width="84"
-          height="60"
-          class="block sm:hidden"
-          alt="Latitude X Academy logo"
-          sizes="100vw sm:50vw md:84"
           :lazy="false"
         />
       </BaseLink>
@@ -64,24 +52,24 @@
       <nav class="hidden md:block" id="main-menu">
         <ul class="inline-flex space-x-6">
           <li>
-            <BaseButton @click="isOpen = false" to="#">
+            <BaseLink :to="{ path: '/', hash: '#corsi-online' }" @click="isOpen = false">
               <strong>Corsi</strong>
-            </BaseButton>
+            </BaseLink>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">
+            <BaseLink :to="{ path: '/', hash: '#chi-siamo' }" @click="isOpen = false">
               <strong>Chi siamo</strong>
-            </BaseButton>
+            </BaseLink>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">
+            <BaseLink :to="{ path: '/', hash: '#faq' }" @click="isOpen = false">
               <strong>FAQ</strong>
-            </BaseButton>
+            </BaseLink>
           </li>
           <li>
-            <BaseButton @click="isOpen = false" to="#">
+            <BaseLink :to="{ path: '/', hash: '#contatti' }" @click="isOpen = false">
               <strong>Contatti</strong>
-            </BaseButton>
+            </BaseLink>
           </li>
         </ul>
       </nav>

@@ -92,35 +92,35 @@ export default defineAppConfig({
       cover: '/recensione-1.jpg',
       title: '«Grazie al corso, non ho più paura!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      from: 'Instagran',
+      from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
       cover: '/recensione-1.jpg',
       title: '«Grazie al corso, non ho più paura!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      from: 'Instagran',
+      from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
       cover: '/recensione-1.jpg',
       title: '«Grazie al corso, non ho più paura!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      from: 'Instagran',
+      from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
       cover: '/recensione-1.jpg',
       title: '«Grazie al corso, non ho più paura!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      from: 'Instagran',
+      from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
       cover: '/recensione-1.jpg',
       title: '«Grazie al corso, non ho più paura!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      from: 'Instagran',
+      from: 'Instagram',
       by: 'Nome Cognome'
     },
   ],

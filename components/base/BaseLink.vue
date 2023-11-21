@@ -1,7 +1,5 @@
 <template>
-  <NuxtLink
-    :to="to"
-  >
+  <NuxtLink>
     <slot />
     <BaseIcon v-if="isLink" :icon="'arrow-next'" class="ml-2" />
   </NuxtLink>
@@ -9,10 +7,6 @@
 
 <script setup lang="ts">
 const props = defineProps({
-  to: {
-    type: String,
-    default: '#',
-  },
   isLink: {
     type: Boolean,
     default: false,
