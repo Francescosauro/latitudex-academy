@@ -233,7 +233,7 @@ const submitForm = async () => {
     return;
   }
   await Email.send({
-    Host: "smtp.elasticemail.com",
+    Host: "smtp.elasticemail.com:2525",
     Username: "info.latitudex@gmail.com",
     Password: "699F0EAD1796A0A8706E9DCBF14023406016",
     To: "lrnzctld@gmail.com",
