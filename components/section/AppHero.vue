@@ -6,7 +6,7 @@
       presenza.
     </h2>
     <BaseLink :to="{ path: '/', hash: '#corsi-online' }" class="btn btn-lg !no-underline">
-      Vedi tutti i corsi
+      <strong>Vedi tutti i corsi</strong>
     </BaseLink>
   </header>
 </template>

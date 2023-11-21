@@ -119,7 +119,7 @@
       <p>
         Possiamo ascoltarti in video conferenza, per capire di cosa hai bisogno,
         <a :href="appConfig.info.calendly" target="_blank" class="text-primary underline">
-          prenota una call 
+          prenota una call
         </a>
         .
       </p>
@@ -128,7 +128,11 @@
       <h4 class="!text-white">Messaggio Inviato con successo.</h4>
       <p>Grazie per averci contattato, cercheremo di risponderti il prima possibile.</p>
       <div class="text-right">
-        <BaseButton @click="isModalOpened = false" class="btn" aria-label="Chiudi questa finestra">
+        <BaseButton
+          @click="isModalOpened = false"
+          class="btn"
+          aria-label="Chiudi questa finestra"
+        >
           Chiudi
         </BaseButton>
       </div>
@@ -233,13 +237,11 @@ const submitForm = async () => {
     return;
   }
   await Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "info.latitudex@gmail.com",
-    Password: "699F0EAD1796A0A8706E9DCBF14023406016",
+    SecureToken: "f16dcafb-fd19-4f66-a61e-6c944d03d23c",
     To: "lrnzctld@gmail.com",
     From: emailField.value,
-    Subject: "This is the subject",
-    Body: messageField.value,
+    Subject: "Nuova richiesta di contatto per i Corsi in presenza",
+    Body: `<${emailField.value}>: ${messageField.value}`,
   }).then((message) => {
     if (message !== "OK") {
       formFeedback.value = "error";
