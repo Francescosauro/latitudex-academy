@@ -237,7 +237,7 @@ const submitForm = async () => {
     return;
   }
   await Email.send({
-    SecureToken: "f16dcafb-fd19-4f66-a61e-6c944d03d23c",
+    SecureToken: "674c7f1e-41bf-450a-930e-c722453119e0",
     To: "lrnzctld@gmail.com",
     From: emailField.value,
     Subject: "Nuova richiesta di contatto per i Corsi in presenza",
