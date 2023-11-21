@@ -132,6 +132,11 @@
     @apply py-3 px-6 text-lg
   }
 
+  .disabled {
+    @apply !bg-grey-light;
+    cursor: not-allowed;
+  }
+
   .h1-style {
     @apply text-4xl md:text-5xl leading-tight;
   }

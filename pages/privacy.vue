@@ -1,8 +1,8 @@
 <template>
-  <section class="wrapper prose-sm my-8 w-full md:w-2/3 m-auto">
+  <section class="wrapper prose-sm my-8 w-full md:w-2/3 m-auto relative">
     <h1>Informativa sulla Privacy e Cookie</h1>
     <BaseLink :to="'/'" class="!text-primar no-underline mb-2 inline-block">
-      <BaseIcn :icon="'arrow-prev'" class="mr-2" />
+      <BaseIcon :icon="'arrow-prev'" class="mr-2" />
       Torna indietro
     </BaseLink>
     <div class="bg-white p-4 rounded border border-grey-lighter">

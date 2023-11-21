@@ -1,7 +1,7 @@
 <template>
   <div id="base-modal">
     <div
-      class="max-w-lg bg-white p-4 border border-grey-lighter fixed m-auto z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      class="max-w-lg w-full mx-1 bg-white p-4 border border-grey-lighter fixed m-auto z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       @keydown.esc="$emit('closeModal')"
     >
       <div class="flex justify-end mb-3">
@@ -18,6 +18,8 @@
 <style lang="scss">
 .max-w-lg {
   z-index: 999;
+  overflow-y: auto;
+  max-height: 98vh;
 }
 .backdrop {
   position: fixed;

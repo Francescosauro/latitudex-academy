@@ -49,14 +49,14 @@
       <SectionAppSponsor></SectionAppSponsor>
 
       <div class="md:flex md:space-x-8 w-full mt-16">
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 mb-6">
           <h3 class="text-xl md:text-3xl mb-8">
             <strong>FAQ</strong> <br />
             <small class="text-sm">Le domande che ci fate più spesso</small>
           </h3>
           <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
         </div>
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 mb-6">
           <h3 class="text-xl md:text-3xl mb-8">
             <strong>Contatti</strong>
           </h3>
@@ -90,7 +90,7 @@
               </p>
             </li>
             <li>
-              <span class="text-xl md:text-3xl">Mandaci un piccione viaggiatorel</span>
+              <span class="text-xl md:text-3xl">Mandaci un piccione viaggiatore</span>
               <br />
               <div class="mt-2 inline-block">
                 Sede legale:
@@ -118,10 +118,21 @@
       </h5>
       <p>
         Possiamo ascoltarti in video conferenza, per capire di cosa hai bisogno,
-        <a :href="appConfig.info.calendly" class="text-primary underline">prenota una call</a>.
+        <a :href="appConfig.info.calendly" class="text-primary underline">
+          prenota una call </a
+        >.
       </p>
     </div>
-    <form @submit.prevent="submitForm">
+    <div v-if="success" class="p-3 bg-primary-dark text-white rounded w-full prose">
+      <h4 class="!text-white">Messaggio Inviato con successo.</h4>
+      <p>Grazie per averci contattato, cercheremo di risponderti il prima possibile.</p>
+      <div class="text-right">
+        <BaseButton @click="isModalOpened = false" class="btn" aria-label="Chiudi questa finestra">
+          Chiudi
+        </BaseButton>
+      </div>
+    </div>
+    <form v-else @submit.prevent="submitForm">
       <h5 class="text-base md:text-lg mb-2">
         <strong>Manda un messaggio</strong>
       </h5>
@@ -144,16 +155,11 @@
         class="w-full p-2 border border-grey-light"
       ></textarea>
       <label class="flex items-center mb-4 mt-1" for="consent-field">
-        <input
-          type="checkbox"
-          v-model="consentField"
-          class="mr-3"
-          id="consent-field"
-        />
+        <input type="checkbox" v-model="consentField" class="mr-3" id="consent-field" />
         <span class="text-xs" :class="{ 'font-bold': formFeedback === 'consent' }">
           Selezionando questa casella, confermi di aver letto e accettato la nostra
           <a href="/privacy" target="_blank" class="text-primary underline">
-            Informativa sulla privacy 
+            Informativa sulla privacy
           </a>
         </span>
       </label>
@@ -165,10 +171,20 @@
         <span v-if="formFeedback === 'invalid'">
           &Egrave; necessario inserire una e-mail valida
         </span>
+        <span v-if="formFeedback === 'error'">
+          C'è stato un errore sul server, riprova più tardi per favore
+        </span>
       </div>
       <footer class="flex justify-end mt-4">
-        <BaseButton type="submit" @click.prevent="submitForm()" class="btn btn-lg">
-          Invia il messaggio
+        <BaseButton
+          type="submit"
+          @click.prevent="submitForm()"
+          class="btn btn-lg"
+          :class="{ disabled: isLoading }"
+          :disabled="isLoading"
+        >
+          <span v-if="isLoading">Sto inviando</span>
+          <span v-else>Invia il messaggio</span>
         </BaseButton>
       </footer>
     </form>
@@ -176,7 +192,11 @@
 </template>
 
 <script setup lang="ts">
-type FormFeedbackType = "consent" | "invalid" | null;
+useHead({
+  script: [{ src: "/smtp/smtp.js" }],
+});
+
+type FormFeedbackType = "consent" | "invalid" | "error" | null;
 
 const appConfig = useAppConfig();
 const isModalOpened = ref(false);
@@ -184,7 +204,7 @@ const isLoading = ref(false);
 const emailField = ref("");
 const messageField = ref("");
 const consentField = ref(false);
-const success = ref(true);
+const success = ref(false);
 const formFeedback: Ref<FormFeedbackType> = ref(null);
 
 const openModal = () => {
@@ -205,8 +225,31 @@ const submitForm = async () => {
     isLoading.value = false;
     return;
   }
-
-  formFeedback.value = null;
-  isLoading.value = false;
+  if (!Email) {
+    formFeedback.value = "error";
+    success.value = false;
+    isLoading.value = false;
+    return;
+  }
+  await Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "info.latitudex@gmail.com",
+    Password: "699F0EAD1796A0A8706E9DCBF14023406016",
+    To: "lrnzctld@gmail.com",
+    From: emailField.value,
+    Subject: "This is the subject",
+    Body: messageField.value,
+  }).then((message) => {
+    if (message !== "OK") {
+      formFeedback.value = "error";
+      success.value = false;
+      isLoading.value = false;
+      console.error(message);
+    } else {
+      formFeedback.value = null;
+      isLoading.value = false;
+      success.value = true;
+    }
+  });
 };
 </script>
