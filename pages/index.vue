@@ -237,11 +237,11 @@ const submitForm = async () => {
     return;
   }
   await Email.send({
-    SecureToken: "f16dcafb-fd19-4f66-a61e-6c944d03d23c",
-    To: "lrnzctld@gmail.com",
-    From: emailField.value,
-    Subject: "Nuova richiesta di contatto per i Corsi in presenza",
-    Body: `<${emailField.value}>: ${messageField.value}`,
+    SecureToken: "d24f3294-af76-43f9-95f5-c4485a38052c",
+    To: "info.latitudex@gmail.com",
+    From: "info.latitudex@gmail.com",
+    Subject: `${emailField.value}: richiesta di contatto per Corsi in presenza`,
+    Body: messageField.value,
   }).then((message) => {
     if (message !== "OK") {
       formFeedback.value = "error";

@@ -134,11 +134,14 @@ const settings = reactive({
   },
 });
 const breakpoints = reactive({
-  640: {
+  520: {
     itemsToShow: 2.2,
   },
-  1024: {
+  640: {
     itemsToShow: 3.2,
+  },
+  1024: {
+    itemsToShow: 3.5,
   },
 });
 </script>
