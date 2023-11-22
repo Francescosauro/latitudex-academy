@@ -26,7 +26,7 @@ export default defineAppConfig({
       isActive: true
     },
     {
-      cover: '/copertina-corso-pediatrico.png',
+      cover: '/copertina-corso-di-primo-soccorso-pediatrico.png',
       title: 'Corso di soccorso pediatrico',
       description: 'In programma',
       link: '#',
@@ -38,7 +38,14 @@ export default defineAppConfig({
       description: 'In programma',
       link: '#',
       isActive: false
-    }
+    },
+    {
+      cover: '/copertina-corso-di-primo-soccorso-outdoor.png',
+      title: 'Primo Soccorso Outdoor',
+      description: 'In programma',
+      link: '#',
+      isActive: false
+    },
   ],
   corsiInPresenza: [
     {
@@ -96,29 +103,29 @@ export default defineAppConfig({
       by: 'Nome Cognome'
     },
     {
-      cover: '/recensione-1.jpg',
-      title: '«Grazie al corso, non ho più paura!»',
+      cover: '/recensione-2.jpg',
+      title: '«Ho evitato che mio figlio soffocasse!»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
-      cover: '/recensione-1.jpg',
-      title: '«Grazie al corso, non ho più paura!»',
+      cover: '/recensione-3.jpg',
+      title: '«Mi sento più forte accudendo mia madre»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
-      cover: '/recensione-1.jpg',
-      title: '«Grazie al corso, non ho più paura!»',
+      cover: '/recensione-4.jpg',
+      title: '«Lorem ipsum dolo sit amet, consecteutur»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       from: 'Instagram',
       by: 'Nome Cognome'
     },
     {
-      cover: '/recensione-1.jpg',
-      title: '«Grazie al corso, non ho più paura!»',
+      cover: '/recensione-4.jpg',
+      title: '«Lorem ipsum dolo sit amet, consecteutur»',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       from: 'Instagram',
       by: 'Nome Cognome'

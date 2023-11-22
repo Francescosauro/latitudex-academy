@@ -71,7 +71,7 @@
     </Slide>
     <!-- RECENSIONI -->
     <Slide v-if="type === 'recensioni'" v-for="(element, index) in elements" :key="index">
-      <article class="max-w-sm mr-4 pb-4 px-4 pt-36 relative .w-60">
+      <article class="max-w-sm mr-4 pb-4 px-4 pt-52 relative">
         <span class="absolute top-0 left-0 h-full w-full">
           <BaseImage
             aria-hidden="true"
