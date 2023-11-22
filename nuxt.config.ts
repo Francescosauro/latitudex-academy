@@ -6,8 +6,12 @@ export default defineNuxtConfig({
     "@nuxt/image",
     '@nuxtjs/robots',
     'vue3-carousel-nuxt',
+    'nuxt-gtag',
   ],
   router: {
-    options: { scrollBehaviorType: 'smooth', top: '90px' }
+    options: { scrollBehaviorType: 'smooth' }
+  },
+  gtag: {
+    id: 'G-P9GVHXN1R0'
   }
 })
