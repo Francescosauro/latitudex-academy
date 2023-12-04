@@ -1,5 +1,5 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="breakpoints" class="items-start">
+  <Carousel v-bind="settings" :breakpoints="getBreakpoints" class="items-start">
     <!-- CORSI ON LINE -->
     <Slide v-if="type === 'online'" v-for="(element, index) in elements" :key="index">
       <div class="align-center flex-col mr-6 max-w-xs">
@@ -120,6 +120,11 @@ const props = defineProps({
     default: false
   }
 });
+
+const getBreakpoints = computed(() => {
+  return (props.type === 'recensioni') ? smallBreakpoints : breakpoints
+});
+
 const settings = reactive({
   itemsToShow: 1.2,
   snapAlign: "center",
@@ -139,6 +144,17 @@ const breakpoints = reactive({
   },
   640: {
     itemsToShow: 3.2,
+  },
+  1024: {
+    itemsToShow: 3.5,
+  },
+});
+const smallBreakpoints = reactive({
+  520: {
+    itemsToShow: 1.2,
+  },
+  640: {
+    itemsToShow: 2.6,
   },
   1024: {
     itemsToShow: 3.5,
