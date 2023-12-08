@@ -8,7 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages --dotfiles -d .output/public"
+    "deploy-gh": "gh-pages --dotfiles -d .output/public",
+    "deploy": "git add . && git commit -m 'content update' && git push"
+  
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
