@@ -3,7 +3,7 @@
     <!-- <NuxtLoadingIndicator /> -->
     <AppHeader />
     <main class="py-24">
-      <section class="wrapper wrapper-md prose mt-8">
+      <section class="wrapper wrapper-md prose mt-8 relative z-10">
         <div class="mt-8">
           <b>Errore 404</b>
           <h1>Pagina non trovata</h1>

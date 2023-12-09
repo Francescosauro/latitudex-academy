@@ -8,11 +8,22 @@
       <BaseCta :inputIdNumber="2" />
     </div>
   </div>
+  <div class="max-w-3xl m-auto mb-10" id="faq">
+    <h3 class="text-xl md:text-3xl mb-8">
+      <strong>FAQ</strong> <br />
+      <small class="text-sm">Le domande che ci fate più spesso</small>
+    </h3>
+    <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
+  </div>
   <AppFooter></AppFooter>
- </template>
+</template>
 
 <style lang="scss" scoped>
 footer {
   border-top: solid 1px #ccc;
 }
 </style>
+
+<script lang="ts" setup>
+const appConfig = useAppConfig();
+</script>

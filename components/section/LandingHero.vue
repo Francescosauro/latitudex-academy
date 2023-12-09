@@ -2,7 +2,7 @@
   <section class="wrapper md:flex md:space-x-4 items-center">
     <div class="prose md:w-1/2">
       <BaseImage
-        src="hero-b.png"
+        src="hero.png"
         alt=""
         class="mb-0 mt-2 block md:hidden m-auto"
         aria-hidden="true"
@@ -21,7 +21,7 @@
 
     <div class="md:w-1/2">
       <BaseImage
-        src="hero-b.png"
+        src="hero.png"
         alt=""
         class="mb-0 hidden md:block"
         aria-hidden="true"
