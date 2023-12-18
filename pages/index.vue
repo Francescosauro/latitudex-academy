@@ -22,8 +22,8 @@
       <BaseCarousel
         :elements="appConfig.corsiInPresenza"
         :type="'presenza'"
-        :is-modal-opened="isModalOpened"
-        @modal-call="openModal()"
+        :is-modal-opened="isFormModalOpened"
+        @modal-call="openFormModal()"
       ></BaseCarousel>
     </div>
   </section>
@@ -57,53 +57,13 @@
           <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
         </div>
         <div class="md:w-1/2 mb-6" id="contatti">
-          <h3 class="text-xl md:text-3xl mb-8">
-            <strong>Contatti</strong>
-          </h3>
-          <ul class="space-y-6">
-            <li>
-              <p>
-                <span class="text-xl md:text-3xl">Inviaci una mail</span>
-                <br />
-                <a
-                  href="mailto:info.latitudex@gmail.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  class="text-primary underline underline-offset-2 mt-2 inline-block"
-                >
-                  {{ appConfig.info.mail }}
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <span class="text-xl md:text-3xl">Whatsapp</span>
-                <br />
-                <a
-                  :href="'https://wa.me/' + appConfig.info.tel"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  class="text-primary underline underline-offset-2 mt-2 inline-block"
-                >
-                  Manda un Whatsapp
-                </a>
-              </p>
-            </li>
-            <li>
-              <span class="text-xl md:text-3xl">Mandaci un piccione viaggiatore</span>
-              <br />
-              <div class="mt-2 inline-block">
-                Sede legale:
-                <address class="inline">{{ appConfig.info.address }}</address>
-              </div>
-            </li>
-          </ul>
+         <SectionAppContact></SectionAppContact>
         </div>
       </div>
     </div>
   </section>
 
-  <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false">
+  <BaseModal v-if="isFormModalOpened" @close-modal="isFormModalOpened = false" :modal-id="'form-modal'">
     <header class="mb-4">
       <h4 class="text-lg md:text-xl">
         <strong>Chiedi informazioni sui corsi aziendali</strong>
@@ -129,7 +89,7 @@
       <p>Grazie per averci contattato, cercheremo di risponderti il prima possibile.</p>
       <div class="text-right">
         <BaseButton
-          @click="isModalOpened = false"
+          @click="isFormModalOpened = false"
           class="btn"
           aria-label="Chiudi questa finestra"
         >
@@ -201,19 +161,20 @@ useHead({
   script: [{ src: "/smtp/smtp.js" }],
 });
 useRoute()
-type FormFeedbackType = "consent" | "invalid" | "error" | null;
 
 const appConfig = useAppConfig();
-const isModalOpened = ref(false);
+const isFormModalOpened = ref(false);
+
 const isLoading = ref(false);
 const emailField = ref("");
 const messageField = ref("");
 const consentField = ref(false);
 const success = ref(false);
+type FormFeedbackType = "consent" | "invalid" | "error" | null;
 const formFeedback: Ref<FormFeedbackType> = ref(null);
 
-const openModal = () => {
-  isModalOpened.value = !isModalOpened.value;
+const openFormModal = () => {
+  isFormModalOpened.value = !isFormModalOpened.value;
 };
 const submitForm = async () => {
   isLoading.value = true;

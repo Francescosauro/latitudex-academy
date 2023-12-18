@@ -105,7 +105,7 @@ export default defineAppConfig({
         "Istruttrice BLSD e Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
         "Content creator e video maker per passione ed esperienza.",
       ],
-      bio: ""
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     francesco: {
       picture: "/francesco-maria-sauro.jpg",
@@ -117,7 +117,7 @@ export default defineAppConfig({
         "Guida associata AssoGuide e Skipper",
         "Istruttore BLSD e Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118.",
     ],
-      bio: ""
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     luca: {
       picture: "/luca-carenzo.jpg",
@@ -128,13 +128,13 @@ export default defineAppConfig({
         "Lorem ipsum dolor sit amet.",
         "Lorem ipsum dolor sit amet.",
     ],
-      bio: ""
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
   recensioni: [
     {
       cover: "/recensione-1.jpg",
-      title: "Mi ha consentito di salvare la vita alla persona che amo.»",
+      title: "«Mi ha consentito di salvare la vita alla persona che amo»",
       description: "Quattro mesi fa ho fatto il corso di rianimazione. Mio marito sabato scorso ha avuto un arresto cardiaco e, facendo tesoro di quello che avevo imparato, quel sabato mattina gli ho salvato la vita. L’ambulanza ha impiegato oltre venti minuti per arrivare... sarebbe morto o comunque avrebbe riportato gravi danni cerebrali. Ora é ricoverato e in via di miglioramento. Quindi vorrei ringraziarvi per questa iniziativa che ho colto quasi per gioco e che invece mi ha consentito di salvare la vita alla persona che amo.",
       from: "Whatsapp",
       by: "Ilaria"

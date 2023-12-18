@@ -61,7 +61,7 @@
             class="btn mt-4"
             @click="$emit('modalCall')"
             aria-haspopup="true"
-            aria-controls="base-modal"
+            aria-controls="form-modal"
             :aria-expanded="isModalOpened"
           >
             Chiedi info
