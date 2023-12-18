@@ -23,8 +23,7 @@
         :elements="appConfig.corsiInPresenza"
         :type="'presenza'"
         :is-modal-opened="isFormModalOpened"
-        @modal-call="openFormModal()"
-      ></BaseCarousel>
+        @modal-call="openFormModal()"></BaseCarousel>
     </div>
   </section>
 
@@ -57,7 +56,7 @@
           <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
         </div>
         <div class="md:w-1/2 mb-6" id="contatti">
-         <SectionAppContact></SectionAppContact>
+          <SectionAppContact></SectionAppContact>
         </div>
       </div>
     </div>
@@ -91,8 +90,7 @@
         <BaseButton
           @click="isFormModalOpened = false"
           class="btn"
-          aria-label="Chiudi questa finestra"
-        >
+          aria-label="Chiudi questa finestra">
           Chiudi
         </BaseButton>
       </div>
@@ -108,8 +106,7 @@
         v-model="emailField"
         placeholder="Email"
         class="required email w-full p-2 border border-grey-light mb-4"
-        :class="{ 'border-secondary': formFeedback === 'invalid' }"
-      />
+        :class="{ 'border-secondary': formFeedback === 'invalid' }" />
       <label for="message-field"> Messaggio </label>
       <textarea
         rows="6"
@@ -117,8 +114,7 @@
         id="message-field"
         v-model="messageField"
         placeholder="Scrivi un messaggio"
-        class="w-full p-2 border border-grey-light"
-      ></textarea>
+        class="w-full p-2 border border-grey-light"></textarea>
       <label class="flex items-center mb-4 mt-1" for="consent-field">
         <input type="checkbox" v-model="consentField" class="mr-3" id="consent-field" />
         <span class="text-xs" :class="{ 'font-bold': formFeedback === 'consent' }">
@@ -146,8 +142,7 @@
           @click.prevent="submitForm()"
           class="btn btn-lg"
           :class="{ disabled: isLoading }"
-          :disabled="isLoading"
-        >
+          :disabled="isLoading">
           <span v-if="isLoading">Sto inviando</span>
           <span v-else>Invia il messaggio</span>
         </BaseButton>
@@ -160,11 +155,9 @@
 useHead({
   script: [{ src: "/smtp/smtp.js" }],
 });
-useRoute()
 
 const appConfig = useAppConfig();
 const isFormModalOpened = ref(false);
-
 const isLoading = ref(false);
 const emailField = ref("");
 const messageField = ref("");
@@ -176,6 +169,7 @@ const formFeedback: Ref<FormFeedbackType> = ref(null);
 const openFormModal = () => {
   isFormModalOpened.value = !isFormModalOpened.value;
 };
+
 const submitForm = async () => {
   isLoading.value = true;
   const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -191,6 +185,7 @@ const submitForm = async () => {
     isLoading.value = false;
     return;
   }
+ 
   if (!Email) {
     formFeedback.value = "error";
     success.value = false;
@@ -200,9 +195,9 @@ const submitForm = async () => {
   await Email.send({
     SecureToken: "d24f3294-af76-43f9-95f5-c4485a38052c",
     To: "info.latitudex@gmail.com",
-    From: "info.latitudex@gmail.com",
-    Subject: `${emailField.value}: richiesta di contatto per Corsi in presenza`,
-    Body: messageField.value,
+    From: "Latitude X Academy <info.latitudex@gmail.com>",
+    Subject: "Richiesta info Corsi in presenza",
+    Body: `${emailField.value}, scrive: ${messageField.value}`,
   }).then((message) => {
     if (message !== "OK") {
       formFeedback.value = "error";
