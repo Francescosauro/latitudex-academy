@@ -25,20 +25,20 @@
           Condividiamo la nostra esperienza nell’emergenza sanitaria
           <strong>con percorsi formativi accessibili a tutti</strong>.
         </p>
-        <BaseButton class="is-link">
+        <BaseLink class="is-link" :to="{ path: '/', hash: '#corsi-online' }">
           <BaseIcon :icon="'video'" class="text-primary mr-2"></BaseIcon>
           <strong>Vedi tutti i corsi online</strong>
-        </BaseButton>
+        </BaseLink>
       </div>
       <div class="bg-white rounded-3xl p-3">
         <p class="text-xl mb-3">
           Aiutiamo le aziende ad adempiere agli obblighi di legge in materia sanitaria,
           <strong>organizzando corsi in presenza presso la vostra azienda</strong>.
         </p>
-        <BaseButton class="is-link">
+        <BaseLink class="is-link" :to="{ path: '/', hash: '#corsi-presenza' }">
           <BaseIcon :icon="'school'" class="text-primary mr-2"></BaseIcon>
           <strong>Vedi tutti i corsi in presenza</strong>
-        </BaseButton>
+        </BaseLink>
       </div>
     </div>
   </div>

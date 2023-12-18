@@ -2,6 +2,7 @@
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <!-- <CookieControl></CookieControl> -->
 </template>
 
 <script setup lang="ts">
@@ -50,6 +51,6 @@ useHead({
       href: "/site.webmanifest",
     },
   ],
-  title: "La scuola di Primo Soccorso | Latitude X Academy",
+  title: "L'Accademia di Primo Soccorso | Latitude X Academy",
 });
 </script>

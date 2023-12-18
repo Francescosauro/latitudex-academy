@@ -7,6 +7,39 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     'vue3-carousel-nuxt',
     'nuxt-gtag',
+    ['@dargmuesli/nuxt-cookie-control', {
+      cookieNameIsConsentGiven: 'hasConsent',
+      cookieNameCookiesEnabledIds: 'hasCookies',
+      cookies: {
+        necessary: [
+          {
+            id: 'ccn_',
+            description: {
+              en: 'Cookie per ricordare il consenso'
+            },
+            name: {
+              en: 'Cookie consent'
+            },
+            targetCookieIds: ['hasConsent', 'hasCookies']
+          }
+        ],
+        optional: [
+          {
+            id: '_ga', 
+            description: {
+              en: 'Cookie di Google Analytics'
+            },
+            name: {
+              en: 'Google Analytics'
+            },
+            targetCookieIds: ['_ga', 'ar_debug', '_ga_P9GVHXN1R0']
+          }
+        ]
+      },
+      locales: ['it', 'en'],
+      isControlButtonEnabled: false,
+      isCssEnabled: false
+    }]
   ],
   router: {
     options: { scrollBehaviorType: 'smooth' }

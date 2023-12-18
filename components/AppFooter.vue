@@ -50,6 +50,10 @@
         <a href="/privacy" target="_blank">
           <small>Informativa privacy e Cookie</small>
         </a>
+        <!-- <br />
+        <button type="button" @click="openCookieModal()">
+          <small>Modifica il consenso ai Cookie</small>
+        </button> -->
         <br />
         <small>P.IVA {{ appConfig.info.iva }}</small>
       </p>
@@ -59,6 +63,11 @@
 
 <script setup lang="ts">
 const appConfig = useAppConfig();
+const { isModalActive } = useCookieControl()
+
+const openCookieModal = () => {
+  isModalActive.value = true
+}
 </script>
 
 <style lang="scss" scoped>

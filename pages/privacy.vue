@@ -240,34 +240,34 @@
               </td>
             </tr>
             <tr>
-              <td align="left">_ga</td>
+              <td align="left">ar_debug</td>
               <td align="center"><code>Analitico</code></td>
               <td align="left">
-                Registra un ID univoco utilizzato per generare dati statistici su come il
-                visitatore utilizza il sito internet. Dati inviati in: Stati Uniti
-              </td>
-            </tr>
-            <tr>
-              <td align="left">_gat</td>
-              <td align="center"><code>Analitico</code></td>
-              <td align="left">
-                Utilizzato da Google Analytics per limitare la frequenza delle richieste.
+                Conserva e traccia le conversioni su Google Analytics. 
                 Dati inviati in: Stati Uniti
               </td>
             </tr>
             <tr>
-              <td align="left">_gid</td>
+              <td align="left">_ga_[analytics-id]</td>
               <td align="center"><code>Analitico</code></td>
               <td align="left">
-                Registra un ID univoco utilizzato per generare dati statistici su come il
-                visitatore utilizza il sito internet. Dati inviati in: Stati Uniti
+                Raggruppa i dati di Google Analytics.
+                Dati inviati in: Stati Uniti
+              </td>
+            </tr>
+            <tr>
+              <td align="left">_ga</td>
+              <td align="center"><code>Analitico</code></td>
+              <td align="left">
+                Abilita un servizio per distinguere un visitatore da un altro.
+                Dati inviati in: Stati Uniti
               </td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
-    <small class="block text-right mt-2"><em>Ultimo aggiornamento: <b>16 nov 2023</b></em></small>
+    <small class="block text-right mt-2"><em>Ultimo aggiornamento: <b>18 dic 2023</b></em></small>
   </section>
 
 </template>
