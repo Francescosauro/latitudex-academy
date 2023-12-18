@@ -1,5 +1,5 @@
 <template>
-  <Carousel v-bind="settings" :breakpoints="getBreakpoints" class="items-start">
+  <Carousel v-bind="settings" :breakpoints="getBreakpoints" class="items-start" tabindex="-1">
     <!-- CORSI ON LINE -->
     <Slide v-if="type === 'online'" v-for="(element, index) in elements" :key="index">
       <div class="align-center flex-col mr-6 max-w-xs">
@@ -139,30 +139,34 @@ const settings = reactive({
   },
 });
 const breakpoints = reactive({
-  520: {
+  '520': {
     itemsToShow: 2.2,
   },
-  640: {
+  '640': {
     itemsToShow: 3.2,
   },
-  1024: {
+  '1024': {
     itemsToShow: 3.5,
   },
 });
 const smallBreakpoints = reactive({
-  520: {
+  '520': {
     itemsToShow: 1.2,
   },
-  640: {
+  '640': {
     itemsToShow: 2.6,
   },
-  1024: {
+  '1024': {
     itemsToShow: 3.5,
   },
 });
 </script>
 
 <style lang="scss">
+.carousel:focus-visible {
+  outline: none;
+  border: none;
+}
 .carousel__ {
   &slide {
     cursor: grab;
