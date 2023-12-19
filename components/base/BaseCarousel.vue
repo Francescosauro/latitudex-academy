@@ -28,7 +28,7 @@
           <strong> {{ element.title }}</strong> <br />
           <em>{{ element.description }}</em>
         </h4>
-        <BaseLink v-if="element.isActive" class="btn md:btn-lg" :to="element.link">
+        <BaseLink v-if="element.isActive" class="btn md:btn-lg" :to="element.link" @click="triggerEvent('on-line')">
           Scopri di più
         </BaseLink>
       </div>
@@ -59,7 +59,7 @@
           </ul>
           <BaseButton 
             class="btn mt-4"
-            @click="$emit('modalCall')"
+            @click="triggerEvent('presenza'); $emit('modalCall')"
             aria-haspopup="true"
             aria-controls="form-modal"
             :aria-expanded="isModalOpened"
@@ -120,6 +120,20 @@ const props = defineProps({
     default: false
   }
 });
+
+const gtm = useGtm() 
+
+const triggerEvent = (type: string) => {
+  if(!gtm) return
+  gtm.trackEvent({
+    event: 'opt-in click',
+    category: 'click-track',
+    action: 'click',
+    label: 'Click corsi ' + type,
+    value: 5000,
+    noninteraction: false,
+  })
+}
 
 const getBreakpoints = computed(() => {
   return (props.type === 'recensioni') ? smallBreakpoints : breakpoints

@@ -9,6 +9,7 @@
         class="validate"
         target="_self"
         novalidate=""
+        @submit="triggerEvent()"
       >
         <div id="mc_embed_signup_scroll">
           <h3 class="!text-lg !sm:text-3xl">Prenota ora e ottieni il 10% di sconto</h3>
@@ -51,6 +52,7 @@
               name="subscribe"
               :id="'mc-embedded-subscribe-' + inputIdNumber"
               class="btn"
+              @click="triggerEvent()"
               value="Prenota"
             />
           </div>
@@ -72,4 +74,17 @@ const props = defineProps({
     default: 1,
   },
 });
+const gtm = useGtm() 
+
+const triggerEvent = () => {
+  if(!gtm) return
+  gtm.trackEvent({
+    event: 'opt-in click',
+    category: 'click-track',
+    action: 'click',
+    label: 'Iscrizione a newsletter',
+    value: 5000,
+    noninteraction: false,
+  })
+}
 </script>

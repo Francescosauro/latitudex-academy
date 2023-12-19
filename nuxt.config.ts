@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     'vue3-carousel-nuxt',
     'nuxt-gtag',
+    '@zadigetvoltaire/nuxt-gtm',
     ['@dargmuesli/nuxt-cookie-control', {
       cookieNameIsConsentGiven: 'hasConsent',
       cookieNameCookiesEnabledIds: 'hasCookies',
@@ -46,5 +47,15 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-P9GVHXN1R0'
+  },
+  gtm: {
+    id: 'GTM-KRN697NL'
+  },
+  runtimeConfig: {
+    public: {
+      gtm: {
+        id: 'GTM-KRN697NL'
+      }
+    }
   }
 })
