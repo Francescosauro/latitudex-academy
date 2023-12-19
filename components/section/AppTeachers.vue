@@ -90,6 +90,9 @@
       <BaseButton
         @click="isModalOpened = false"
         class="btn"
+        aria-controls="bio-modal"
+        :aria-expanded="isModalOpened"
+        aria-haspopup="true"
         aria-label="Chiudi questa finestra">
         Chiudi
       </BaseButton>

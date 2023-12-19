@@ -8,7 +8,13 @@ export default defineAppConfig({
     calendly: "#",
     facebook: "https://www.facebook.com/latitudex/",
     tiktok: "https://www.tiktok.com/@latitudex__academy",
-    instagram: "#"
+    instagram: "#",
+    cookieBanner: {
+      desc: 'Utiliziamo cookie di terze parti per analizzare, in modo anonimo, come viene usato il sito.',
+      acceptButton: 'Accetta',
+      refuseButton: 'Rifiuta',
+      modalDesc: 'Utiliziamo Google Analytics per analizzare il traffico in modo anonimo, mettendo due cookie nel tuo browser: <code>_ga</code> e <code>_ga_[analytics-id]</code>. Dandoci il consenso miglioreremo il servizio senza invadere la tua privacy.'
+    }
   },
   corsiOnLine: [
     {

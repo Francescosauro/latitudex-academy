@@ -127,9 +127,12 @@
   .btn-sm {
     @apply py-1 px-2 text-sm;
   }
-
+  .btn-outline {
+    background-color: transparent;
+    @apply border border-accent;
+  }
   .btn-lg {
-    @apply py-3 px-6 text-lg
+    @apply py-3 px-6 text-lg;
   }
 
   .disabled {

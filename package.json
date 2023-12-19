@@ -12,7 +12,6 @@
     "deploy": "git add . && git commit -m 'content update' && git push"
   },
   "devDependencies": {
-    "@dargmuesli/nuxt-cookie-control": "^7.2.0",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.0.0",
     "@nuxtjs/robots": "^3.0.0",

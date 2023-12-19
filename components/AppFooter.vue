@@ -1,7 +1,7 @@
 <template>
   <footer
     class="wrapper flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0 py-8 sm:justify-between"
-  >
+    :class="{ 'md:mb-12 mb-36': !consent }">
     <figure>
       <BaseLink to="/" title="Torna alla homepage">
         <BaseImage
@@ -9,8 +9,7 @@
           width="155"
           height="112"
           alt="Latitud X Academy logo"
-          :lazy="false"
-        />
+          :lazy="false" />
       </BaseLink>
       <figcaption class="mt-1">
         <small>Proteggi, agisci, soccorri</small>
@@ -22,8 +21,7 @@
           <a
             :href="appConfig.info.tiktok"
             target="_blank"
-            title="Vai alla pagina di Tiktok"
-          >
+            title="Vai alla pagina di Tiktok">
             <BaseIcon :icon="'tiktok'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
@@ -31,8 +29,7 @@
           <a
             :href="appConfig.info.instagram"
             target="_blank"
-            title="Vai alla pagina di Instagram"
-          >
+            title="Vai alla pagina di Instagram">
             <BaseIcon :icon="'instagram'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
@@ -40,34 +37,43 @@
           <a
             :href="appConfig.info.facebook"
             target="_blank"
-            title="Vai alla pagina di Facebook"
-          >
+            title="Vai alla pagina di Facebook">
             <BaseIcon :icon="'facebook'" :size="'lg'" class="text-primary mr-1" />
           </a>
         </li>
       </ul>
       <p class="text-center sm:text-left">
-        <a href="/privacy" target="_blank">
+        <BaseLink to="/privacy">
           <small>Informativa privacy e Cookie</small>
-        </a>
-        <!-- <br />
-        <button type="button" @click="openCookieModal()">
-          <small>Modifica il consenso ai Cookie</small>
-        </button> -->
+        </BaseLink>
+        <br />
+        <button
+          type="button"
+          @click="openModal()"
+          aria-haspopup="true"
+          aria-controls="cookie-modal"
+          :aria-expanded="isModalOpened">
+          <small>Modifica consenso cookie</small>
+        </button>
         <br />
         <small>P.IVA {{ appConfig.info.iva }}</small>
       </p>
     </div>
   </footer>
+  <BaseCookieBanner
+    :is-modal-opened="isModalOpened"
+    @close-modal="openModal()">
+  </BaseCookieBanner>
 </template>
 
 <script setup lang="ts">
 const appConfig = useAppConfig();
-const { isModalActive } = useCookieControl()
+const consent = useCookie('hasConsent')
+const isModalOpened = ref(false)
 
-const openCookieModal = () => {
-  isModalActive.value = true
-}
+const openModal = () => {
+  isModalOpened.value = !isModalOpened.value;
+};
 </script>
 
 <style lang="scss" scoped>

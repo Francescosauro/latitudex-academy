@@ -8,7 +8,7 @@
         name="mc-embedded-subscribe-form"
         class="validate"
         target="_self"
-        novalidate=""
+        novalidate="false"
         @submit="triggerEvent()"
       >
         <div id="mc_embed_signup_scroll">

@@ -239,14 +239,14 @@
                 corrente.
               </td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td align="left">ar_debug</td>
               <td align="center"><code>Analitico</code></td>
               <td align="left">
                 Conserva e traccia le conversioni su Google Analytics. 
                 Dati inviati in: Stati Uniti
               </td>
-            </tr>
+            </tr> -->
             <tr>
               <td align="left">_ga_[analytics-id]</td>
               <td align="center"><code>Analitico</code></td>
