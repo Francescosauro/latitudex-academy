@@ -2,18 +2,18 @@
   <BaseImage
     src="/bg-block-A-2.png"
     aria-hidden="true"
-    width="572"
-    height="592"
-    sizes="100vw sm:50vw md:572"
+    width="680"
+    height="680"
+    sizes="100vw sm:50vw md:680"
     :lazy="false"
     class="absolute top-0 left-0"
   />
   <BaseImage
     src="/bg-block-B-2.png"
     aria-hidden="true"
-    width="572"
-    height="592"
-    sizes="100vw sm:50vw md:572"
+    width="680"
+    height="680"
+    sizes="100vw sm:50vw md:680"
     :lazy="false"
     class="absolute top-0 right-0"
   />

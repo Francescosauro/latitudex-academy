@@ -8,37 +8,34 @@
         width="628"
         height="438"
         :lazy="false"
-        sizes="100vw sm:50vw md:628"
-      />
+        sizes="100vw sm:50vw md:628" />
     </div>
     <div class="md:w-1/2">
-      <!-- <BaseImage
-        src="/latitude-x-logo-linear.svg"
-        alt="Latitude X Academy logo"
-        width="250"
-        height="36"
-        sizes="100vw sm:50vw md:250"
-        :lazy="false"
-      /> -->
-      <div class="bg-white rounded-3xl px-3 py-6 mb-6">
-        <p class="text-xl mb-3">
+      <div class="bg-white rounded-3xl px-3 py-6 mb-6 flex">
+        <span>
+          <BaseIcon :icon="'video'" class="text-primary mr-2 icon-lg"></BaseIcon>
+        </span>
+        <p class="text-xl">
           Condividiamo la nostra esperienza nell’emergenza sanitaria
           <strong>con percorsi formativi accessibili a tutti</strong>.
+          <br>
+          <BaseLink class="is-link underline font-bold mt-3" :to="{ path: '/', hash: '#corsi-online' }">
+            Vedi tutti i corsi online
+          </BaseLink>
         </p>
-        <BaseLink class="is-link" :to="{ path: '/', hash: '#corsi-online' }">
-          <BaseIcon :icon="'video'" class="text-primary mr-2"></BaseIcon>
-          <strong>Vedi tutti i corsi online</strong>
-        </BaseLink>
       </div>
-      <div class="bg-white rounded-3xl px-3 py-6">
-        <p class="text-xl mb-3">
+      <div class="bg-white rounded-3xl px-3 py-6 flex">
+        <span>
+          <BaseIcon :icon="'school'" class="text-primary mr-2 icon-lg"></BaseIcon>
+        </span>
+        <p class="text-xl">
           Aiutiamo le aziende ad adempiere agli obblighi di legge in materia sanitaria,
           <strong>organizzando corsi in presenza presso la vostra azienda</strong>.
+          <br>
+          <BaseLink class="is-link underline font-bold mt-3" :to="{ path: '/', hash: '#corsi-presenza' }">
+            Vedi tutti i corsi in presenza
+          </BaseLink>
         </p>
-        <BaseLink class="is-link" :to="{ path: '/', hash: '#corsi-presenza' }">
-          <BaseIcon :icon="'school'" class="text-primary mr-2"></BaseIcon>
-          <strong>Vedi tutti i corsi in presenza</strong>
-        </BaseLink>
       </div>
     </div>
   </div>
@@ -50,8 +47,7 @@
         class="cover"
         width="302"
         height="182"
-        sizes="100vw sm:50vw md:302"
-      />
+        sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'aid-kit'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
@@ -59,15 +55,14 @@
         Medici e formatori per vocazione
       </strong>
     </li>
-     <li class="overflow-hidden rounded-3xl">
+    <li class="overflow-hidden rounded-3xl">
       <BaseImage
         src="/home-list-B.jpg"
         aria-hidden="true"
         class="cover"
         width="302"
         height="182"
-        sizes="100vw sm:50vw md:302"
-      />
+        sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'award'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
@@ -82,8 +77,7 @@
         class="cover"
         width="302"
         height="182"
-        sizes="100vw sm:50vw md:302"
-      />
+        sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'run'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
@@ -91,15 +85,14 @@
         Esperti in ambiente outdoor
       </strong>
     </li>
-     <li class="overflow-hidden rounded-3xl">
+    <li class="overflow-hidden rounded-3xl">
       <BaseImage
         src="/home-list-D.jpg"
         aria-hidden="true"
         class="cover"
         width="302"
         height="182"
-        sizes="100vw sm:50vw md:302"
-      />
+        sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'certificate'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>

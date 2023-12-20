@@ -115,7 +115,7 @@ const openModal = (obj: Teacher) => {
 
 <style lang="scss" scoped>
 section {
-  background: linear-gradient(to left top,  #E3F0F0, #fff);
+  background: linear-gradient(to left top,  #c9d6d6, #fff);
 
   .wrapper {
     background-image: url('/pattern.png');

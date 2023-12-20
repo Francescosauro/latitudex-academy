@@ -2,7 +2,7 @@
   <NuxtImg
     :src="getSrc"
     :alt="alt"
-    :loading="lazy ? 'lazy' : null"
+    :loading="lazy ? 'lazy' : undefined"
     placeholder
   />
 </template>
