@@ -1,7 +1,11 @@
 <template>
-  <section class="wrapper mb-10 relative">
-    <SectionAppHero></SectionAppHero>
-    <SectionAppBentoGrid></SectionAppBentoGrid>
+  <section class="gradient-bg pb-10">
+    <div class="texture-bg">
+      <div class="wrapper relative">
+        <SectionAppHero></SectionAppHero>
+        <SectionAppBentoGrid></SectionAppBentoGrid>
+      </div>
+    </div>
   </section>
 
   <section id="corsi-online" class="py-8 bg-false-white">
@@ -13,7 +17,7 @@
       <BaseCarousel :elements="appConfig.corsiOnLine"></BaseCarousel>
     </div>
   </section>
-  <section id="corsi-presenza" class="mb-10 py-8 bg-primary-lighter">
+  <section id="corsi-presenza" class="py-8 bg-primary-lighter">
     <div class="wrapper">
       <h3 class="text-2xl mb-4">
         <span class="eyebrown">Formazione</span>
@@ -185,7 +189,7 @@ const submitForm = async () => {
     isLoading.value = false;
     return;
   }
- 
+
   if (!Email) {
     formFeedback.value = "error";
     success.value = false;
@@ -212,3 +216,15 @@ const submitForm = async () => {
   });
 };
 </script>
+
+<style lang="scss" scoped>
+.gradient-bg {
+  background: linear-gradient(to left top, #E3F0F0, #fff);
+
+  .texture-bg {
+    position: relative;
+    background-image: url('/pattern.png');
+    background-size: 100px;
+  }
+}
+</style>

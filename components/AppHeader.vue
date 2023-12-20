@@ -1,21 +1,21 @@
 <template>
   <BaseImage
-    src="/bg-block-A.png"
+    src="/bg-block-A-2.png"
     aria-hidden="true"
     width="572"
     height="592"
     sizes="100vw sm:50vw md:572"
     :lazy="false"
-    class="absolute top-0 left-0 z-0"
+    class="absolute top-0 left-0"
   />
   <BaseImage
-    src="/bg-block-B.png"
+    src="/bg-block-B-2.png"
     aria-hidden="true"
     width="572"
     height="592"
     sizes="100vw sm:50vw md:572"
     :lazy="false"
-    class="absolute top-0 right-0 z-0 hidden md:block"
+    class="absolute top-0 right-0"
   />
   <header
     class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-10 shadow"

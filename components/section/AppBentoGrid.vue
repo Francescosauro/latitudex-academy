@@ -12,15 +12,15 @@
       />
     </div>
     <div class="md:w-1/2">
-      <BaseImage
+      <!-- <BaseImage
         src="/latitude-x-logo-linear.svg"
         alt="Latitude X Academy logo"
         width="250"
         height="36"
         sizes="100vw sm:50vw md:250"
         :lazy="false"
-      />
-      <div class="bg-white rounded-3xl p-3 my-6">
+      /> -->
+      <div class="bg-white rounded-3xl px-3 py-6 mb-6">
         <p class="text-xl mb-3">
           Condividiamo la nostra esperienza nell’emergenza sanitaria
           <strong>con percorsi formativi accessibili a tutti</strong>.
@@ -30,7 +30,7 @@
           <strong>Vedi tutti i corsi online</strong>
         </BaseLink>
       </div>
-      <div class="bg-white rounded-3xl p-3">
+      <div class="bg-white rounded-3xl px-3 py-6">
         <p class="text-xl mb-3">
           Aiutiamo le aziende ad adempiere agli obblighi di legge in materia sanitaria,
           <strong>organizzando corsi in presenza presso la vostra azienda</strong>.

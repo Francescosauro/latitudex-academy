@@ -236,7 +236,7 @@
     -webkit-text-fill-color: transparent;
   }
   .text-gradient-secondary {
-    background: linear-gradient(to right bottom, #f3954a, #38a0a0);
+    background: linear-gradient(to right bottom, #985110, #F3954A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

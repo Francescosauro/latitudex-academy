@@ -78,6 +78,6 @@ const openModal = () => {
 
 <style lang="scss" scoped>
 footer {
-  border-top: solid 1px #ccc;
+  border-top: solid 1px #e8e8e8;
 }
 </style>

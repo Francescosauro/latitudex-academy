@@ -111,3 +111,15 @@ const openModal = (obj: Teacher) => {
   isModalOpened.value = !isModalOpened.value;
 };
 </script>
+
+
+<style lang="scss" scoped>
+section {
+  background: linear-gradient(to left top,  #E3F0F0, #fff);
+
+  .wrapper {
+    background-image: url('/pattern.png');
+    background-size: 100px;
+  }
+}
+</style>
