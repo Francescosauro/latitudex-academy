@@ -6,7 +6,6 @@
         alt="Latitude X Academy logo"
         width="307"
         height="74"
-        format="webp"
         sizes="100vw sm:50vw md:307"
         :lazy="false" />
     </BaseLink>

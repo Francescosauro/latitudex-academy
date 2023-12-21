@@ -8,8 +8,7 @@
           src="/latitude-x-logo-block.svg"
           width="155"
           height="112"
-          format="webp"
-          alt="Latitud X Academy logo"
+          alt="Latitude X Academy logo"
           :lazy="false" />
       </BaseLink>
       <figcaption class="mt-1">

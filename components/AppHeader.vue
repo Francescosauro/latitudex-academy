@@ -31,7 +31,6 @@
           alt="Latitude X Academy logo"
           width="252"
           height="60"
-          format="webp"
           sizes="100vw sm:50vw md:252"
           :lazy="false"
         />
