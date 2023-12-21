@@ -17,6 +17,7 @@
               class="m-auto ratio-16x9"
               width="1318"
               height="748"
+              format="webp"
               sizes="100vw sm:50vw md:1318"
               :lazy="false"
             />
@@ -46,10 +47,10 @@
 </template>
 
 <script setup lang="ts">
-const videoPlayer = ref(null);
+const videoPlayer: Ref = ref(null);
 let isPaused = ref(true);
 const play = () => {
   isPaused.value = false;
-  videoPlayer.value.play();
+  if(videoPlayer) videoPlayer.value.play();
 };
 </script>

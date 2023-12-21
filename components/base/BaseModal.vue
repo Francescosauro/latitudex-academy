@@ -2,9 +2,9 @@
   <div :id="modalId">
     <div
       class="max-w-lg w-full mx-1 bg-white p-4 border border-grey-lighter fixed m-auto z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-      @keydown.esc="$emit('closeModal')">
+      @keydown.esc="$emit('close-modal')">
       <div class="flex justify-end mb-3">
-        <BaseButton :aria-controls="modalId" aria-expanded="true" @click="$emit('closeModal')">
+        <BaseButton :aria-controls="modalId" aria-expanded="true" @click="$emit('close-modal')">
           <BaseIcon :icon="'close'" class="text-secondary" />
         </BaseButton>
       </div>
@@ -15,7 +15,7 @@
       role="button" 
       :aria-controls="modalId" 
       aria-expanded="true" 
-      @click="$emit('closeModal')">
+      @click="$emit('close-modal')">
     </div>
   </div>
 </template>

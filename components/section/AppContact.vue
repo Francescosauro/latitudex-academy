@@ -11,7 +11,7 @@
           href="mailto:info.latitudex@gmail.com"
           rel="noopener noreferrer"
           target="_blank"
-          class="text-primary underline underline-offset-2 mt-2 inline-block">
+          class="text-primary underline text-primary-dark underline-offset-2 mt-2 inline-block">
           {{ appConfig.info.mail }}
         </a>
       </p>
@@ -24,7 +24,7 @@
           :href="'https://wa.me/' + appConfig.info.tel"
           rel="noopener noreferrer"
           target="_blank"
-          class="text-primary underline underline-offset-2 mt-2 inline-block">
+          class="text-primary underline text-primary-dark underline-offset-2 mt-2 inline-block">
           Manda un Whatsapp
         </a>
       </p>

@@ -25,6 +25,7 @@
                   class="required email w-full p-2 border border-grey-light"
                   :id="'mce-EMAIL-' + inputIdNumber"
                   required="true"
+                  autocomplete="email"
                   value=""
                 /><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
               </div>

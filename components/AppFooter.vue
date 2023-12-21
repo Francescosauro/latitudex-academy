@@ -8,6 +8,7 @@
           src="/latitude-x-logo-block.svg"
           width="155"
           height="112"
+          format="webp"
           alt="Latitud X Academy logo"
           :lazy="false" />
       </BaseLink>
@@ -62,7 +63,7 @@
   </footer>
   <BaseCookieBanner
     :is-modal-opened="isModalOpened"
-    @close-modal="openModal()">
+    @close-modal="isModalOpened = false">
   </BaseCookieBanner>
 </template>
 

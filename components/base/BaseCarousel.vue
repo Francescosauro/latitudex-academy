@@ -11,6 +11,7 @@
             width="369"
             height="524"
             class="m-auto"
+            format="webp"
             sizes="100vw sm:50vw md:369"
           />
         </BaseLink>
@@ -22,6 +23,7 @@
           width="369"
           height="524"
           class="m-auto"
+          format="webp"
           sizes="100vw sm:50vw md:369"
         />
         <h4 class="text-base md:text-xl my-2">
@@ -77,6 +79,7 @@
             aria-hidden="true"
             sizes="100vw sm:50vw md:320"
             class="object-cover h-full w-full"
+            format="webp"
             :src="element.cover"
           />
         </span>

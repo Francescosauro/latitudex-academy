@@ -8,6 +8,7 @@
         width="628"
         height="438"
         :lazy="false"
+        format="webp"
         sizes="100vw sm:50vw md:628" />
     </div>
     <div class="md:w-1/2">
@@ -19,7 +20,7 @@
           Condividiamo la nostra esperienza nell’emergenza sanitaria
           <strong>con percorsi formativi accessibili a tutti</strong>.
           <br>
-          <BaseLink class="is-link underline font-bold mt-3" :to="{ path: '/', hash: '#corsi-online' }">
+          <BaseLink class="is-link underline text-primary-dark font-bold mt-3" :to="{ path: '/', hash: '#corsi-online' }">
             Vedi tutti i corsi online
           </BaseLink>
         </p>
@@ -32,7 +33,7 @@
           Aiutiamo le aziende ad adempiere agli obblighi di legge in materia sanitaria,
           <strong>organizzando corsi in presenza presso la vostra azienda</strong>.
           <br>
-          <BaseLink class="is-link underline font-bold mt-3" :to="{ path: '/', hash: '#corsi-presenza' }">
+          <BaseLink class="is-link underline text-primary-dark font-bold mt-3" :to="{ path: '/', hash: '#corsi-presenza' }">
             Vedi tutti i corsi in presenza
           </BaseLink>
         </p>
@@ -47,6 +48,7 @@
         class="cover"
         width="302"
         height="182"
+        format="webp"
         sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
@@ -62,6 +64,7 @@
         class="cover"
         width="302"
         height="182"
+        format="webp"
         sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
@@ -77,6 +80,7 @@
         class="cover"
         width="302"
         height="182"
+        format="webp"
         sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
@@ -92,6 +96,7 @@
         class="cover"
         width="302"
         height="182"
+        format="webp"
         sizes="100vw sm:50vw md:302" />
     </li>
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">

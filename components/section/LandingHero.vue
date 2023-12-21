@@ -9,6 +9,7 @@
         width="591"
         height="520"
         :lazy="false"
+        format="webp"
         sizes="100vw sm:50vw md:591"
       />
       <h1 class="mb-0">La conoscenza che salva la vita a chi vuoi bene</h1>
@@ -27,6 +28,7 @@
         aria-hidden="true"
         width="591"
         height="520"
+        format="webp"
         :lazy="false"
         sizes="100vw sm:50vw md:591"
       />

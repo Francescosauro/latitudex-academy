@@ -6,6 +6,7 @@
     height="680"
     sizes="100vw sm:50vw md:680"
     :lazy="false"
+    format="webp"
     class="absolute top-0 left-0"
   />
   <BaseImage
@@ -15,6 +16,7 @@
     height="680"
     sizes="100vw sm:50vw md:680"
     :lazy="false"
+    format="webp"
     class="absolute top-0 right-0"
   />
   <header
@@ -29,6 +31,7 @@
           alt="Latitude X Academy logo"
           width="252"
           height="60"
+          format="webp"
           sizes="100vw sm:50vw md:252"
           :lazy="false"
         />

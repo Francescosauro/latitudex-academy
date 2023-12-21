@@ -9,6 +9,7 @@
             class="mb-0"
             width="571"
             height="401"
+            format="webp"
             sizes="100vw sm:50vw md:571"
           />
           <ul class="list-none mt-3">

@@ -6,6 +6,7 @@
       height="112"
       alt="Latitud X Academy logo"
       class="m-auto mb-5"
+      format="webp"
       :lazy="false" />
     <h1 class="mb-3 text-gradient-secondary font-bold text-4xl md:text-5xl">
       L'Accademia di Primo Soccorso
