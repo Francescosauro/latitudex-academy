@@ -21,7 +21,7 @@
     <h4 class="text-2xl mb-4 font-bold">Gestisci il consenso ai cookie</h4>
     <p v-html="appConfig.info.cookieBanner.modalDesc"></p>
     <div class="inline-flex w-full justify-end space-x-4 mt-6">
-      <button type="button" class="btn btn-lg" @click="$emit('close-modal');setConsent('yes')">
+      <button ref="confirmButton" type="button" class="btn btn-lg" @click="$emit('close-modal');setConsent('yes')">
         {{ appConfig.info.cookieBanner.acceptButton }}
       </button>
       <button type="button" class="btn btn-outline btn-lg" @click="$emit('close-modal');removeConsent('no')">
@@ -32,14 +32,27 @@
 </template>
 
 <script setup lang="ts">
+const emit = defineEmits(['close-modal'])
 const appConfig = useAppConfig()
 const { gtag, grantConsent, revokeConsent } = useGtag()
+type ButtonType = HTMLButtonElement | null
+const confirmButton: Ref<ButtonType> = ref(null)
 
 const props = defineProps({
   isModalOpened: {
     type: Boolean,
     default: false
   }
+})
+
+const focusOnConfirm = computed(() => {
+  return props.isModalOpened
+})
+
+watch(focusOnConfirm, () =>{
+  setTimeout(() => {
+    confirmButton.value?.focus()
+  }, 100)
 })
 
 const consent = useCookie('hasConsent', {

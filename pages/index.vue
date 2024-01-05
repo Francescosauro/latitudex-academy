@@ -105,6 +105,7 @@
       </h5>
       <label for="email-field"> E-mail <sup class="text-secondary">*</sup> </label>
       <input
+        ref="modalEmail"
         type="email"
         id="email-field"
         v-model="emailField"
@@ -159,19 +160,24 @@
 useHead({
   script: [{ src: "/smtp/smtp.js" }],
 });
-
 const appConfig = useAppConfig();
+type ModalEmailType = HTMLInputElement | null
+type FormFeedbackType = "consent" | "invalid" | "error" | null;
+
+const formFeedback: Ref<FormFeedbackType> = ref(null);
+const modalEmail: Ref<ModalEmailType> = ref(null)
 const isFormModalOpened = ref(false);
 const isLoading = ref(false);
 const emailField = ref("");
 const messageField = ref("");
 const consentField = ref(false);
 const success = ref(false);
-type FormFeedbackType = "consent" | "invalid" | "error" | null;
-const formFeedback: Ref<FormFeedbackType> = ref(null);
 
 const openFormModal = () => {
   isFormModalOpened.value = !isFormModalOpened.value;
+  setTimeout(() => {
+    if (modalEmail.value) modalEmail.value.focus()
+  }, 100)
 };
 
 const submitForm = async () => {

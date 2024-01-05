@@ -21,6 +21,7 @@
 </template>
 
 <script setup lang="ts">
+const emit = defineEmits(['close-modal'])
 const props = defineProps({
   modalId: {
     type: String,
