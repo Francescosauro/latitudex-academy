@@ -9,8 +9,7 @@
         class="validate"
         target="_self"
         novalidate="false"
-        @submit="triggerEvent()"
-      >
+        @submit.prevent="triggerEvent()">
         <div id="mc_embed_signup_scroll">
           <h3 class="!text-lg !sm:text-3xl">Prenota ora e ottieni il 10% di sconto</h3>
           <div class="flex">
@@ -26,16 +25,16 @@
                   :id="'mce-EMAIL-' + inputIdNumber"
                   required="true"
                   autocomplete="email"
-                  value=""
-                /><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                  v-model="leadEmail"
+                  value />
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
               </div>
               <div id="mce-responses" class="clear foot">
                 <div class="response" id="mce-error-response" style="display: none"></div>
                 <div
                   class="response"
                   id="mce-success-response"
-                  style="display: none"
-                ></div>
+                  style="display: none"></div>
               </div>
               <div aria-hidden="true" style="position: absolute; left: -5000px">
                 /* real people should not fill this in and expect good things - do not
@@ -44,8 +43,7 @@
                   type="text"
                   name="b_2c76cc3f788699f6693d76087_30be581cfd"
                   tabindex="-1"
-                  value=""
-                />
+                  value="" />
               </div>
             </div>
             <input
@@ -54,8 +52,7 @@
               :id="'mc-embedded-subscribe-' + inputIdNumber"
               class="btn"
               @click="triggerEvent()"
-              value="Prenota"
-            />
+              value="Prenota" />
           </div>
         </div>
       </form>
@@ -75,17 +72,10 @@ const props = defineProps({
     default: 1,
   },
 });
-const gtm = useGtm() 
+const leadEmail = ref('')
+const router = useRouter()
 
 const triggerEvent = () => {
-  if(!gtm) return
-  gtm.trackEvent({
-    event: 'opt-in click',
-    category: 'click-track',
-    action: 'click',
-    label: 'Iscrizione a newsletter',
-    value: 5000,
-    noninteraction: false,
-  })
+  router.push({ path: "/redirect", query: {email: leadEmail.value, destination: 'mailchimp'} })
 }
 </script>
