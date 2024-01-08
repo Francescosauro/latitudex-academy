@@ -14,6 +14,9 @@
       <small class="text-sm">Le domande che ci fate più spesso</small>
     </h3>
     <BaseAccordion :elements="appConfig.faq"></BaseAccordion>
+    <p class="text-sm mt-3 text-right">
+      Vuoi farci una domanda? <a :href="'mailto:' + +appConfig.info.mail" class="underline" target="_blank">Scrivici</a>.
+    </p>
   </div>
   <AppFooter></AppFooter>
 </template>
