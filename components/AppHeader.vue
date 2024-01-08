@@ -63,11 +63,11 @@
               <strong>Chi siamo</strong>
             </BaseLink>
           </li>
-          <li>
+          <!-- <li>
             <BaseLink :to="{ path: '/', hash: '#faq' }" @click="isOpen = false">
               <strong>FAQ</strong>
             </BaseLink>
-          </li>
+          </li> -->
           <li>
             <BaseLink :to="{ path: '/', hash: '#contatti' }" @click="isOpen = false">
               <strong>Contatti</strong>
