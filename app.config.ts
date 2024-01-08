@@ -54,18 +54,10 @@ export default defineAppConfig({
     },
   ],
   corsiInPresenza: [
+
     {
       title: "Corso Addetti Primo Soccorso per Aziende",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      data: {
-        durata: "16 ore",
-        data: "Da definire",
-        destinatari: "Gruppo A"
-      }
-    },
-    {
-      title: "Corso Addetti Primo Soccorso per Aziende",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Primo Soccorso Aziendale secondo Decreto Ministeriale 388/03, rivolto alle aziende rientranti nei Gruppi B e C.",
       data: {
         durata: "12 ore",
         data: "Da definire",
@@ -73,17 +65,26 @@ export default defineAppConfig({
       }
     },
     {
-      title: "Corso BLSD Retraining  per Addetti Utilizzo Defibrillatore (DAE)",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      title: "Corso Addetti Primo Soccorso per Aziende",
+      description: "Primo Soccorso Aziendale secondo Decreto Ministeriale 388/03, rivolto alle aziende rientranti nel Gruppo A.",
       data: {
         durata: "16 ore",
+        data: "Da definire",
+        destinatari: "Gruppo A"
+      }
+    },
+    {
+      title: "Corso BLSD Retraining per Addetti Utilizzo Defibrillatore (DAE)",
+      description: "Il corso BLSD (Basic Life Support & Defibrillation) è un corso certificativo finalizzato all’addestramento dei partecipanti alla rianimazione cardiopolmonare e utilizzo del Defibrillatore Automatico Esterno.",
+      data: {
+        durata: "4 ore",
         data: "Da definire",
         destinatari: "Per tuttti"
       }
     },
     {
       title: "Corso Aggiornamento Primo Soccorso",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Primo Soccorso Aziendale secondo Decreto Ministeriale 388/03, rivolto alle aziende rientranti nel Gruppo A.",
       data: {
         durata: "6 ore",
         data: "Da definire",
@@ -92,9 +93,9 @@ export default defineAppConfig({
     },
     {
       title: "Corso Aggiornamento Primo Soccorso",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Primo Soccorso Aziendale secondo Decreto Ministeriale 388/03, rivolto alle aziende rientranti nei Gruppi B e C.",
       data: {
-        durata: "6 ore",
+        durata: "4 ore",
         data: "Da definire",
         destinatari: "Gruppo B e C"
       }
@@ -105,11 +106,12 @@ export default defineAppConfig({
       picture: "/giulia-gabani.jpg",
       fullName: "Giulia Gabani",
       points: [
-        "Medico Chirurgo abilitato. Laureata con il massimo dei voti presso l’Università degli Studi di Padova",
-        "Docente titolare dei corsi di formazione e aggiornamento di Primo Soccorso aziendale e gestione delle emergenze sanitarie",
-        "Discipline praticate: trekking, biking, arrampicata sportiva, alpinismo su roccia, canyoning e sci di fondo",
-        "Istruttrice BLSD e Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
-        "Content creator e video maker per passione ed esperienza.",
+        "Medico Chirurgo abilitato",
+        "Formazione specifica in Medicina Generale",
+        "Docente titolare dei corsi di formazione e aggiornamento di Primo Soccorso aziendale",
+        "Formatrice in ambito di approccio e gestione delle emergenze sanitarie",
+        "Istruttrice BLS-D qualificata",
+        "Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
       ],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
@@ -117,23 +119,22 @@ export default defineAppConfig({
       picture: "/francesco-maria-sauro.jpg",
       fullName: "Francesco Maria Sauro",
       points: [
-        "Logistic Coordinator and Managing Director per Miles Beyond.",
-        "Logistic Coordinator corsi CAVES e PANGAEA dell'Agenzia Spaziale Europea",
-        "Operatore del CNSAS (Corpo Nazionale del Soccorso Alpino e Speleologico)",
-        "Guida associata AssoGuide e Skipper",
-        "Istruttore BLSD e Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118.",
-    ],
+        "Operatore del Soccorso Alpino e Speleologico del Veneto (CNSAS)",
+        "Co-docente tecnico dei corsi di formazione di Primo Soccorso aziendale",
+        "Istruttore BLS-D qualificato",
+        "Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118",
+      ],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     luca: {
       picture: "/luca-carenzo.jpg",
       fullName: "Luca Carenzo",
       points: [
-        "Lorem ipsum dolor sit amet.",
-        "Lorem ipsum dolor sit amet.",
-        "Lorem ipsum dolor sit amet.",
-        "Lorem ipsum dolor sit amet.",
-    ],
+        "Medico Chirurgo abilitato",
+        "Specializzato in Anestesia e Rianimazione",
+        "Formatore e istruttore di simulazione avanzata in ambito di Trauma Critical Care e Disaster Medicine",
+        "Diploma Europeo in Terapia Intensiva ed esperienza lavorativa di elisoccorso presso la London’s Air Ambulance",
+      ],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   },
@@ -148,28 +149,42 @@ export default defineAppConfig({
     {
       cover: "/recensione-2.jpg",
       title: "«Ho evitato che mio figlio soffocasse!»",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      description: "È successo tutto molto velocemente. Eravamo a tavola e ho visto Giacomo che ha iniziato a diventare viola. Inizialmente mi ha preso il panico ma poi mi sono ricordata le manovre di disostruzione che mi avevate insegnato, allora l’ho preso in braccio e ho eseguito meccanicamente il protocollo di disostruzione. Non ho parole per esprimervi la mia gratitudine per avermi dato gli strumenti per agire e salvare mio figlio.",
       from: "Instagram",
       by: "Nome Cognome"
     },
     {
       cover: "/recensione-3.jpg",
-      title: "«Mi sento più forte accudendo mia madre»",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "«Quando ti capita, non puoi rimanere a guardare, vuoi agire!»",
+      description: "Durante una passeggiata in montagna un componente del gruppo è scivolato dal sentiero in una zona per niente comoda e non riusciva più ad alzarsi. Non ho potuto fare molto dal punto di vista sanitario (abbiamo scoperta dopo che si era rotto il femore), se non gestire al meglio l’intervento, dalla chiamata dei soccorsi, al riscaldare il mio amico (avevo portato il telo termico per la prima volta), allo stargli vicino, al localizzarsi nel migliore dei modi (eravamo partiti ormai da 3 ore). E questo grazie ad aver seguito queste video lezioni.",
       from: "Instagram",
       by: "Nome Cognome"
     },
     {
       cover: "/recensione-4.jpg",
-      title: "«Lorem ipsum dolo sit amet, consecteutur»",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "«Ho apprezzato tanto il taglio pratico di questo video corso!»",
+      description: "Avevo frequentato un corso di primo soccorso in azienda, mi era piaciuto ma sinceramente aveva un taglio eccessivamente teorico. Seguendo questo corso, invece, ho trovato la parte pratica molto interessante e utile veramente in ogni occasione della vita.",
       from: "Instagram",
       by: "Nome Cognome"
     },
     {
-      cover: "/recensione-4.jpg",
-      title: "«Lorem ipsum dolo sit amet, consecteutur»",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      cover: "/recensione-5.jpg",
+      title: "«Ora sono in grado di riconoscere tempestivamente i segni d’allarme!»",
+      description: "Qualche mese fa un mio collega ha iniziato a star male ma tutti, compreso lui, stavamo sottovalutando la situazione. Avendo fatto il corso da poco, mi sono ricordato, di alcuni sintomi importanti da valutare e alla fine ho preferito chiamare il 118. Il mio collega stava avendo un infarto, ma per fortuna è stato preso in tempo! Tanti segni e sintomi prima non li capivo o li ignoravo perché non ero in grado di riconoscerli.",
+      from: "Instagram",
+      by: "Nome Cognome"
+    },
+    {
+      cover: "/recensione-6.jpg",
+      title: "«Ho avuto tanta paura ma sapevo cosa fare»",
+      description: "Stavo rientrando a casa quando ho sentito urlare dai garage del mio condominio. C’era un mio condomino che si era tagliato parte del braccio con un ferro e stava già perdendo molto sangue. Sono riuscito a tamponare la ferita nel migliore dei modi, farlo stendere e chiamare immediatamente i soccorsi che, anche grazie al mio intervento, l’hanno salvato. Per fortuna non mi è mai capitato di dover intervenire, però ho voluto frequentare lo stesso il corso per sentirmi più sicura in caso dovessi averne necessità.",
+      from: "Instagram",
+      by: "Nome Cognome"
+    },
+    {
+      cover: "/recensione-7.jpg",
+      title: "«Quello che ho imparato posso applicarlo in ogni situazione»",
+      description: "Durante una passeggiata in montagna un componente del gruppo è scivolato dal sentiero in una zona per niente comoda e non riusciva più ad alzarsi. Non ho potuto fare molto dal punto di vista sanitario (abbiamo scoperta dopo che si era rotto il femore), se non gestire al meglio l’intervento, dalla chiamata dei soccorsi, al riscaldare il mio amico (avevo portato il telo termico per la prima volta), allo stargli vicino, al localizzarsi nel migliore dei modi (eravamo partiti ormai da 3 ore). E questo grazie ad aver seguito queste video lezioni.",
       from: "Instagram",
       by: "Nome Cognome"
     },
@@ -250,27 +265,47 @@ export default defineAppConfig({
   faq: [
     {
       header: "Quando saranno disponibi i video corsi?",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
     },
     {
-      header: "Potete rilasciare il certificato all'uso del BLS-D?",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      header: "Come posso imparare a salvare la vita con questa guida online?",
+      body: "Nel Video Corso troverai più di 35 video-lezioni che tratteranno tutti i temi fondamentali del primo soccorso. Seguirai un percorso completo che ti insegnerà da zero tutte le manovre essenziali per prestare un efficace primo soccorso. Lezioni interattive e ricche di esempi pratici ti aspettano. Pronto a diventare un soccorritore?"
     },
     {
-      header: "Domanda",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      header: "Quante volte posso guardare i video?",
+      body: "Una volta acquistato il Video CORSO potrai ri-guardarlo quante volte vorrai. Sarà tuo per sempre. Non dimenticare che sul sito di Latitude-X Academy continueranno ad essere pubblicati nuovi corsi aggiornati e altri approfondimenti. Dopo il primo acquisto entrerai a far parte della Community di Latitude-x Academy!"
     },
     {
-      header: "Domanda",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      header: "Quanto dura il corso online?",
+      body: "Il Primo Soccorso BLS è diviso in 35 mini video che corrispondono a 35 singole lezioni della durata di circa 3/5 minuti ciascuna. Puoi interrompere il video quante volte vuoi e riprenderlo in qualunque momento."
     },
     {
-      header: "Domanda",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      header: "Cosa contiene il video corso di Primo Soccorso BLS?",
+      body: "Il Corso di Primo Soccorso BLS segue un programma completo di lezioni teoriche e dimostrazioni pratiche simulate su persone reali per insegnarti ad affrontare tutte le più comuni situazioni di emergenza. Potrai rivedere le lezioni quante volte vorrai, e acquisire totale fiducia nelle manovre da eseguire. Più di 35 lezioni sempre disponibili per te online. Troverai tanti esempi di situazioni realmente accadute, che renderanno ancora più efficace l’apprendimento."
     },
     {
-      header: "Domanda",
-      body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      header: "Verranno pubblicati altri video?",
+      body: "Sono in programmazione altri tre VIDEO Corsi online: il primo soccorso per Aziende, il primo soccorso per ambienti Outdoor e il primo soccorso Pediatrico. Sul sito di Latitude-x Academy trovi maggiori informazioni, ma sei hai qualche domanda non esitare a contattarci."
+    },
+    {
+      header: "Il corso BLSD per l’utilizzo del Defibrillatore, rilascia un attestato valido per legge?",
+      body: "Si! Acquistando il corso di BLS-D potrai richiedere, se ne avessi necessità, il rilascio del Certificato, oppure seguire il Video Corso ed imparare ad utilizzare il DAE correttamente. Quando uscirà il Corso online, verrà pubblicato un calendario dove sarà possibile prenotarsi in uno degli incontri programmati per ricevere il Certificato rilasciato da un Centro di Formazione accreditato al 118 regionale."
+    },
+    {
+      header: "Posso vederli da qualsiasi dispositivo?",
+      body: "Tutte le video-lezioni si troveranno su un’unica piattaforma semplice da usare. Tutti i video sono registrati e potrai vederli in differita dove e quando vuoi dal tuo PC/tablet/smartphone senza limitazioni."
+    },
+    {
+      header: "Posso passare da un argomento all’altro?",
+      body: "Ogni video-lezione all’interno di un Corso è indipendente dalle altre e questo ti consentirà di scegliere con che ordine seguire le lezioni o se riguardare una lezione specifica che scelti tu. Tuttavia ti consigliamo, la prima volta che seguirai il Corso, di seguire l’ordine che abbiamo dato noi alle lezioni"
+    },
+    {
+      header: "Il pagamento è una volta o è un abbonamento?",
+      body: "L'acquisto di ogni video-corso è singolo. Una volta acquistato il CORSO potrai rivederlo quante volte vorrai. Sarà tuo per sempre."
+    },
+    {
+      header: "Posso vedere i corsi anche se non ho internet?",
+      body: "Tutti i video sono registrati e potrai vederli in differita dove e quando vuoi dal tuo PC o tablet o smartphone senza limitazioni. Solamente l'accesso alla piattaforma richiede connessione internet."
     },
   ]
 })

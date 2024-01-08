@@ -11,7 +11,7 @@
       L'Accademia di Primo Soccorso
     </h1>
     <h2 class="mt-0 mx-auto text-gradient-primary text-xl md:text-2xl mb-6 max-w-[40rem]">
-      Unisciti alla prima scuola in Italia di Primo Soccorso. Per tutti, online e in presenza.
+      Unisciti alla Prima Scuola in Italia di Primo Soccorso. Per tutti, online e in presenza.
     </h2>
     <BaseLink :to="{ path: '/', hash: '#corsi-online' }" class="btn btn-lg !no-underline">
       Vedi tutti i corsi
