@@ -86,7 +86,7 @@
         <div class="text-left bg-false-white border border-grey-lighter p-3 relative">
           <h3 class="text-base md:text-xl">
             <span class="text-xs">
-              Recesione da: <strong>{{ element.from }}</strong>
+              Messaggio da: <strong>{{ element.from }}</strong>
             </span>
             <br />
             {{ element.title }}

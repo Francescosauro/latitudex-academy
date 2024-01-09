@@ -68,7 +68,7 @@
         Vuoi sapere quando e dove è possibile organizzare un corso di formazione?
       </p>
     </header>
-    <div class="mb-4">
+    <!-- <div class="mb-4">
       <h5 class="text-base md:text-lg">
         <strong>Prenota un call</strong>
       </h5>
@@ -79,7 +79,7 @@
         </a>
         .
       </p>
-    </div>
+    </div> -->
     <div v-if="success" class="p-3 bg-primary-dark text-white rounded w-full prose">
       <h4 class="!text-white">Messaggio Inviato con successo.</h4>
       <p>Grazie per averci contattato, cercheremo di risponderti il prima possibile.</p>

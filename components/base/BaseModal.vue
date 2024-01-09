@@ -1,7 +1,8 @@
 <template>
   <div :id="modalId">
     <div
-      class="max-w-lg w-full mx-1 bg-white p-4 border border-grey-lighter fixed m-auto z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+      :class="'max-w-' + modalSize"
+      class="modal w-full mx-1 bg-white p-4 border border-grey-lighter fixed m-auto z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       @keydown.esc="$emit('close-modal')">
       <div class="flex justify-end mb-3">
         <BaseButton :aria-controls="modalId" aria-expanded="true" @click="$emit('close-modal')">
@@ -26,11 +27,15 @@ const props = defineProps({
   modalId: {
     type: String,
     default: 'base-modal',
+  },
+  modalSize: {
+    type: String,
+    default: 'lg'
   }
 })
 </script>
 <style lang="scss">
-.max-w-lg {
+.modal {
   z-index: 999;
   overflow-y: auto;
   max-height: 98vh;

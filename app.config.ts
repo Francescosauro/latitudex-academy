@@ -8,7 +8,7 @@ export default defineAppConfig({
     calendly: "#",
     facebook: "https://www.facebook.com/latitudex/",
     tiktok: "https://www.tiktok.com/@latitudex__academy",
-    instagram: "#",
+    instagram: "https://www.instagram.com/latitudex__academy/",
     cookieBanner: {
       desc: 'Utiliziamo cookie di terze parti per analizzare, in modo anonimo, come viene usato il sito.',
       acceptButton: 'Accetta',
@@ -20,14 +20,14 @@ export default defineAppConfig({
     {
       cover: "/copertina-corso-di-primo-soccorso.png",
       title: "Corso di primo soccorso",
-      description: "In uscita a gennaio 2024",
+      description: "In uscita a febbraio 2024",
       link: "/corso-primo-soccorso",
       isActive: true
     },
     {
       cover: "/copertina-corso-blsd.png",
       title: "Corso BLS-D certificato",
-      description: "In uscita a gennaio 2024",
+      description: "In uscita a febbraio 2024",
       link: "/corso-primo-soccorso",
       isActive: true
     },
@@ -113,7 +113,7 @@ export default defineAppConfig({
         "Istruttrice BLS-D qualificata",
         "Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
       ],
-      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      bio: "Padovana itinerante dal 1996. Cresciuta sotto il segno dell’Ariete, forse la causa del mio spirito dinamico e l’innata perseveranza nel raggiungere gli obiettivi. Appassionata dello Sport in tutte le sue forme e della Natura. Entusiasta e positiva per propria imposizione e personale missione. Laurea Magistrale - con Lode - in Medicina e Chirurgia presso l’Università patavina. Dopo la l’abilitazione alla professione di medico-chirurgo, ho iniziato ad occuparmi di formazione, ottenendo il ruolo di docente titolare dei corsi di Primo Soccorso aziendale. Attualmente sono medico formatore di dipendenti di diverse aziende, avvalendomi di metodiche sia pratiche che teoriche e mettendo a disposizione la mia esperienza come Soccorritrice nelle ambulanze della Croce Rossa Italiana e per il SUEM 118 di Padova. Dalla maggiore età non mi sono più fermata: ho intrapreso diversi viaggi e investito il mio tempo in esperienze che mi formassero dalla mente allo spirito. Chi mi conosce ha ricordi di me solo in movimento, seduta forse solo per mangiare, perché va sottolineato che lo studio della Scienza dell’Alimentazione è una mia grande passione. Insegnante di Yoga per convinto valore, sciatrice per amore. Negli ultimi anni la mia vita ha subito molti cambiamenti. È iniziato un percorso di approccio professionale a diverse discipline legate al mondo dell’Outdoor tra cui alpinismo, canyoning e arrampicata sportiva, ma soprattutto ho conosciuto Francesco. Insieme perseguiamo l’obiettivo di arricchire con sfide, emozioni ed esperienze il viaggio più importante in assoluto, la Vita. Orgogliosa content creator e video maker per passione ed esperienza: sono la creatrice di tutti i video del Canale Youtube di Latitude-X, attraverso i quali esprimo la mia creatività e immortalo le cascate di emozioni racchiuse in ogni singola avventura e sfida vissute. Assemblo e creo minuti di video fatti di storie, immagini e secondi vissuti che diano valore al dono più grande: il nostro tempo."
     },
     francesco: {
       picture: "/francesco-maria-sauro.jpg",
@@ -124,7 +124,7 @@ export default defineAppConfig({
         "Istruttore BLS-D qualificato",
         "Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118",
       ],
-      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      bio: "A 3 anni mio padre mi portò sul Becco di Filadonna in Vigolana. Però non ne lo zaino. Me la feci tutta a piedi, 1000 metri di dislivello. Ebbi la febbre per una settimana. Lì nacque l’amore per la montagna. A 4 anni, tanto ero alto, già non riuscivo a muovermi negli Optimist e seguivo sempre e solo la mia rotta, tra le imprecazioni degli istruttori. Lì nacque l’amore per il mare. Poi di onde, sentieri e pareti ne sono passate in questi anni. La Natura mi ha offerto e mi ha insegnato tanto. Sono diventato skipper appena ho potuto e poi Logistic Coordinator per Miles Beyond – società specializzata nel supporto tecnico e logistico in luoghi estremi. Dal 2017 sono il Logistic Coordinator dei training CAVES e PANGAEA dell’Agenzia Spaziale Europea e ho avuto la fortuna di partecipare in spedizioni in varie parti del Mondo, dalla Groenlandia al Messico, dal Venezuela al Perù, dalle Dolomiti alla Sardegna. Da (ormai troppi) anni mi dedico ai trekking, al free-climbing, all’alpinismo e scialpinismo. Ultimamente – e solo grazie a Giulia – cerco di portare nelle case degli italiani (cit. ☺) un po’ di queste esperienze. Dal 2011 sono soccorritore nelle ambulanze della Croce Rossa di Padova, con all'attivo più di 5.000 interventi di soccorso e sono istruttore di BLS-D e co-docente tecnico nei corsi di BLS. Dal 2019 sono operatore del CNSAS - Corpo Nazionale del Soccorso Alpino e Speleologico. Sono guida associata AssoGuide e skipper."
     },
     luca: {
       picture: "/luca-carenzo.jpg",
@@ -135,7 +135,7 @@ export default defineAppConfig({
         "Formatore e istruttore di simulazione avanzata in ambito di Trauma Critical Care e Disaster Medicine",
         "Diploma Europeo in Terapia Intensiva ed esperienza lavorativa di elisoccorso presso la London’s Air Ambulance",
       ],
-      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      bio: "Luca Carenzo, medico chirurgo, dopo la specializzazione in Anestesia e Rianimazione ha lavorato con Medici Senza Frontiere in aree a basse risorse e di conflitto e ha successivamente completato la Trauma Critical Care fellowship presso il Royal London Hospital di Londra. Ha inoltre conseguito il master di secondo livello European Master in Disaster Medicine e successivamente il Diploma Europeo in Terapia Intensiva, ha infine acquisito esperienza di elisoccorso lavorando per la London’s Air Ambulance. Attualmente si occupa di terapia intensiva generale ed emergenza presso l’Ospedale Humanitas di Milano. Dal 2012 ad oggi ha frequentato, prima come partecipante e successivamente come faculty, gli eventi formativi di World Extreme Medicine, presentando regolarmente ai congressi della società. Si interessa inoltre di formazione ed educazione, istruttore di simulazione avanzata, ha co-fondato nel 2015 SIMCUP evento nazionale di formazione in simulazione per medici specializzandi."
     }
   },
   recensioni: [
@@ -151,42 +151,42 @@ export default defineAppConfig({
       title: "«Ho evitato che mio figlio soffocasse!»",
       description: "È successo tutto molto velocemente. Eravamo a tavola e ho visto Giacomo che ha iniziato a diventare viola. Inizialmente mi ha preso il panico ma poi mi sono ricordata le manovre di disostruzione che mi avevate insegnato, allora l’ho preso in braccio e ho eseguito meccanicamente il protocollo di disostruzione. Non ho parole per esprimervi la mia gratitudine per avermi dato gli strumenti per agire e salvare mio figlio.",
       from: "Instagram",
-      by: "Nome Cognome"
+      by: "Andrea"
     },
     {
       cover: "/recensione-3.jpg",
       title: "«Quando ti capita, non puoi rimanere a guardare, vuoi agire!»",
       description: "Durante una passeggiata in montagna un componente del gruppo è scivolato dal sentiero in una zona per niente comoda e non riusciva più ad alzarsi. Non ho potuto fare molto dal punto di vista sanitario (abbiamo scoperta dopo che si era rotto il femore), se non gestire al meglio l’intervento, dalla chiamata dei soccorsi, al riscaldare il mio amico (avevo portato il telo termico per la prima volta), allo stargli vicino, al localizzarsi nel migliore dei modi (eravamo partiti ormai da 3 ore). E questo grazie ad aver seguito queste video lezioni.",
-      from: "Instagram",
-      by: "Nome Cognome"
+      from: "Whatsapp",
+      by: "Simona"
     },
     {
       cover: "/recensione-4.jpg",
       title: "«Ho apprezzato tanto il taglio pratico di questo video corso!»",
       description: "Avevo frequentato un corso di primo soccorso in azienda, mi era piaciuto ma sinceramente aveva un taglio eccessivamente teorico. Seguendo questo corso, invece, ho trovato la parte pratica molto interessante e utile veramente in ogni occasione della vita.",
-      from: "Instagram",
-      by: "Nome Cognome"
+      from: "TikTok",
+      by: "Francesco"
     },
     {
       cover: "/recensione-5.jpg",
       title: "«Ora sono in grado di riconoscere tempestivamente i segni d’allarme!»",
       description: "Qualche mese fa un mio collega ha iniziato a star male ma tutti, compreso lui, stavamo sottovalutando la situazione. Avendo fatto il corso da poco, mi sono ricordato, di alcuni sintomi importanti da valutare e alla fine ho preferito chiamare il 118. Il mio collega stava avendo un infarto, ma per fortuna è stato preso in tempo! Tanti segni e sintomi prima non li capivo o li ignoravo perché non ero in grado di riconoscerli.",
       from: "Instagram",
-      by: "Nome Cognome"
+      by: "Giuseppe"
     },
     {
       cover: "/recensione-6.jpg",
       title: "«Ho avuto tanta paura ma sapevo cosa fare»",
       description: "Stavo rientrando a casa quando ho sentito urlare dai garage del mio condominio. C’era un mio condomino che si era tagliato parte del braccio con un ferro e stava già perdendo molto sangue. Sono riuscito a tamponare la ferita nel migliore dei modi, farlo stendere e chiamare immediatamente i soccorsi che, anche grazie al mio intervento, l’hanno salvato. Per fortuna non mi è mai capitato di dover intervenire, però ho voluto frequentare lo stesso il corso per sentirmi più sicura in caso dovessi averne necessità.",
-      from: "Instagram",
-      by: "Nome Cognome"
+      from: "Facebook",
+      by: "Michele"
     },
     {
       cover: "/recensione-7.jpg",
       title: "«Quello che ho imparato posso applicarlo in ogni situazione»",
       description: "Durante una passeggiata in montagna un componente del gruppo è scivolato dal sentiero in una zona per niente comoda e non riusciva più ad alzarsi. Non ho potuto fare molto dal punto di vista sanitario (abbiamo scoperta dopo che si era rotto il femore), se non gestire al meglio l’intervento, dalla chiamata dei soccorsi, al riscaldare il mio amico (avevo portato il telo termico per la prima volta), allo stargli vicino, al localizzarsi nel migliore dei modi (eravamo partiti ormai da 3 ore). E questo grazie ad aver seguito queste video lezioni.",
-      from: "Instagram",
-      by: "Nome Cognome"
+      from: "Whatsapp",
+      by: "Martina"
     },
   ],
   sponsor: [
@@ -289,7 +289,7 @@ export default defineAppConfig({
     },
     {
       header: "Il corso BLSD per l’utilizzo del Defibrillatore, rilascia un attestato valido per legge?",
-      body: "Si! Acquistando il corso di BLS-D potrai richiedere, se ne avessi necessità, il rilascio del Certificato, oppure seguire il Video Corso ed imparare ad utilizzare il DAE correttamente. Quando uscirà il Corso online, verrà pubblicato un calendario dove sarà possibile prenotarsi in uno degli incontri programmati per ricevere il Certificato rilasciato da un Centro di Formazione accreditato al 118 regionale."
+      body: "Dipende! Il corso è strutturato affinché tu acquisisca tutte le competenze necessarie per utilizzare in maniera corretta il DAE, dato che, in caso di necessità, il suo utilizzo è consentito per legge a CHIUNQUE, anche non in possesso di alcun certificato. Quindi puoi acquistare il corso semplicemente per tua cultura personale, con la consapevolezza che, se dovesse servire, hai le competenze per utilizzare il DAE. Tuttavia, il corso online, NON è da solo sufficiente al rilascio dell’attestato all’utilizzo del Defibrillatore Automatico Esterno, essendo richiesta, per questo, anche una parte in presenza. Nel momento in cui acquisterai il corso di BLSD, se ne hai necessità, potrai richiedere il rilascio dell’attestato (che sarà emesso da un Ente di Formazione nostro partner accreditato presso il 118) per l’utilizzo del DAE, valido ai fini di legge. In questo caso, dovrai scegliere un luogo e una data tra quelle proposte nel nostro calendario, per effettuare la parte in presenza."
     },
     {
       header: "Posso vederli da qualsiasi dispositivo?",

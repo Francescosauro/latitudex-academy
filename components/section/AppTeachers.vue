@@ -81,9 +81,10 @@
       </div>
     </div>
   </section>
-
+<!-- <span class="max-w-2xl max-w-3xl"></span> -->
   <BaseModal
     v-if="isModalOpened"
+    :modal-size="'3xl'"
     @close-modal="isModalOpened = false"
     :modal-id="'bio-modal'">
     <div class="flex items-center space-x-4">
