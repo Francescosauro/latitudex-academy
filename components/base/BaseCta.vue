@@ -21,6 +21,7 @@
                 <input
                   type="email"
                   name="EMAIL"
+                  placeholder="Inserisci la tua email"
                   class="required email w-full p-2 border border-grey-light"
                   :id="'mce-EMAIL-' + inputIdNumber"
                   required="true"

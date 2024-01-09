@@ -116,9 +116,9 @@
 
 <script setup lang="ts">
 import AnimateHeight from "vue-animate-height";
-
+type HeightType = number | string
 const isClose = ref(true);
-const height = ref(320);
+const height: Ref<HeightType> = ref(320);
 const toggle = () => {
   isClose.value = !isClose.value;
   height.value = height.value === 320 ? "auto" : 320;

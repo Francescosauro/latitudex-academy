@@ -60,10 +60,10 @@
           <BaseIcon :icon="'award'" class="text-secondary mr-1" />
           <small>Attestato di completamento</small>
         </li>
-        <li class="inline-block p-1">
+        <!-- <li class="inline-block p-1">
           <BaseIcon :icon="'aid-kit'" class="text-secondary mr-1" />
           <small>Bonus: crea il tuo kit di primo soccorso</small>
-        </li>
+        </li> -->
       </ul>
       <div class="flex items-center m-auto max-w-lg mt-6">
         <BaseIcon :icon="'certificate'" :size="'xl'" class="text-primary mr-1" />
