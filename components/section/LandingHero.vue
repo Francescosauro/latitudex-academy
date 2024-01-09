@@ -33,7 +33,7 @@
         sizes="100vw sm:50vw md:591"
       />
       <p class="text-center text-lg md:-mt-20 md:mt-0 mt-4">
-        <strong>In uscita a gennaio 2024</strong>
+        <strong>In uscita a febbraio 2024</strong>
       </p>
       <ul class="list-none m-auto max-w-lg mt-3">
         <li class="inline-block p-1">
@@ -42,7 +42,7 @@
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'video'" class="text-secondary mr-1" />
-          <small>+150 minuti di video on-demand</small>
+          <small>+60 minuti di video on-demand</small>
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />

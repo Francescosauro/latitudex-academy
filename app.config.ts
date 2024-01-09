@@ -190,10 +190,10 @@ export default defineAppConfig({
     },
   ],
   sponsor: [
-    {
-      name: "Alpamayo",
-      src: "logo-grupo-alpamayo-tours.jpg"
-    },
+    // {
+    //   name: "Alpamayo",
+    //   src: "logo-grupo-alpamayo-tours.jpg"
+    // },
     {
       name: "Assoguide",
       src: "assoguidelogo.jpg"
@@ -218,24 +218,22 @@ export default defineAppConfig({
       name: "Staff P&P",
       src: "staffpep.jpg"
     },
-    {
-      name: "Alpamayo",
-      src: "alpamayo.png"
-    },
-
+    // {
+    //   name: "Alpamayo",
+    //   src: "alpamayo.png"
+    // },
     {
       name: "Atena",
       src: "atena.jpeg"
     },
-    {
-      name: "Consilia",
-      src: "consilia.png"
-    },
+    // {
+    //   name: "Consilia",
+    //   src: "consilia.png"
+    // },
     {
       name: "DNA Formazione",
       src: "dna-formazione.png"
     },
-
     {
       name: "Forema",
       src: "forema.png"
@@ -256,10 +254,17 @@ export default defineAppConfig({
       name: "Omnia",
       src: "omnia.jpeg"
     },
-
     {
       name: "Sinergika",
       src: "sinergika.png"
+    },
+    {
+      name: "Sappi",
+      src: "sappi.jpeg"
+    },
+    {
+      name: "Re engineering",
+      src: "re-engineering.jpeg"
     },
   ],
   faq: [
