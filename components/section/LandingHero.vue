@@ -42,7 +42,7 @@
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'video'" class="text-secondary mr-1" />
-          <small>+60 minuti di video on-demand</small>
+          <small>+150 minuti di video on-demand</small>
         </li>
         <li class="inline-block p-1">
           <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />
