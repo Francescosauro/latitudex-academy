@@ -11,7 +11,7 @@
         novalidate="false"
         @submit.prevent="triggerEvent()">
         <div id="mc_embed_signup_scroll">
-          <h3 class="!text-lg !sm:text-3xl">Prenota ora e ottieni il 10% di sconto</h3>
+          <h3 class="!text-base !sm:text-2xl">Inserisci l'email e ottieni il 10% di sconto</h3>
           <div class="flex">
             <div class="flex-1">
               <div class="mc-field-group">
@@ -21,7 +21,7 @@
                 <input
                   type="email"
                   name="EMAIL"
-                  placeholder="Inserisci la tua email"
+                  placeholder="La tua email"
                   class="required email w-full p-2 border border-grey-light"
                   :id="'mce-EMAIL-' + inputIdNumber"
                   required="true"
