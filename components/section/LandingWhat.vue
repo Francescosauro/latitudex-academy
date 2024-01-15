@@ -33,6 +33,10 @@
               <BaseIcon :icon="'clipboard-plus'" class="text-secondary mr-1" />
               <small>Docenti medici qualificati</small>
             </li>
+            <li class="inline-block p-1">
+              <BaseIcon :icon="'mobile'" class="text-secondary mr-1" />
+              <small>Accessibile da qualunque dispositivo</small>
+            </li>
           </ul>
         </div>
         <div class="md:w-1/2 prose mt-8 md:mt-0">
