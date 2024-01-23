@@ -172,7 +172,7 @@ const openFormModal = () => {
     if (modalEmail.value) modalEmail.value.focus()
   }, 100)
 };
-
+const gtm = useGtm()
 const submitForm = async () => {
   isLoading.value = true;
   const regex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -211,6 +211,16 @@ const submitForm = async () => {
       formFeedback.value = null;
       isLoading.value = false;
       success.value = true;
+      if (gtm) {
+        gtm.trackEvent({
+          event: 'Richiesta info',
+          category: 'click-track',
+          action: 'click',
+          label: 'Richiesta info per corsi in presenza',
+          value: 5000,
+          noninteraction: false,
+        })
+      }
     }
   });
 };

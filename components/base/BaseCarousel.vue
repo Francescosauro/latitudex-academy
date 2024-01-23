@@ -129,7 +129,7 @@ const gtm = useGtm()
 const triggerEvent = (type: string) => {
   if(!gtm) return
   gtm.trackEvent({
-    event: 'opt-in click',
+    event: 'Click su carosello',
     category: 'click-track',
     action: 'click',
     label: 'Click corsi ' + type,

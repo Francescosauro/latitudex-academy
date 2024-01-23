@@ -42,6 +42,7 @@ const router = useRouter()
 const email = ref(route.query.email)
 const destination = ref(route.query.destination)
 const timer = ref(3)
+const gtm = useGtm()
 
 watch(timer, () => {
   if (timer.value > 0) {
@@ -54,6 +55,16 @@ watch(timer, () => {
 onMounted(() => {
   setTimeout(() => {
     if (destination.value === 'mailchimp' && subscriptionForm.value) {
+      if (gtm) {
+        gtm.trackEvent({
+          event: 'Iscrizione mail',
+          category: 'click-track',
+          action: 'click',
+          label: 'Iscrizione mail corsi online',
+          value: 5000,
+          noninteraction: false,
+        })
+      }
       subscriptionForm.value.submit()
     } else {
       router.push({ path: "/" })
