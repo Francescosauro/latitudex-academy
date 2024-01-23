@@ -1,7 +1,7 @@
 export default defineAppConfig({
   info: {
     domain: "https://latitudex.academy",
-    tel: "+393405831663",
+    tel: "+393487865174",
     mail: "info.latitudex@gmail.com",
     address: "via dell’industria 23/A. 35129, Padova",
     iva: "05555820280",
