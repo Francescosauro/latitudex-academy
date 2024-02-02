@@ -5,7 +5,25 @@
     <LandingWhy></LandingWhy>
     <LandingVideo></LandingVideo>
     <LandingWhat></LandingWhat>
-    <AppTeachers></AppTeachers>
+    TODO: LandingComics
+
+    <section class="py-10">
+      <div class="wrapper">
+        <div class="md:flex md:space-x-4">
+          <div class="md:w-1/2 prose">
+            <LandingContent></LandingContent>
+          </div>
+          <div class="md:w-1/2 prose">
+            <LandingHow></LandingHow>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    TODO: LandingContent
+    TODO: LandingHow
+    <HomeTeachers></HomeTeachers>
+    <HomeReviews></HomeReviews>
   </main>
   <LandingFooter></LandingFooter>
 </template>

@@ -4,8 +4,8 @@
       Per <b>salvare</b> la vita a chi vuoi bene. Imparare a farlo è alla portata di
       <b>tutti</b>
     </h2>
-    <div class="prose text-left max-w-xl m-auto">
-      <BaseCta :inputIdNumber="2" />
+    <div class="prose text-left max-w-xl m-auto" id="acquista">
+      TODO: ProductCta
     </div>
   </div>
   <div class="max-w-3xl m-auto mb-10" id="faq">
