@@ -2,8 +2,8 @@
   <section class="gradient-bg pb-10">
     <div class="texture-bg">
       <div class="wrapper relative">
-        <SectionAppHero></SectionAppHero>
-        <SectionAppBentoGrid></SectionAppBentoGrid>
+        <HomeHero></HomeHero>
+        <HomeBentoGrid></HomeBentoGrid>
       </div>
     </div>
   </section>
@@ -31,7 +31,7 @@
     </div>
   </section>
 
-  <SectionAppTeachers></SectionAppTeachers>
+  <HomeTeachers></HomeTeachers>
 
   <section class="py-8 bg-primary-lighter">
     <div class="wrapper">
@@ -49,11 +49,11 @@
   <section class="bg-false-white py-8">
     <div class="wrapper">
       <h3 class="text-xl md:text-3xl text-center">I nostri partner</h3>
-      <SectionAppSponsor></SectionAppSponsor>
+      <HomeSponsor></HomeSponsor>
 
       <div class="max-w-3xl m-auto mt-16 mb-6">
         <div id="contatti">
-          <SectionAppContact></SectionAppContact>
+          <HomeContact></HomeContact>
         </div>
       </div>
     </div>

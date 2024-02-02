@@ -1,11 +1,11 @@
 <template>
   <LandingHeader></LandingHeader>
   <main>
-    <SectionLandingHero></SectionLandingHero>
-    <SectionLandingWhy></SectionLandingWhy>
-    <SectionLandingVideo></SectionLandingVideo>
-    <SectionAppTeachers></SectionAppTeachers>
-    <SectionLandingWhat></SectionLandingWhat>
+    <LandingHero></LandingHero>
+    <LandingWhy></LandingWhy>
+    <LandingVideo></LandingVideo>
+    <LandingWhat></LandingWhat>
+    <AppTeachers></AppTeachers>
   </main>
   <LandingFooter></LandingFooter>
 </template>
