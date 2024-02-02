@@ -10,8 +10,7 @@
             width="571"
             height="401"
             format="webp"
-            sizes="100vw sm:50vw md:571"
-          />
+            sizes="100vw sm:50vw md:571" />
           <ul class="list-none mt-3">
             <li class="inline-block p-1">
               <BaseIcon :icon="'reload'" class="text-secondary mr-1" />
@@ -38,6 +37,18 @@
               <small>Accessibile da qualunque dispositivo</small>
             </li>
           </ul>
+
+          <BaseButton
+            class="btn btn-outline mt-4"
+            aria-controls="modal-video"
+            :aria-expanded="isModalOpened"
+            aria-haspopup="true"
+            @click="modalToggle"
+            :title="isModalOpened ? 'Chiudi l’anteprima del corso' : 'Apri l’anteprima del corso'"
+            :aria-label="isModalOpened ? 'Chiudi l’anteprima del corso' : 'Apri l’anteprima del corso'">
+            <BaseIcon :icon="'movie'" class="mr-1" />
+            Guarda l’anteprima del corso
+          </BaseButton>
         </div>
         <div class="md:w-1/2 prose mt-8 md:mt-0">
           <p class="!mb-2 uppercase">Cosa imparerai</p>
@@ -47,7 +58,7 @@
           <p>
             Seguirai un <b>percorso completo</b> che ti insegnerà da zero <b>tutte le manovre</b>
             essenziali per prestare un efficace primo soccorso. Lezioni interattive e
-            ricche di <b>esempi pratici</b> ti aspettano. <strong>Pronto a diventare un soccorritore?</strong> 
+            ricche di <b>esempi pratici</b> ti aspettano. <strong>Pronto a diventare un soccorritore?</strong>
           </p>
           <h3>Imparerai a:</h3>
           <ul>
@@ -69,8 +80,18 @@
       </div>
     </div>
   </section>
+
+  <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false" :modal-id="'modal-video'" :modal-size="'2xl'">
+    <iframe width="100%" height="320" src="https://www.youtube-nocookie.com/embed/dpr68dtEC9o?si=J70PNY2A1vY1-xgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </BaseModal>
 </template>
 
+<script setup lang="ts">
+const isModalOpened = ref(false);
+const modalToggle = () => {
+  isModalOpened.value = !isModalOpened.value;
+};
+</script>
 <style lang="scss" scoped>
 ul {
   li {
