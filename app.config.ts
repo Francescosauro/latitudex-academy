@@ -606,5 +606,47 @@ export default defineAppConfig({
         ]
       },
     ],
-  }
+  },
+  comics: [
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+    {
+      header: "Tanto poi non ho il coraggio di farlo",
+      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+    },
+  ]
 })

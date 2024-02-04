@@ -5,8 +5,7 @@
     <LandingWhy></LandingWhy>
     <LandingVideo></LandingVideo>
     <LandingWhat></LandingWhat>
-    TODO: LandingComics
-
+    <LandingComics></LandingComics>
     <section class="py-10">
       <div class="wrapper">
         <div class="md:flex md:space-x-4">
