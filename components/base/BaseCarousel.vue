@@ -100,6 +100,8 @@
         </div>
       </article>
     </Slide>
+    <Slide v-if="type === 'comics'" v-for="(element, index) in elements" :key="index">
+    </Slide>
     <template #addons>
       <div class="flex justify-center mt-5 text-primary">
         <Navigation />
