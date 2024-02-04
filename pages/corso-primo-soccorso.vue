@@ -10,10 +10,10 @@
     <section class="py-10">
       <div class="wrapper">
         <div class="md:flex md:space-x-4">
-          <div class="md:w-1/2 prose">
+          <div class="md:w-1/2">
             <LandingContent></LandingContent>
           </div>
-          <div class="md:w-1/2 prose">
+          <div class="md:w-1/2">
             <LandingHow></LandingHow>
           </div>
         </div>
