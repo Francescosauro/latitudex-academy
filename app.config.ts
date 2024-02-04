@@ -312,5 +312,299 @@ export default defineAppConfig({
       header: "Posso vedere i corsi anche se non ho internet?",
       body: "Tutti i video sono registrati e potrai vederli in differita dove e quando vuoi dal tuo PC o tablet o smartphone senza limitazioni. Solamente l'accesso alla piattaforma richiede connessione internet."
     },
-  ]
+  ],
+  coursesContent: {
+    primoSoccorso: [
+      {
+        header: {
+          title: "Primo soccorso - titolo - 1",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "Primo soccorso - titolo - 2",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "Primo soccorso - titolo - 3",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "Primo soccorso - titolo - 4",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "Primo soccorso - titolo - 5",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "Primo soccorso - titolo - 6",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+    ],
+    blsd: [
+      {
+        header: {
+          title: "BLSD - titolo - 1",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "BLSD - titolo - 2",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "BLSD - titolo - 3",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "BLSD - titolo - 4",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "BLSD - titolo - 5",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+      {
+        header: {
+          title: "BLSD - titolo - 6",
+          time: "4 lezioni - X min",
+        },
+        body: [
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+          {
+            title: 'Captiolo',
+            time: '05:00 min'
+          },
+        ]
+      },
+    ],
+  }
 })
