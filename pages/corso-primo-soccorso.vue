@@ -18,9 +18,6 @@
         </div>
       </div>
     </section>
-
-    TODO: LandingContent
-    TODO: LandingHow
     <HomeTeachers></HomeTeachers>
     <HomeReviews></HomeReviews>
   </main>

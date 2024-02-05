@@ -127,10 +127,12 @@
   .btn-sm {
     @apply py-1 px-2 text-sm;
   }
+
   .btn-outline {
     background-color: transparent;
     @apply border border-accent;
   }
+
   .btn-lg {
     @apply py-3 px-6 text-lg;
   }
@@ -171,6 +173,7 @@
     text-transform: uppercase;
     @apply text-sm;
   }
+
   .img-spacer {
     display: block;
     z-index: 1;
@@ -235,9 +238,37 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   .text-gradient-secondary {
     background: linear-gradient(to right bottom, #985110, #F3954A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+}
+
+/*Carousel*/
+.carousel:focus-visible {
+  outline: none;
+  border: none;
+}
+
+.carousel__slide {
+  align-items: start !important;
+}
+
+.carousel__prev,
+.carousel__next {
+  position: static !important;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+.carousel__next path,
+.carousel__prev path {
+  fill: #57989b;
+}
+
+.carousel__next--disabled path,
+.carousel__prev--disabled path {
+  fill: #7d7d7d;
 }
