@@ -8,28 +8,11 @@
     </div>
   </section>
 
-  <section id="corsi-online" class="py-8 bg-false-white">
-    <div class="wrapper">
-      <h3 class="text-2xl mb-4">
-        <span class="eyebrown">Formazione</span>
-        <strong>Corsi online</strong>
-      </h3>
-      <BaseCarousel :elements="appConfig.corsiOnLine"></BaseCarousel>
-    </div>
-  </section>
-  <section id="corsi-presenza" class="py-8 bg-primary-lighter">
-    <div class="wrapper">
-      <h3 class="text-2xl mb-4">
-        <span class="eyebrown">Formazione</span>
-        <strong>Corsi in presenza</strong>
-      </h3>
-      <BaseCarousel
-        :elements="appConfig.corsiInPresenza"
-        :type="'presenza'"
-        :is-modal-opened="isFormModalOpened"
-        @modal-call="openFormModal()"></BaseCarousel>
-    </div>
-  </section>
+  <HomeCoursesOnline></HomeCoursesOnline>
+  <HomeCoursesInPresence
+    :is-modal-opened="isFormModalOpened"
+    @modal-call="openFormModal()">
+  </HomeCoursesInPresence>
 
   <HomeTeachers></HomeTeachers>
   <HomeReviews></HomeReviews>
