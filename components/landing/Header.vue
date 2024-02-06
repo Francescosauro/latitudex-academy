@@ -61,7 +61,7 @@
             </BaseLink>
           </li>
           <li>
-            <BaseLink class="btn !no-underline max-w-sm" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
+            <BaseLink class="btn !no-underline max-w-sm" @click="isOpen = false" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
               <strong>Acquista</strong>
             </BaseLink>
           </li>
