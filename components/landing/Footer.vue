@@ -4,11 +4,9 @@
       Per <b>salvare</b> la vita a chi vuoi bene. Imparare a farlo è alla portata di
       <b>tutti</b>
     </h2>
-    <div class="prose text-left max-w-xl m-auto" id="acquista">
-      TODO: ProductCta
-    </div>
   </div>
-  <div class="max-w-3xl m-auto mb-10" id="faq">
+  <LandingProductCta></LandingProductCta>
+  <div class="max-w-3xl m-auto my-10" id="faq">
     <h3 class="text-xl md:text-3xl mb-8">
       <strong>FAQ</strong> <br />
       <small class="text-sm">Le domande che ci fate più spesso</small>

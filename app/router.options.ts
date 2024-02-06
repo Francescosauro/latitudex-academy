@@ -7,7 +7,7 @@ export default <RouterConfig> {
 
       return {
         el: to.hash,
-        top: 80,
+        top: 100,
         behavior: 'smooth'
       }
     } else if (savedPosition) {

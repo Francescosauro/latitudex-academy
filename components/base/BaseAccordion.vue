@@ -38,7 +38,7 @@
         v-if="opened === 'accordion-' + index"
         :id="'accordion-' + index">
         <p
-          class="text-base"
+          class="text-sm"
           v-if="typeof element.header === 'string'">
           {{ element.body }}
         </p>
