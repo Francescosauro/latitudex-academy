@@ -21,14 +21,14 @@ export default defineAppConfig({
       cover: "/copertina-corso-di-primo-soccorso.png",
       title: "Corso di primo soccorso",
       description: "In uscita a febbraio 2024",
-      link: "/corso-primo-soccorso",
+      link: "/corso-primo-soccorso-e-blsd",
       isActive: true
     },
     {
       cover: "/copertina-corso-blsd.png",
       title: "Corso BLS-D certificato",
       description: "In uscita a febbraio 2024",
-      link: "/corso-primo-soccorso",
+      link: "/corso-primo-soccorso-e-blsd",
       isActive: true
     },
     {
@@ -270,7 +270,7 @@ export default defineAppConfig({
   faq: [
     {
       header: "Quando saranno disponibi i video corsi?",
-      body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
+      body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso-e-blsd, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
     },
     {
       header: "Come posso imparare a salvare la vita con questa guida online?",
