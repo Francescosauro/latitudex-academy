@@ -51,11 +51,11 @@ const appConfig = useAppConfig();
 const settings = reactive({
   itemsToShow: 1.2,
   i18n: {
-    ariaNextSlide: "Vai al corso successivo",
-    ariaPreviousSlide: "Vai al corso precedente",
-    ariaNavigateToSlide: "Vai al corso {slideNumber}",
+    ariaNextSlide: "Vai al messaggio successivo",
+    ariaPreviousSlide: "Vai al messaggio precedente",
+    ariaNavigateToSlide: "Vai al messaggio {slideNumber}",
     ariaGallery: "Galleria",
-    itemXofY: "Corso {currentSlide} di {slidesCount}",
+    itemXofY: "Messaggio {currentSlide} di {slidesCount}",
     iconArrowRight: "Vai verso destra",
     iconArrowLeft: "Vai verso sinistra",
   },

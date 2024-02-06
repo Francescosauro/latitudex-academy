@@ -268,10 +268,10 @@ export default defineAppConfig({
     },
   ],
   faq: [
-    {
-      header: "Quando saranno disponibi i video corsi?",
-      body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso-e-blsd, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
-    },
+    // {
+    //   header: "Quando saranno disponibi i video corsi?",
+    //   body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso-e-blsd, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
+    // },
     {
       header: "Come posso imparare a salvare la vita con questa guida online?",
       body: "Nel Video Corso troverai più di 35 video-lezioni che tratteranno tutti i temi fondamentali del primo soccorso. Seguirai un percorso completo che ti insegnerà da zero tutte le manovre essenziali per prestare un efficace primo soccorso. Lezioni interattive e ricche di esempi pratici ti aspettano. Pronto a diventare un soccorritore?"
@@ -613,40 +613,36 @@ export default defineAppConfig({
       body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Ho paura di peggiorare la situazione",
+      body: "In quel momento un semplice massaggio può salvare la vita della persona, puoi solo fare bene, anche se il massaggio non è perfetto, anche se poco avrà efficacia"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Se poi non so cosa fare",
+      body: "Se a star male è un tuo parente, desidererei agire in qualunque modo e se impari dei protocolli semplici e chiari, saprai sempre come agire. La semplicità è la migliore arma per agire in situazioni di stress"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "È troppo difficile per me",
+      body: "Sono manovre che CHIUNQUE può imparare a fare, persino alcuni cani vengono addestrati a fare il massaggio cardiaco. Se loro possono, anche tu devi"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Tanto a me non capita",
+      body: "Ogni giorno ci sono XXX (dati) i numeri sono chiari, ogni giorno leggiamo di notizie di malori o soffocamenti e di situazioni in cui i Soccorsi avanzati arrivano troppo tardi"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Adesso non ho tempo",
+      body: "Chiunque dovrebbe imparare le basi del primo soccorso: sono manovre così semplici ma così fondamentali che TUTTI dovrebbero imparare a fare. Ognuno di noi, se dovesse capitare di andare in arresto cardiaco, vorrebbe che qualcuno almeno provasse a salvargli la vita"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Come posso imparare da un video corso",
+      body: "Nulla è complesso se qualcuno ti spiega la giusta tecnica e il perché di ogni azione. Il Video corso ti permetterà di avere una visione completa grazie all'ausilio della tecnologia, su ogni dettaglio importante"
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Adesso non è il momento giusto",
+      body: "Non rimandare, non ci sarà mai il momento perfetto e ricorda che il miglior chirurgo e tu, fuori dall'ospedale, avete le stesse armi per agire: le mani."
     },
     {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
-    },
-    {
-      header: "Tanto poi non ho il coraggio di farlo",
-      body: "La paura nasce dal non essere sicuri su cosa fare, se invece ci viene insegnato in maniera semplice e chiara le manovre, l'essere sicuri di sé è l'arma per vincere il panico"
+      header: "Non sono portato per questo",
+      body: "Questa frase non basterebbe a pulirti la coscienza se ad avere bisogno è un tuo famigliare... provaci e vedrai che è alla portata di tutti"
     },
   ]
 })

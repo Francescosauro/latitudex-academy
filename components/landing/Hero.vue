@@ -47,7 +47,7 @@
         format="webp"
         :lazy="false"
         sizes="100vw sm:50vw md:591" />
-      <ul class="list-none m-auto max-w-lg -mt-8">
+      <ul class="list-none m-auto max-w-lg mt-4 md:-mt-8">
         <li class="inline-block p-1">
           <BaseIcon :icon="'run'" class="text-secondary mr-1" />
           <small>Lezioni teoriche e pratiche</small>
