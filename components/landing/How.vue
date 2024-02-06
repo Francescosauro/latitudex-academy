@@ -1,9 +1,9 @@
 <template>
-  <div class="prose sticky top-1">
+  <div class="prose sticky top-20 mt-6 md:mt-0">
     <h2 class="mt-0">
       Come funziona
     </h2>
-    <ol>
+    <ol class="text-sm">
       <li>Acquisiti il corso e accedi alla piattaforma con XXX</li>
       <li>Guardi i video quando puoi, scegli tu i tempi</li>
       <li>Superi il test finale di valutazione</li>
