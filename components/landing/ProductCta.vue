@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-8 mt-8 bg-primary-darker text-white" id="acquista">
+  <section class="pt-8 lg:mt-8 bg-primary-darker text-white" id="acquista">
     <div class="wrapper lg:flex lg:space-x-4 justify-between">
       <div class="lg:w-1/3 max-w-xl mx-auto mb-6">
         <h2 class="text-3xl font-bold mb-4">
