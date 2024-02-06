@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primary-lighter pt-10 pb-3 mt-10">
+  <section class="bg-primary-lighter pt-10 pb-3 mt-10" id="perche">
     <div class="wrapper">
       <div class="md:flex md:space-x-4">
         <header class="md:w-1/3 prose mb-5">

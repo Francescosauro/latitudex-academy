@@ -9,9 +9,6 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     '@zadigetvoltaire/nuxt-gtm',
   ],
-  router: {
-    options: { scrollBehaviorType: 'smooth' }
-  },
   gtag: {
     id: 'G-P9GVHXN1R0',
     initialConsent: false

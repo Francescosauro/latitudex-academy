@@ -18,6 +18,7 @@
       <strong>{{ timer }} secondi ...</strong>
     </p>
     <form
+      v-if="destination === 'mailchimp'"
       aria-hidden="true"
       class="hidden"
       ref="subscriptionForm"
