@@ -30,7 +30,7 @@
         </p>
       </div>
       <div class="text-center mt-3">
-        <BaseLink class="btn btn-lg !no-underline" :is-link="true" :to="{ path: '/corso-primo-soccorso', hash: '#acquista' }">
+        <BaseLink class="btn btn-lg !no-underline" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
           <strong>Acquista</strong>
         </BaseLink>
       </div>

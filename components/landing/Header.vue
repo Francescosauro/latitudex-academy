@@ -31,27 +31,27 @@
       <nav class="hidden xl:block" id="main-menu">
         <ul class="inline-flex space-x-6 items-center">
           <li>
-            <BaseLink :to="{ path: '/corso-primo-soccorso', hash: '#perche' }" @click="isOpen = false">
+            <BaseLink :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#perche' }" @click="isOpen = false">
               <span>Perché serve</span>
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="{ path: '/corso-primo-soccorso', hash: '#cosa' }" @click="isOpen = false">
+            <BaseLink :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#cosa' }" @click="isOpen = false">
               <span>Cosa imparerai</span>
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="{ path: '/corso-primo-soccorso', hash: '#contenuti' }" @click="isOpen = false">
+            <BaseLink :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#contenuti' }" @click="isOpen = false">
               <span>Contenuto dei corsi</span>
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="{ path: '/corso-primo-soccorso', hash: '#chi-siamo' }" @click="isOpen = false">
+            <BaseLink :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#chi-siamo' }" @click="isOpen = false">
               <span>Docenti</span>
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="{ path: '/corso-primo-soccorso', hash: '#faq' }" @click="isOpen = false">
+            <BaseLink :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#faq' }" @click="isOpen = false">
               <span>FAQ</span>
             </BaseLink>
           </li>
@@ -61,7 +61,7 @@
             </BaseLink>
           </li>
           <li>
-            <BaseLink class="btn !no-underline max-w-sm" :is-link="true" :to="{ path: '/corso-primo-soccorso', hash: '#acquista' }">
+            <BaseLink class="btn !no-underline max-w-sm" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
               <strong>Acquista</strong>
             </BaseLink>
           </li>

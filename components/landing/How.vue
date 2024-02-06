@@ -21,7 +21,7 @@
       Tutti i video si trovano su un’unica piattaforma semplice e intuitva da usare, grazie a XXX.
     </p>
     <div class="text-center">
-      <BaseLink class="btn btn-lg !no-underline" :is-link="true" :to="{ path: '/corso-primo-soccorso', hash: '#acquista' }">
+      <BaseLink class="btn btn-lg !no-underline" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
         <strong>Acquista</strong>
       </BaseLink>
     </div>
