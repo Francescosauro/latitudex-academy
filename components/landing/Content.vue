@@ -1,5 +1,5 @@
 <template>
-  <div class="prose">
+  <div class="prose" id="contenuti">
     <p class="!mb-2 uppercase text-sm">Contenuto dei corsi</p>
     <h3 class="!mt-0">
       Corso di primo soccorso

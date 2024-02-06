@@ -1,6 +1,6 @@
 <template>
   <div class="py-10 bg-primary-lighter">
-    <div class="wrapper md:flex">
+    <div class="wrapper md:flex overflow-hidden">
       <h2 class="font-bold text-3xl md:max-w-sm md:mr-4 flex-none">
         Non devi essere un eroe per salvare una vita, basta sapere come si fa, è semplice!
       </h2>

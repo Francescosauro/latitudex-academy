@@ -1,5 +1,5 @@
 <template>
-  <section class="py-10">
+  <section class="py-10" id="cosa">
     <div class="wrapper">
       <div class="md:flex md:space-x-4">
         <div class="md:w-1/2">
