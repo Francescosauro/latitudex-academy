@@ -6,7 +6,7 @@
           <BaseImage
             :src="'mockup-video.png'"
             alt=""
-            class="mb-0"
+            class="mb-0 w-full"
             width="571"
             height="401"
             format="webp"
