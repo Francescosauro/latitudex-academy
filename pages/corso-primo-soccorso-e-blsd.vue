@@ -4,6 +4,7 @@
     <LandingHero></LandingHero>
     <LandingWhy></LandingWhy>
     <LandingVideo></LandingVideo>
+    <LandingChain></LandingChain>
     <LandingWhat></LandingWhat>
     <LandingComics></LandingComics>
     <section class="py-10">
