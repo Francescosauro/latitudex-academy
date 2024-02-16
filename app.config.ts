@@ -18,39 +18,54 @@ export default defineAppConfig({
   },
   corsiOnLine: [
     {
+      id: "primo-soccorso",
       cover: "/copertina-corso-di-primo-soccorso.png",
       title: "Corso di primo soccorso",
       description: "",
       link: "/corso-primo-soccorso-e-blsd",
-      isActive: true
+      isActive: true,
+      purchaesUrl: '#',
+      price: "00,00"
     },
     {
+      id: "blsd",
       cover: "/copertina-corso-blsd.png",
       title: "Corso BLS-D certificato",
       description: "",
       link: "/corso-primo-soccorso-e-blsd",
-      isActive: true
+      isActive: true,
+      purchaesUrl: '#',
+      price: "00,00"
     },
     {
+      id: "pediatrico",
       cover: "/copertina-corso-di-primo-soccorso-pediatrico.png",
       title: "Corso di soccorso pediatrico",
       description: "In programma",
       link: "#",
-      isActive: false
+      isActive: false,
+      purchaesUrl: '#',
+      price: "00,00"
     },
     {
+      id: "aziendale",
       cover: "/copertina-corso-di-primo-soccorso-aziendale.png",
       title: "Primo Soccorso Aziendale",
       description: "In programma",
       link: "#",
-      isActive: false
+      isActive: false,
+      purchaesUrl: '#',
+      price: "00,00"
     },
     {
+      id: "outdoor",
       cover: "/copertina-corso-di-primo-soccorso-outdoor.png",
       title: "Primo Soccorso Outdoor",
       description: "In programma",
       link: "#",
-      isActive: false
+      isActive: false,
+      purchaesUrl: '#',
+      price: "00,00"
     },
   ],
   corsiInPresenza: [
