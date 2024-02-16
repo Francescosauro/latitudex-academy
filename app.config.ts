@@ -20,14 +20,14 @@ export default defineAppConfig({
     {
       cover: "/copertina-corso-di-primo-soccorso.png",
       title: "Corso di primo soccorso",
-      description: "In uscita a febbraio 2024",
+      description: "",
       link: "/corso-primo-soccorso-e-blsd",
       isActive: true
     },
     {
       cover: "/copertina-corso-blsd.png",
       title: "Corso BLS-D certificato",
-      description: "In uscita a febbraio 2024",
+      description: "",
       link: "/corso-primo-soccorso-e-blsd",
       isActive: true
     },

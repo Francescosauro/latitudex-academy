@@ -1,6 +1,6 @@
 <template>
   <header
-    class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-10 shadow"
+    class="sticky top-0 bg-false-white-opacity backdrop-blur-md z-[99] shadow"
     :class="{ 'is-open': isOpen }"
     @keydown.esc="isOpen = false">
     <div class="wrapper flex py-2 justify-between items-center">
