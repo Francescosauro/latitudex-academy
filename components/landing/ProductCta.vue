@@ -18,20 +18,20 @@
           class="lg:-mt-16 -mb-1"
           format="webp"
           sizes="100vw sm:50vw lg:390" />
-          <div class="bg-false-white text-center space-y-2 text-black py-4">
-            <p class="uppercase">
-              <strong>Corso di primo soccorso</strong>
-            </p>
-            <p class="text-5xl">
-              00,00 €
-            </p>
-            <small class="text-xs block">
-              iva inclusa
-            </small>
-            <BaseLink class="btn !no-underline " :is-link="true" :to="'#'">
-              <strong>Acquista ora</strong>
-            </BaseLink>
-          </div>
+        <div class="bg-false-white text-center space-y-2 text-black py-4">
+          <p class="uppercase">
+            <strong>Corso di primo soccorso</strong>
+          </p>
+          <p class="text-5xl">
+            {{ getPrice('primo-soccorso') }} €
+          </p>
+          <small class="text-xs block">
+            iva inclusa
+          </small>
+          <BaseLink class="btn !no-underline" target="_blank" :is-link="true" :to="getPurchaseUrl('primo-soccorso')">
+            <strong>Acquista ora</strong>
+          </BaseLink>
+        </div>
       </div>
       <div class="purchase-box box-down">
         <BaseImage
@@ -42,20 +42,20 @@
           class="lg:-mt-16 -mb-1"
           format="webp"
           sizes="100vw sm:50vw lg:390" />
-          <div class="bg-false-white text-center space-y-2 text-black py-4">
-            <p class="uppercase">
-              <strong>Corso di BLS-D certificato</strong>
-            </p>
-            <p class="text-5xl">
-              00,00 €
-            </p>
-            <small class="text-xs block">
-              iva inclusa
-            </small>
-            <BaseLink class="btn !no-underline " :is-link="true" :to="'#'">
-              <strong>Acquista ora</strong>
-            </BaseLink>
-          </div>
+        <div class="bg-false-white text-center space-y-2 text-black py-4">
+          <p class="uppercase">
+            <strong>Corso di BLS-D certificato</strong>
+          </p>
+          <p class="text-5xl">
+            {{ getPrice('blsd') }} €
+          </p>
+          <small class="text-xs block">
+            iva inclusa
+          </small>
+          <BaseLink class="btn !no-underline" target="_blank" :is-link="true" :to="getPurchaseUrl('blsd')">
+            <strong>Acquista ora</strong>
+          </BaseLink>
+        </div>
       </div>
     </div>
   </section>
@@ -63,6 +63,21 @@
 
 <script lang="ts" setup>
 const appConfig = useAppConfig();
+const getPurchaseUrl = (course: string) => {
+  let url = ''
+  appConfig.corsiOnLine.forEach(el => {
+    if (el.id === course) url = el.purchaesUrl
+  })
+  return url
+}
+const getPrice = (course: string) => {
+  let price = ''
+  appConfig.corsiOnLine.forEach(el => {
+    if (el.id === course) price = el.price
+  })
+  return price
+}
+
 </script>
 
 <style scoped lang="scss">
@@ -70,10 +85,12 @@ const appConfig = useAppConfig();
   max-width: 390px;
   margin-left: auto;
   margin-right: auto;
+
   div {
     width: calc(100% - 2px);
   }
 }
+
 @media (max-width: 1024px) {
   .box-down {
     padding-top: 1rem;
