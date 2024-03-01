@@ -82,7 +82,7 @@
   </section>
 
   <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false" :modal-id="'modal-video'" :modal-size="'2xl'">
-    <iframe width="100%" height="320" src="https://www.youtube-nocookie.com/embed/dpr68dtEC9o?si=J70PNY2A1vY1-xgO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="320" src="https://www.youtube-nocookie.com/embed/VQSOvRDrOxI?si=1bP41movFN3C6yh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </BaseModal>
 </template>
 

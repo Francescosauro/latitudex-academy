@@ -13,7 +13,7 @@
           <div class="md:w-1/2">
             <LandingContent></LandingContent>
           </div>
-          <div class="md:w-1/2">
+          <div class="md:w-1/2 how-block rounded-lg">
             <LandingHow></LandingHow>
           </div>
         </div>
@@ -50,3 +50,10 @@ useHead({
   title: "Corso di Primo Soccorso | Latitude X Academy",
 });
 </script>
+
+
+<style lang="scss" scoped>
+.how-block {
+  background: linear-gradient(to bottom right, #E3F0F0, #FAFAFA);
+}
+</style>
