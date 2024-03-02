@@ -3,10 +3,15 @@
   <main>
     <LandingHero></LandingHero>
     <LandingWhy></LandingWhy>
-    <LandingVideo></LandingVideo>
-    <LandingChain></LandingChain>
+    <div class="wrapper py-10 text-center">
+      <p class="text-2xl font-bold">Impara divertendoti assieme a noi</p>
+      <p class="text-base mb-8">Guarda il video promozionale</p>
+      <iframe width="100%" class="max-w-2xl m-auto" height="320" src="https://www.youtube-nocookie.com/embed/VQSOvRDrOxI?si=1bP41movFN3C6yh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <LandingWhat></LandingWhat>
     <LandingComics></LandingComics>
+    <LandingVideo></LandingVideo>
+    <LandingChain></LandingChain>
     <section class="py-10">
       <div class="wrapper">
         <div class="md:flex md:space-x-4">

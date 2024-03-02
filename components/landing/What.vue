@@ -38,7 +38,7 @@
             </li>
           </ul>
 
-          <BaseButton
+          <!-- <BaseButton
             class="btn btn-outline mt-4"
             aria-controls="modal-video"
             :aria-expanded="isModalOpened"
@@ -48,7 +48,10 @@
             :aria-label="isModalOpened ? 'Chiudi l’anteprima del corso' : 'Apri l’anteprima del corso'">
             <BaseIcon :icon="'movie'" class="mr-1" />
             Guarda l’anteprima del corso
-          </BaseButton>
+          </BaseButton> -->
+          <BaseLink class="btn btn-lg !no-underline mt-5" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">
+            <strong>Acquista</strong>
+          </BaseLink>
         </div>
         <div class="md:w-1/2 prose mt-8 md:mt-0">
           <p class="!mb-2 uppercase">Cosa imparerai</p>
@@ -81,9 +84,9 @@
     </div>
   </section>
 
-  <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false" :modal-id="'modal-video'" :modal-size="'2xl'">
+  <!-- <BaseModal v-if="isModalOpened" @close-modal="isModalOpened = false" :modal-id="'modal-video'" :modal-size="'2xl'">
     <iframe width="100%" height="320" src="https://www.youtube-nocookie.com/embed/VQSOvRDrOxI?si=1bP41movFN3C6yh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </BaseModal>
+  </BaseModal> -->
 </template>
 
 <script setup lang="ts">
