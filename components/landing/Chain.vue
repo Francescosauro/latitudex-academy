@@ -79,6 +79,7 @@
 ul {
   li {
     margin-right: -1.5rem;
+    width: 100%;
 
     &:last-child {
       margin-right: 0;
