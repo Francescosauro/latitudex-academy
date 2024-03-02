@@ -4,7 +4,7 @@
       <div class="md:flex md:space-x-4">
         <div class="md:w-1/2">
           <BaseImage
-            :src="'mockup-video.png'"
+            :src="'mockup-video.jpg'"
             alt=""
             class="mb-0 w-full"
             width="571"

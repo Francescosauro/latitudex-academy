@@ -10,7 +10,7 @@
       <li>(Solo corso BLS-D) Vieni alla prova finale e ottieni il certificato ufficiale</li>
     </ol>
     <BaseImage
-      :src="'mockup-video.png'"
+      :src="'mockup-video.jpg'"
       alt=""
       class="mb-0 w-full"
       width="571"
