@@ -1,10 +1,8 @@
 import type { RouterConfig } from '@nuxt/schema'
 
 export default <RouterConfig> {
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to, savedPosition) {
     if (to.hash) {
-      console.log('Go to hash', to.hash)
-
       return {
         el: to.hash,
         top: 100,
