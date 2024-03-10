@@ -29,7 +29,7 @@
         </button>
       </nav>
       <video id="video-player" ref="videoPlayer" width="1280" height="720" @click="togglePlay()">
-        <source src="/primo-soccorso-spot.mp4" type="video/mp4" />
+        <source src="/primo-soccorso-trailer.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
