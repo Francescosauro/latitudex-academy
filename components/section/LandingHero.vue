@@ -33,7 +33,7 @@
         sizes="100vw sm:50vw md:591"
       />
       <p class="text-center text-lg md:-mt-20 md:mt-0 mt-4">
-        <strong>In uscita a Marzo 2024</strong>
+        <strong>In uscita ad Aprile 2024</strong>
       </p>
       <ul class="list-none m-auto max-w-lg mt-3">
         <li class="inline-block p-1">
