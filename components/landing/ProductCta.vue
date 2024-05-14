@@ -66,7 +66,7 @@ const appConfig = useAppConfig();
 const getPurchaseUrl = (course: string) => {
   let url = ''
   appConfig.corsiOnLine.forEach(el => {
-    if (el.id === course) url = el.purchaesUrl
+    if (el.id === course) url = el.purchaseUrl
   })
   return url
 }

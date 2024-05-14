@@ -10,10 +10,10 @@ export default defineAppConfig({
     tiktok: "https://www.tiktok.com/@latitudex__academy",
     instagram: "https://www.instagram.com/latitudex__academy/",
     cookieBanner: {
-      desc: 'Utiliziamo cookie di terze parti per analizzare, in modo anonimo, come viene usato il sito.',
+      desc: 'Utilizziamo cookie di terze parti per analizzare, in modo anonimo, come viene usato il sito.',
       acceptButton: 'Accetta',
       refuseButton: 'Rifiuta',
-      modalDesc: 'Utiliziamo Google Analytics per analizzare il traffico in modo anonimo, mettendo due cookie nel tuo browser: <code>_ga</code> e <code>_ga_[analytics-id]</code>. Dandoci il consenso miglioreremo il servizio senza invadere la tua privacy.'
+      modalDesc: 'Utilizziamo Google Analytics per analizzare il traffico in modo anonimo, mettendo due cookie nel tuo browser: <code>_ga</code> e <code>_ga_[analytics-id]</code>. Dandoci il consenso miglioreremo il servizio senza invadere la tua privacy.'
     }
   },
   corsiOnLine: [
@@ -24,7 +24,7 @@ export default defineAppConfig({
       description: "",
       link: "/corso-primo-soccorso-e-blsd",
       isActive: true,
-      purchaesUrl: '#',
+      purchaseUrl: '#',
       price: "00,00"
     },
     {
@@ -34,7 +34,7 @@ export default defineAppConfig({
       description: "",
       link: "/corso-primo-soccorso-e-blsd",
       isActive: true,
-      purchaesUrl: '#',
+      purchaseUrl: '#',
       price: "00,00"
     },
     {
@@ -44,7 +44,7 @@ export default defineAppConfig({
       description: "In programma",
       link: "#",
       isActive: false,
-      purchaesUrl: '#',
+      purchaseUrl: '#',
       price: "00,00"
     },
     {
@@ -54,7 +54,7 @@ export default defineAppConfig({
       description: "In programma",
       link: "#",
       isActive: false,
-      purchaesUrl: '#',
+      purchaseUrl: '#',
       price: "00,00"
     },
     {
@@ -64,7 +64,7 @@ export default defineAppConfig({
       description: "In programma",
       link: "#",
       isActive: false,
-      purchaesUrl: '#',
+      purchaseUrl: '#',
       price: "00,00"
     },
   ],
@@ -94,7 +94,7 @@ export default defineAppConfig({
       data: {
         durata: "4 ore",
         data: "Da definire",
-        destinatari: "Per tuttti"
+        destinatari: "Per tutti"
       }
     },
     {
@@ -284,7 +284,7 @@ export default defineAppConfig({
   ],
   faq: [
     // {
-    //   header: "Quando saranno disponibi i video corsi?",
+    //   header: "Quando saranno disponibili i video corsi?",
     //   body: "I video corsi saranno disponibili da Febbraio 2024. Se sei interessato, prenota il tuo Corso online qui https://latitudex.academy/corso-primo-soccorso-e-blsd, senza impegno e gratuitamente, verrai avvisato appena saranno disponibili per te!"
     // },
     {
@@ -337,19 +337,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -361,19 +361,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -385,19 +385,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -409,19 +409,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -433,19 +433,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -457,19 +457,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -483,19 +483,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -507,19 +507,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -531,19 +531,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -555,19 +555,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -579,19 +579,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
@@ -603,19 +603,19 @@ export default defineAppConfig({
         },
         body: [
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
           {
-            title: 'Captiolo',
+            title: 'Capitolo',
             time: '05:00 min'
           },
         ]
