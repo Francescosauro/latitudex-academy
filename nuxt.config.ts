@@ -10,8 +10,7 @@ export default defineNuxtConfig({
     '@zadigetvoltaire/nuxt-gtm',
   ],
   gtag: {
-    id: 'G-P9GVHXN1R0',
-    initialConsent: false
+    id: 'G-P9GVHXN1R0'
   },
   gtm: {
     id: 'GTM-KRN697NL'
