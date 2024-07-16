@@ -4,13 +4,13 @@
       Come funziona
     </h2>
     <ol class="text-sm mx-3">
-      <li>Acquisiti il corso e accedi alla piattaforma con XXX</li>
+      <li>Acquisiti il corso e accedi alla piattaforma con Esmerise.com</li>
       <li>Guardi i video quando puoi, scegli tu i tempi</li>
       <li>Superi il test finale di valutazione</li>
       <li>(Solo corso BLS-D) Vieni alla prova finale e ottieni il certificato ufficiale</li>
     </ol>
     <BaseImage
-      :src="'mockup-video.jpg'"
+      :src="'mockup-video-b.jpg'"
       alt=""
       class="mb-0 w-full"
       width="571"
@@ -18,7 +18,7 @@
       format="webp"
       sizes="100vw sm:50vw md:571" />
     <p class="px-3">
-      Tutti i video si trovano su un’unica piattaforma semplice e intuitva da usare, grazie a XXX.
+      Tutti i video si trovano su un’unica piattaforma semplice e intuitva da usare, grazie a Esmerise.com.
     </p>
     <div class="text-center pb-3">
       <BaseLink class="btn btn-lg !no-underline" :is-link="true" :to="{ path: '/corso-primo-soccorso-e-blsd', hash: '#acquista' }">

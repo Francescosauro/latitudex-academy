@@ -639,10 +639,10 @@ export default defineAppConfig({
       header: "È troppo difficile per me",
       body: "Sono manovre che CHIUNQUE può imparare a fare, persino alcuni cani vengono addestrati a fare il massaggio cardiaco. Se loro possono, anche tu devi"
     },
-    {
+    /*{
       header: "Tanto a me non capita",
       body: "Ogni giorno ci sono XXX (dati) i numeri sono chiari, ogni giorno leggiamo di notizie di malori o soffocamenti e di situazioni in cui i Soccorsi avanzati arrivano troppo tardi"
-    },
+    },*/
     {
       header: "Adesso non ho tempo",
       body: "Chiunque dovrebbe imparare le basi del primo soccorso: sono manovre così semplici ma così fondamentali che TUTTI dovrebbero imparare a fare. Ognuno di noi, se dovesse capitare di andare in arresto cardiaco, vorrebbe che qualcuno almeno provasse a salvargli la vita"
