@@ -27,5 +27,8 @@
   },
   "dependencies": {
     "vue3-carousel-nuxt": "^1.1.0"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
