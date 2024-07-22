@@ -29,9 +29,11 @@
     <div class="flex">
       <BaseIcon icon="certificate" class="icon-lg mt-0 mr-1 mb-6 float-left text-primary flex-none"></BaseIcon>
       <p class="!mb-3 !mt-0 !leading-normal">
-        Concluso il corso potrai accedere alla prova finale in presenza (skill test) e ritirare il certificato
-        all’incontro che si tiene i 7 città.
-        <em class="text-sm">Certificato rilasciato da un centro di formazione accreditato al 118 regionale</em>
+        Se hai necessità di ottenere il certificato, <strong> con un costo aggiuntivo di 30€ iva inclusa</strong>,
+        potrai accedere all'incontro in presenza (a norma di legge) che si terrà in zona Padova e ritirare il certificato.
+        Gli incontri vengono organizzati mensilmente, per iscriverti contattaci <a :href="'mailto:' + appConfig.info.mail" class="underline" target="_blank">{{appConfig.info.mail}}</a>
+       <br>
+        <em class="text-sm">Certificato rilasciato da un Centro di Formazione accreditato al 118 regionale</em>
       </p>
     </div>
     <p class="!mt-0 !leading-snug">20 lezioni - durata totale: 1,5h</p>
