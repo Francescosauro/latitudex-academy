@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
+
   modules: [
     '@nuxtjs/tailwindcss',
     "@nuxt/image",
@@ -9,21 +10,22 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     '@zadigetvoltaire/nuxt-gtm',
   ],
-  router: {
-    options: { scrollBehaviorType: 'smooth' }
-  },
+
   gtag: {
-    id: 'G-P9GVHXN1R0',
-    initialConsent: false
+    id: 'G-P9GVHXN1R0'
   },
+
   gtm: {
     id: 'GTM-KRN697NL'
   },
+
   runtimeConfig: {
     public: {
       gtm: {
         id: 'GTM-KRN697NL'
       }
     }
-  }
+  },
+
+  compatibilityDate: '2024-07-17'
 })
