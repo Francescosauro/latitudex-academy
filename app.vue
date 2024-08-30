@@ -16,13 +16,13 @@ useHead({
     {
       name: "description",
       content:
-        "Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in presenza.",
+        "Unisciti alla prima scuola in Italia di Primo Soccorso. Per tutti, online e in presenza.",
     },
     { name: "og:title", content: "La scuola di Primo Soccorso | Latitude X Academy" },
     {
       name: "og:description",
       content:
-        "Unisciti alla prima scuola in Italia di primo soccorso. Per tutti, online e in presenza.",
+        "Unisciti alla prima scuola in Italia di Primo Soccorso. Per tutti, online e in presenza.",
     },
     { name: "og:image", content: "https://latitudex.academy/_ipx/s_764x468/hero-b.png" },
   ],

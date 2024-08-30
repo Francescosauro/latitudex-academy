@@ -67,7 +67,7 @@
           <ul>
             <li>Allertare il 112/118 con efficacia</li>
             <li>Riconoscere i segni d’allarme</li>
-            <li>Valutare i sintomi di un’ infarto miocardico</li>
+            <li>Valutare i sintomi di un infarto miocardico</li>
             <li>Agire in caso di soffocamento e annegamento</li>
             <li>Riconoscere e gestire lo stato di incoscienza</li>
             <li>Valutare la sicurezza della scena</li>
@@ -76,7 +76,7 @@
             <li>Eseguire il massaggio cardiaco nel bambino o nell’adulto</li>
             <li>Eseguire la manovra di disostruzione nel bambino o nell’adulto</li>
             <li>
-              Mettere in sicurezza la famiglia con il kit di primo soccorso domestico
+              Mettere in sicurezza la famiglia con il kit di Primo Soccorso domestico
             </li>
           </ul>
         </div>

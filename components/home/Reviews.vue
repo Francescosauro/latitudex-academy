@@ -10,7 +10,7 @@
       </h3>
       <Carousel v-bind="settings" :breakpoints="breakpoints" class="items-start" tabindex="-1">
         <Slide v-for="(element, index) in appConfig.recensioni" :key="index">
-          <article class="max-w-sm mr-4 pb-4 px-4 pt-52 relative">
+          <article class="max-w-sm mr-4 pb-4 px-4 pt-48 relative h-full">
             <span class="absolute top-0 left-0 h-full w-full">
               <BaseImage
                 aria-hidden="true"
@@ -19,7 +19,7 @@
                 format="webp"
                 :src="element.cover" />
             </span>
-            <div class="text-left bg-false-white border border-grey-lighter p-3 relative">
+            <div class="text-left bg-false-white border border-grey-lighter p-3 relative h-full">
               <h3 class="text-base md:text-xl">
                 <span class="text-xs">
                   Messaggio da: <strong>{{ element.from }}</strong>

@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <p class="text-3xl text-center m-auto">
-      Il primo anello della catena della sopravvivenza sei tu, le prime mani e i primi occhi sul luogo dell’incidente. agisci, non rimanere a guardare.
+      Il primo anello della catena della sopravvivenza sei tu, le prime mani e i primi occhi sul luogo dell’incidente. Agisci, non rimanere a guardare.
     </p>
     <ul class="max-w-4xl m-auto mt-8 md:flex space-y-8 md:space-y-0">
       <li class="text-center">

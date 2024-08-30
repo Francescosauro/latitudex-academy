@@ -2,14 +2,14 @@
   <div class="prose" id="contenuti">
     <p class="!mb-2 uppercase text-sm">Contenuto dei corsi</p>
     <h3 class="!mt-0">
-      Corso di primo soccorso
+      Corso di Primo Soccorso
     </h3>
     <p class="!leading-normal !mb-3">
       Un programma completo di lezioni teoriche e dimostrazioni pratiche simulate su manichini ad alta fedeltà per
-      insegnarti ad affrontare tutte le più comuni situazioni di emergenza. Potrai rivedere le lezioni quante volte
-      vorrai, e acquisire totale fiducia nelle manovre da eseguire.
+      insegnarti ad affrontare tutte le più comuni situazioni di emergenza.
+      Potrai rivedere le lezioni quante volte vorrai e acquisirai totale fiducia nelle manovre da eseguire.
     </p>
-    <p class="!mt-0"> 35 lezioni - durata totale: 4h</p>
+    <p class="!mt-0"> 31 lezioni - durata totale: 150 min</p>
   </div>
   <ol>
     <li v-for="(element, index) in appConfig.coursesContent.primoSoccorso"
@@ -25,7 +25,7 @@
   </ol>
   <div class="prose mt-8">
     <p class="!mb-2 uppercase text-sm">Contenuto dei corsi</p>
-    <h3 class="!mt-0">Corso di BLS-D certificato</h3>
+    <h3 class="!mt-0">Corso di BLS-D</h3>
     <div class="flex">
       <BaseIcon icon="certificate" class="icon-lg mt-0 mr-1 mb-6 float-left text-primary flex-none"></BaseIcon>
       <p class="!mb-3 !mt-0 !leading-normal">
@@ -36,7 +36,7 @@
         <em class="text-sm">Certificato rilasciato da un Centro di Formazione accreditato al 118 regionale</em>
       </p>
     </div>
-    <p class="!mt-0 !leading-snug">20 lezioni - durata totale: 1,5h</p>
+    <p class="!mt-0 !leading-snug">18 lezioni - durata totale: 1,5h</p>
   </div>
   <ol>
     <li v-for="(element, index) in appConfig.coursesContent.blsd"

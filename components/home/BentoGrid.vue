@@ -70,7 +70,7 @@
     <li class="bg-white rounded-3xl p-3 grid content-around text-center md:text-left">
       <BaseIcon :icon="'award'" class="text-primary m-auto md:m-0" :size="'2xl'"></BaseIcon>
       <strong class="text-gradient-primary text-lg md:text-xl self-end">
-        Veterani del primo soccorso
+        Veterani del Primo Soccorso
       </strong>
     </li>
     <li class="overflow-hidden rounded-3xl">

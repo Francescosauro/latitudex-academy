@@ -81,7 +81,7 @@
                 <BaseCard :image="'why-I-kit-soccorso.jpg'" :width="'420'" :height="'236'" :sizes="'100vw sm:50vw md:420'">
                   <small>
                     Per chi vuole mettere in sicurezza la propria casa creando un kit
-                    completo di primo soccorso
+                    completo di Primo Soccorso
                   </small>
                 </BaseCard>
               </li>

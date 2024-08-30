@@ -261,6 +261,13 @@
   position: static !important;
   margin: 0 !important;
   transform: none !important;
+  display: inline-block;
+}
+
+.carousel__prev svg,
+.carousel__next svg {
+  width: 42px;
+  height: 42px;
 }
 
 .carousel__next path,

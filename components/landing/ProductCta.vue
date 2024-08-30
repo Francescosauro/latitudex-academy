@@ -6,13 +6,13 @@
           Acquista ora il corso e comincia subito ad imparare
         </h2>
         <p class="text-xl">
-          La prima video guida online di primo soccorso, per non rimanere fermo in caso d’emergenza
+          La prima videoguida online di Primo Soccorso, per non rimanere fermo in caso d’emergenza
         </p>
       </div>
       <div class="purchase-box box-up ">
         <BaseImage
           :src="'/purchase-corso-di-primo-soccorso.png'"
-          :alt="'Copertina del Corso di primo soccorso'"
+          :alt="'Copertina del Corso di Primo Soccorso'"
           width="390"
           height="300"
           class="lg:-mt-16 -mb-1"
@@ -20,7 +20,7 @@
           sizes="100vw sm:50vw lg:390" />
         <div class="bg-false-white text-center space-y-2 text-black py-4">
           <p class="uppercase">
-            <strong>Corso di primo soccorso</strong>
+            <strong>Corso di Primo Soccorso</strong>
           </p>
           <p class="text-5xl">
             {{ getPrice('primo-soccorso') }} €
@@ -36,7 +36,7 @@
       <div class="purchase-box box-down">
         <BaseImage
           :src="'/purchase-corso-blsd.png'"
-          :alt="'Copertina del Corso di BLSD certificato'"
+          :alt="'Copertina del Corso di BLSD'"
           width="390"
           height="300"
           class="lg:-mt-16 -mb-1"
@@ -44,7 +44,7 @@
           sizes="100vw sm:50vw lg:390" />
         <div class="bg-false-white text-center space-y-2 text-black py-4">
           <p class="uppercase">
-            <strong>Corso di BLS-D certificato</strong>
+            <strong>Corso di BLS-D</strong>
           </p>
           <p class="text-5xl">
             {{ getPrice('blsd') }} €
