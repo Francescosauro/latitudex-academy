@@ -33,7 +33,7 @@
               <strong> {{ element.title }}</strong> <br />
               <em>{{ element.description }}</em>
             </h4>
-            <BaseLink v-if="element.isActive" class="btn md:btn-lg" :to="{ path: element.link, hash: '#main' }" @click="triggerEvent('on-line')">
+            <BaseLink v-if="element.isActive" class="btn md:btn-lg" :to="element.link" @click="triggerEvent('on-line')">
               Scopri di più
             </BaseLink>
           </div>

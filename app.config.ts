@@ -119,18 +119,18 @@ export default defineAppConfig({
             title: "Corso BLS-D Retraining",
             description: "Il Retraining BLS-D è il corso di aggiornamento obbligatorio con cadenza biennale per ripassare il protocollo e mantenere alta la capacità di intervento.",
             data: {
-                durata: "4 ore",
+                durata: "3 ore",
                 data: "Su richiesta",
-                destinatari: "Gruppo B e C"
+                destinatari: "Per tutti"
             }
         },
         {
             title: "Corso di Primo Soccorso Outdoor",
             description: "Il corso insegna come fronteggiare le principali emergenze mediche che possono capitare in ambiente outdoor.",
             data: {
-                durata: "4 ore",
+                durata: "8 ore",
                 data: "Su richiesta",
-                destinatari: "Gruppo B e C"
+                destinatari: "Per tutti"
             }
         },
     ],
@@ -298,6 +298,22 @@ export default defineAppConfig({
         {
             name: "Re engineering",
             src: "re-engineering.jpeg"
+        },
+        {
+            name: "Time to time",
+            src: "time-to-time.jpeg"
+        },
+        {
+            name: "Dal Bon",
+            src: "dalbon.png"
+        },
+        {
+            name: "Ranstad",
+            src: "ranstad.jpg"
+        },
+        {
+            name: "Proevo",
+            src: "proevo.jpg"
         },
     ],
     faq: [
