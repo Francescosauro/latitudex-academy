@@ -6,7 +6,7 @@ export default defineAppConfig({
         address: "Via Mortise 140, PD - 35129",
         iva: "05555820280",
         calendly: "#",
-        facebook: "https://www.facebook.com/latitudex/",
+        facebook: "https://www.facebook.com/people/LatitudeX-Academy/61552087392728/",
         tiktok: "https://www.tiktok.com/@latitudex__academy",
         instagram: "https://www.instagram.com/latitudex__academy/",
         cookieBanner: {
