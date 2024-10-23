@@ -2,7 +2,7 @@
   <div class="wrapper py-10 text-center">
     <p class="text-2xl font-bold">Impara divertendoti assieme a noi</p>
     <p class="text-base mb-8">Guarda il video promozionale</p>
-    <div class="relative max-w-2xl m-auto z-10">
+    <div class="relative max-w-2xl m-auto z-10 bg-black">
       <nav aria-label="Controlli video">
         <button
           @click="toggleMuted()"
